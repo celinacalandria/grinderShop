@@ -1,0 +1,52 @@
+/* imports */
+/* variables */
+/* colores */
+/* MIX IN */
+/* mobile */
+/* INDEX */
+/* navbar */
+/* HEADER DESKTOP */
+.navbar {
+  background-color: #000000;
+  padding: 0px;
+  margin: 0px;
+}
+
+.collapse {
+  height: 112px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.collapse li {
+  padding: 17px 42px 17px 42px;
+}
+
+.navbar-brand {
+  margin: 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* @import "tablet";
+@import "desktop"; */
+/* generales */
+/*# sourceMappingURL=estilo.css.map */

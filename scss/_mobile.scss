@@ -1,0 +1,25 @@
+/* mobile */
+
+/* INDEX */
+/* navbar */
+/* HEADER DESKTOP */
+.navbar{
+    background-color: $color-header;
+    padding: 0px;
+    margin: 0px;
+}
+.collapse{
+    height: 112px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @include letraHeader;
+    li{
+        padding: 17px 42px 17px 42px;
+    }
+}
+.navbar-brand{
+    margin: 0px;
+    align-items: center;
+}
