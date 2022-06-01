@@ -1,9 +1,9 @@
 /* imports */
 /* variables */
 /* colores */
-/* letras */
 /* MIX IN */
 /* letra header */
+/* letra grinder */
 /* m=0 p=0 */
 /* centrado */
 /* DESKTOP */
@@ -18,6 +18,7 @@
 
 .collapse {
   height: 112px;
+  width: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,9 +35,9 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
+  color: #FFFFFF;
   font-size: 20px;
   line-height: 24px;
-  color: #FFFFFF;
 }
 
 .collapse li {
@@ -60,10 +61,13 @@
 .footerGrinder {
   padding: 40px 0px 20px 0px;
   text-align: center;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
   color: #FFFFFF;
-  font-family: "Yeseva One", cursive;
   font-size: 32px;
-  line-height: 36,96px;
+  line-height: 37px;
+  letter-spacing: 0.03rem;
   margin: 0px;
 }
 
@@ -78,17 +82,15 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin: 0px;
   padding: 0px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
   color: #FFFFFF;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.03rem;
 }
 
 .footerImg ul li {
@@ -102,7 +104,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 40px;
+  padding: 20px 40px 40px 40px;
   text-align: center;
 }
 
@@ -122,10 +124,68 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 25px;
+}
+
+.footerInfo h6 {
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.03rem;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.footerInfo div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+}
+
+.footerInfo div img {
+  width: 30px;
+  height: 30px;
+}
+
+.footerInfo p {
+  margin: 0px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footerContacto div {
+  margin: 0px;
+  padding: 0px;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.03rem;
+}
+
+.footerContacto h6 {
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.03rem;
 }
 
 /* @import "tablet";

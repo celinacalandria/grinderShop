@@ -4,16 +4,19 @@
 /* navbar */
 /* HEADER*/
 .navbar{
-    background-color: $color-header;
+    background-color: $negro;
     @include ceroMP;
 }
 .collapse{
     height: 112px;
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    @include letraHeader;
+    @include letraRegular;
+    font-size: 20px;
+    line-height: 24px;
     li{
         padding: 17px 42px 17px 42px;
     }
@@ -25,16 +28,16 @@
 
 /* footer */
 .footer{
-    background-color: $color-header;
+    background-color: $negro;
     height: 481px;
 }
 .footerGrinder{
     padding: 40px 0px 20px 0px; 
     text-align: center;
-    color: $blanco;
-    font-family: $letra-grinder;
+    @include letraGrinder;
     font-size: 32px;
-    line-height: 36,96px;
+    line-height: 37px;
+    letter-spacing: 0.03rem;
     margin: 0px;
 }
 .footerImg{
@@ -42,14 +45,16 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
         @include ceroMP;
-        @include letraHeader;
+        @include letraRegular;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.03rem;
         li{
             display: flex;
             flex-direction: column-reverse;
             justify-content: center;
-            padding: 40px;
+            padding: 20px 40px 40px 40px;
             text-align: center;
             p{
                 margin: 5px;
@@ -65,5 +70,47 @@
 }
 .footerTexto{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    @include letraRegular;
+    margin-top: 25px;
+}
+.footerInfo{
+    h6{
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.03rem; 
+        @include ceroMP;
+        margin-bottom: 10px;
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    p{
+        margin: 0px;
+        padding: 5px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+}
+.footerContacto{
+    div{
+        @include ceroMP;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.03rem;
+    }
+    h6{
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.03rem;
+    }
 }
