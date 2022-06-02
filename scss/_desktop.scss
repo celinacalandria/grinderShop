@@ -89,28 +89,45 @@
         flex-direction: row;
         justify-content: baseline;
         img{
-            width: 30px;
-            height: 30px;
+            width: 40px;
+            height: 40px;
         }
     }
     p{
-        margin: 0px;
-        padding: 5px;
+        margin: 10px 0px 10px 3px;
         font-size: 16px;
         line-height: 20px;
     }
 
 }
 .footerContacto{
-    div{
-        @include ceroMP;
-        font-size: 24px;
-        line-height: 29px;
-        letter-spacing: 0.03rem;
-    }
     h6{
         font-size: 24px;
         line-height: 29px;
         letter-spacing: 0.03rem;
+        @include ceroMP;
+        margin-bottom: 10px;
+        text-align: center;
     }
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        img{
+            @include centrado;
+            width: 32px;
+            height: 32px;
+        }
+    }
+    p{
+        text-align: center;
+        margin: 0px;
+        padding: 15px;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.03rem;
+    }
+}
+#imgIg{
+    margin-left: 0px;
 }
