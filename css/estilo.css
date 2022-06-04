@@ -44,12 +44,85 @@
   padding: 17px 42px 17px 42px;
 }
 
+.collapse li a:hover {
+  color: #59CD90;
+}
+
 .navbar-brand {
   margin: 0px;
   padding: 0px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+/* nosotros */
+#nosotros {
+  color: #59CD90;
+}
+
+.nosotros {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 2fr;
+      grid-template-columns: 3fr 2fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+      grid-template-areas: "info foto";
+}
+
+.nosotrosInfo {
+  margin: 4rem 3rem 4rem 7rem;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: info;
+}
+
+.nosotrosInfo h3 {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0.03rem;
+  padding: 10px;
+  margin: 0px;
+}
+
+.nosotrosInfo h6 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-size: 32px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.nosotrosInfo p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+  padding: 10px 0px 10px 0px;
+  margin: 0px;
+}
+
+.nosotrosFoto {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: foto;
+  display: block;
+  margin: auto;
+}
+
+.nosotrosFoto img {
+  width: 30rem;
+  height: auto;
 }
 
 /* footer */
@@ -219,4 +292,7 @@
 /* @import "tablet";
 @import "mobile"; */
 /* generales */
+#inicio {
+  background-color: #080808;
+}
 /*# sourceMappingURL=estilo.css.map */

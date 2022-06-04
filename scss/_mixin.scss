@@ -15,6 +15,13 @@
     color: $blanco;
 }
 
+@mixin letraTexto {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: $blanco;
+}
+
 /* m=0 p=0 */
 @mixin ceroMP{
     margin: 0px;
