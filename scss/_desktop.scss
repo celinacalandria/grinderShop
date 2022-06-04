@@ -1,8 +1,9 @@
 /* DESKTOP */
 
 /* INDEX */
+
+/* HEADER */
 /* navbar */
-/* HEADER*/
 .navbar{
     background-color: $negro;
     @include ceroMP;
@@ -31,9 +32,66 @@
     align-items: center;
 }
 
-/* nosotros */
+/* main */
+.mainIndex{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;       
+    h1{
+        padding: 8rem 0rem 1rem 0rem;
+        margin: 0px;
+        @include letraGrinder;
+        font-size: 96px;
+        text-align: center;
+    } 
+    h3{
+        @include letraTexto2;
+        @include centrado;
+        font-size: 32px;
+        text-align: center;
+        line-height: 38px;
+        letter-spacing: 0.1rem;
+    }
+    button{
+        @include centrado;
+        background-color: $verde;
+        border-radius: 10px;
+        margin-top: 6rem;
+        border: none;
+        padding: 8px 8px 4px 8px;
+        cursor: pointer;
+        img{
+            width: 23px;
+            height: 23px;
+            margin: 6px 6px 14px 6px;
+        }
+        a{
+            @include letraTexto2;
+            font-size: 20px;
+            color: $negro;
+            text-decoration: none;
+        }
+    }
+    div{
+        padding: 5rem 18rem 0rem 0rem;
+        div{
+            padding: 5px;
+            display: flex;
+            justify-content: flex-end;
+            img{
+                width: 42px;
+                height: 42px;
+            }
+        }
+        }
+}
+
+
+/* NOSOTROS */
 #nosotros{
     color: $hover;
+    text-decoration: overline;
 }
 .nosotros{
     display: grid;
@@ -42,7 +100,7 @@
     grid-template-areas: "info foto";
 }
 .nosotrosInfo{
-    margin: 4rem 3rem 4rem 7rem;
+    margin: 4rem 4rem 4rem 6rem;
     grid-area: info;
     h3{
         @include letraGrinder;
@@ -70,6 +128,7 @@
 .nosotrosFoto{
     grid-area: foto;
     @include centrado;
+    margin-right: 6rem;
     img{
         width: 30rem;
         height: auto;
@@ -77,7 +136,7 @@
 }
 
 
-/* footer */
+/* FOOTER */
 .footer{
     background-color: $negro;
     height: 481px;

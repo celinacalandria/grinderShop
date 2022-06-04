@@ -8,8 +8,8 @@
 /* centrado */
 /* DESKTOP */
 /* INDEX */
+/* HEADER */
 /* navbar */
-/* HEADER*/
 .navbar {
   background-color: #000000;
   margin: 0px;
@@ -56,9 +56,86 @@
           align-items: center;
 }
 
-/* nosotros */
+/* main */
+.mainIndex {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+
+.mainIndex h1 {
+  padding: 8rem 0rem 1rem 0rem;
+  margin: 0px;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 96px;
+  text-align: center;
+}
+
+.mainIndex h3 {
+  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  display: block;
+  margin: auto;
+  font-size: 32px;
+  text-align: center;
+  line-height: 38px;
+  letter-spacing: 0.1rem;
+}
+
+.mainIndex button {
+  display: block;
+  margin: auto;
+  background-color: #2A8052;
+  border-radius: 10px;
+  margin-top: 6rem;
+  border: none;
+  padding: 8px 8px 4px 8px;
+  cursor: pointer;
+}
+
+.mainIndex button img {
+  width: 23px;
+  height: 23px;
+  margin: 6px 6px 14px 6px;
+}
+
+.mainIndex button a {
+  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.mainIndex div {
+  padding: 5rem 18rem 0rem 0rem;
+}
+
+.mainIndex div div {
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.mainIndex div div img {
+  width: 42px;
+  height: 42px;
+}
+
+/* NOSOTROS */
 #nosotros {
   color: #59CD90;
+  text-decoration: overline;
 }
 
 .nosotros {
@@ -72,7 +149,7 @@
 }
 
 .nosotrosInfo {
-  margin: 4rem 3rem 4rem 7rem;
+  margin: 4rem 4rem 4rem 6rem;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: info;
@@ -118,6 +195,7 @@
   grid-area: foto;
   display: block;
   margin: auto;
+  margin-right: 6rem;
 }
 
 .nosotrosFoto img {
@@ -125,7 +203,7 @@
   height: auto;
 }
 
-/* footer */
+/* FOOTER */
 .footer {
   background-color: #000000;
   height: 481px;
