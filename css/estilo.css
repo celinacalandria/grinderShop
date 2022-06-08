@@ -155,12 +155,12 @@
   grid-area: info;
 }
 
-.nosotrosInfo h3 {
+.nosotrosInfo h2 {
   font-family: 'Yeseva One';
   font-style: normal;
   font-weight: 400;
   color: #FFFFFF;
-  font-size: 48px;
+  font-size: 32px;
   line-height: 55px;
   letter-spacing: 0.03rem;
   padding: 10px;
@@ -172,7 +172,7 @@
   font-style: normal;
   font-weight: 500;
   color: #FFFFFF;
-  font-size: 32px;
+  font-size: 26px;
   padding: 10px;
   margin: 0px;
 }
@@ -182,8 +182,8 @@
   font-style: normal;
   font-weight: 500;
   color: #FFFFFF;
-  font-weight: 300;
-  font-size: 32px;
+  font-weight: 200;
+  font-size: 24px;
   line-height: 38px;
   padding: 10px 0px 10px 0px;
   margin: 0px;
@@ -201,6 +201,175 @@
 .nosotrosFoto img {
   width: 30rem;
   height: auto;
+}
+
+/* CONTACTO */
+#contacto {
+  color: #59CD90;
+  text-decoration: overline;
+}
+
+.mainContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.sectionFormulario {
+  width: 40%;
+  margin: 5rem 0rem 5rem 0rem;
+}
+
+.sectionFormulario div h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 20px;
+}
+
+.sectionFormulario div form ::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+.sectionFormulario div form :-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+.sectionFormulario div form ::-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+.sectionFormulario div form ::placeholder {
+  color: #FFFFFF;
+}
+
+.sectionFormulario div form input {
+  width: 90%;
+  height: 40px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #080808;
+  border: solid #FFFFFF 2px;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+
+.sectionFormulario div form .formulario__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.sectionFormulario div form .formulario__flex input {
+  width: 95%;
+}
+
+.sectionFormulario div form textarea {
+  margin: 20px;
+  padding: 10px;
+  width: 90%;
+  height: 200px;
+  background-color: #080808;
+  color: #FFFFFF;
+  border: solid #FFFFFF 2px;
+  border-radius: 8px;
+}
+
+.sectionFormulario div form .form__boton {
+  margin: 18px;
+  width: 45%;
+  height: 50px;
+  border: solid #000000 2px;
+  border-radius: 8px;
+  font-weight: 600;
+  background-color: #1BD743;
+  color: #080808;
+}
+
+.sectionIconos {
+  width: 30%;
+  margin: 9rem 0rem 0rem 0rem;
+}
+
+.sectionIconos a img {
+  display: block;
+  margin: auto;
+  width: 308px;
+  height: auto;
+}
+
+.sectionIconos div {
+  margin: 45px;
+}
+
+.sectionIconos div .icons_image1 {
+  width: 52.5px;
+  height: 42px;
+}
+
+.sectionIconos div .icons_image2 {
+  margin-right: 5px;
+  width: 46px;
+  height: 32px;
+}
+
+.sectionIconos div .icons_image3 {
+  margin-left: 10px;
+  width: 28px;
+  height: 37px;
+}
+
+.sectionIconos div .icons_image4 {
+  margin-top: 21px;
+  width: 17.7px;
+  height: 17.7px;
+}
+
+.sectionIconos div h4 {
+  margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.icons {
+  padding-top: 200px;
+  width: 50%;
+  padding-left: 100px;
+  margin-bottom: 200px;
+}
+
+.icons__inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.icons_texto {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: white;
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+.icons_image {
+  width: 52px;
+  height: 42px;
 }
 
 /* FOOTER */

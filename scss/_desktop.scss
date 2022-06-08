@@ -102,9 +102,9 @@
 .nosotrosInfo{
     margin: 4rem 4rem 4rem 6rem;
     grid-area: info;
-    h3{
+    h2{
         @include letraGrinder;
-        font-size: 48px;
+        font-size: 32px;
         line-height: 55px;
         letter-spacing: 0.03rem;
         padding: 10px;
@@ -112,14 +112,14 @@
     }
     h6{
         @include letraTexto;
-        font-size: 32px;
+        font-size: 26px;
         padding: 10px;
         margin: 0px;
     }
     p{
         @include letraTexto;
-        font-weight: 300;
-        font-size: 32px;
+        font-weight: 200;
+        font-size: 24px;
         line-height: 38px;
         padding: 10px 0px 10px 0px;
         margin: 0px;
@@ -135,6 +135,144 @@
     }
 }
 
+
+/* CONTACTO */
+#contacto{
+    color: $hover;
+    text-decoration: overline;
+}
+.mainContacto{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sectionFormulario{
+    width: 40%;
+    margin: 5rem 0rem 5rem 0rem;
+    div{
+        h2{
+            @include letraTexto;
+            font-size: 24px;
+            font-weight: 300;
+            margin: 20px;
+        }
+        form{
+            ::placeholder{
+                color: $blanco;
+            }
+            input{
+                width: 90%;
+                height: 40px;
+                margin: 20px;
+                padding: 10px;
+                background-color: $fondo;
+                border: solid $blanco 2px;
+                border-radius: 8px;
+                color: $blanco;
+            }
+            .formulario__flex{
+                display: flex;
+                flex-wrap: nowrap;
+                align-content: flex-start;
+                input{
+                    width: 95%;
+                }
+            }
+            textarea{
+                margin: 20px;
+                padding: 10px;
+                width: 90%;
+                height: 200px;
+                background-color: $fondo;
+                color: $blanco;
+                border: solid $blanco 2px;
+                border-radius: 8px;
+            }
+            .form__boton{
+                margin: 18px;
+                width: 45%;
+                height: 50px;
+                border: solid $negro 2px;
+                border-radius: 8px;
+                font-weight: 600;
+                background-color: $form;
+                color: $fondo;
+            }
+        }
+    }
+}
+.sectionIconos{
+    width: 30%;
+    margin: 9rem 0rem 0rem 0rem;
+    a{
+        img{
+            @include centrado;
+            width: 308px;
+            height: auto;
+        }
+    }
+    div{
+        margin: 45px;
+        .icons_image1{
+            width: 52.5px;
+            height: 42px;
+        }
+        .icons_image2{
+            margin-right: 5px;
+            width: 46px;
+            height: 32px;
+        }
+        .icons_image3{
+            margin-left: 10px;
+            width: 28px;
+            height: 37px;
+        }
+        .icons_image4{
+            margin-top: 21px;
+            width: 17.7px;
+            height: 17.7px;
+        }
+        h4{
+            margin-left: 20px;
+            @include letraTexto;
+            font-weight: 300;
+            font-size: 20px;
+
+        }
+    }
+}
+
+
+
+
+
+
+.icons{
+    padding-top: 200px;
+    width: 50%;
+    padding-left: 100px;
+    margin-bottom: 200px;
+}
+
+.icons__inputs{
+    display: flex;
+    margin-top: 30px;
+   
+}
+
+.icons_texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+
+
+.icons_image{
+    width: 52px;
+    height: 42px;
+}
 
 /* FOOTER */
 .footer{

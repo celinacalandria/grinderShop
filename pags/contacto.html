@@ -29,7 +29,7 @@
 
     <!-- estilo css -->
     <link rel="stylesheet" href="../css/estilo.css">
-
+    <link rel="stylesheet" href="contacto.css">
 </head>
 
 <body>
@@ -61,22 +61,74 @@
                     <a class="nav-link" href="nosotros.html">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
+                    <a class="nav-link" href="contacto.html" id="contacto">Contacto</a>
                 </li>
             </ul>
         </div> 
 
     </nav>
 
+    <!-- main -->
+    <main class="mainContacto">
+        <section class="sectionFormulario">
+            <div class="formulario">
+                <h2 class="formulario__titulo">
+                    Información de Contacto
+                </h2>       
+                
+                <form  action="https://formspree.io/f/xdobjoro" method="POST">
+                    <div>
+                        <div>
+                            <input class="inputs" type="text" name="email" placeholder="Email" required>
+                        </div>
     
-    <!--  -->
-    <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique eos quo reiciendis. Consequatur, aliquid accusantium nobis illum eveniet, earum voluptate possimus assumenda aperiam fugiat iusto minus magni repudiandae! Voluptatibus, temporibus!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates blanditiis facere magnam ipsa? Optio voluptatum hic, similique porro perferendis numquam dolores aliquid tempora facilis repudiandae aspernatur quisquam sit rerum natus.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis similique dolores repellat, distinctio, excepturi reprehenderit explicabo veritatis delectus laboriosam, fugiat amet pariatur! Accusantium suscipit alias, porro quisquam sint esse minus.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quasi dolores obcaecati necessitatibus quisquam ipsa illo ad adipisci rem quod ullam, eum, explicabo alias maxime ipsum consequuntur fuga natus. Magni?
-        </p>
-    </div>
+                        <div class="formulario__flex">
+                            <div>
+                                <input class="inputs formulario__flex-nombre" type="text" name="nombre" placeholder="Nombre">
+                            </div>    
+
+                            <div>
+                                <input class="inputs formulario__flex-apellido" type="text" name="nombre" placeholder="Apellido">
+                            </div>    
+                        </div>
+                        
+                        <div>
+                            <input class="inputs" type="tel" name="telefono" placeholder="Telefono">
+                        </div>
+    
+                        <div>
+                            <textarea class="inputs formulario__text-area" placeholder="Mensaje"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <input class="form__boton" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="sectionIconos">
+           <a href="https://api.whatsapp.com/send?phone=5491168069296">
+               <img src="../img/botonWapp.webp" alt="botonwapp">
+            </a>
+
+            <div class="icons__inputs">
+                <img class="icons_image1" src="../img/envio.webp" alt="envios"> 
+                <h4 class="icons_texto">Hacé tu compra y nosotros te lo enviamos</h4>
+            </div>
+
+            <div class="icons__inputs">
+                <img class="icons_image2" src="../img/card.webp" alt="card"> 
+                <h4 class="icons_texto ">Múltiples formas de pago</h4>
+            </div>
+
+            <div class="icons__inputs">
+                <img class="icons_image3" src="../img/candado1.webp" alt="candado"> 
+                <img class="icons_image4" src="../img/candado2.webp" alt="persona candado"> 
+                <h4 class="icons_texto">Tu compra y datos están protegidos </h4>
+            </div>
+        </section>
+    </main>
 
    <!-- footer -->
    <footer class="footer">
