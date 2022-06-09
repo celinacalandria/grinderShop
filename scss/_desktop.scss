@@ -87,6 +87,81 @@
         }
 }
 
+/* section */
+.sectionIndex__bong{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0rem 3rem 0rem;
+    img{
+        height: 400px;
+        width: auto;
+        padding: 0rem 6rem 0rem 6rem;
+    }
+    h3{
+        text-transform: uppercase;
+        @include letraBong;
+        font-size: 96px;
+        letter-spacing: 0.3rem;
+        margin: 8rem 0rem 8rem 0rem;
+    }
+}
+#bongDerecha{
+    padding: 0rem 2rem 0rem 4rem;
+}
+
+.sectionIndex__picadores{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    .indexPicadores{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        img{
+            height: 56px;
+            width: 56px;
+            margin: 10px;
+        }
+        h5{
+            @include letraRegular;
+            font-size: 48px;
+            font-weight: 600;
+            margin: 10px 0px 50px 0px;
+        }
+    }
+    .indexPicadores__cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        div{
+            border: 3px solid $verde;
+            border-radius: 20px;
+            margin: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        img{
+            width: 350px;
+            height: auto;
+            @include centrado;
+            margin: 5rem 1rem 1rem 1rem;
+        }
+        p{
+            border: 1px solid $verde;
+            border-radius: 20px;
+            text-align: center;
+            @include letraRegular;
+            font-size: 24px;
+            padding: 2rem 0rem 2rem 0rem;
+            margin: 0px;
+        }
+    }
+}
 
 /* NOSOTROS */
 #nosotros{

@@ -132,6 +132,131 @@
   height: 42px;
 }
 
+/* section */
+.sectionIndex__bong {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5rem 0rem 3rem 0rem;
+}
+
+.sectionIndex__bong img {
+  height: 400px;
+  width: auto;
+  padding: 0rem 6rem 0rem 6rem;
+}
+
+.sectionIndex__bong h3 {
+  text-transform: uppercase;
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 96px;
+  letter-spacing: 0.3rem;
+  margin: 8rem 0rem 8rem 0rem;
+}
+
+#bongDerecha {
+  padding: 0rem 2rem 0rem 4rem;
+}
+
+.sectionIndex__picadores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.sectionIndex__picadores .indexPicadores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionIndex__picadores .indexPicadores img {
+  height: 56px;
+  width: 56px;
+  margin: 10px;
+}
+
+.sectionIndex__picadores .indexPicadores h5 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 10px 0px 50px 0px;
+}
+
+.sectionIndex__picadores .indexPicadores__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionIndex__picadores .indexPicadores__cards div {
+  border: 3px solid #2A8052;
+  border-radius: 20px;
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionIndex__picadores .indexPicadores__cards img {
+  width: 350px;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin: 5rem 1rem 1rem 1rem;
+}
+
+.sectionIndex__picadores .indexPicadores__cards p {
+  border: 1px solid #2A8052;
+  border-radius: 20px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 24px;
+  padding: 2rem 0rem 2rem 0rem;
+  margin: 0px;
+}
+
 /* NOSOTROS */
 #nosotros {
   color: #59CD90;
