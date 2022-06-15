@@ -144,19 +144,11 @@
 
 /* section */
 /* section carousel */
-.carousel-control-prev-icon {
-  background: none;
-}
-
-.carousel-control-next-icon {
-  background: none;
-}
-
-.mainContainer {
+.mainCarousel1 {
   margin: 5rem 0rem 5rem 0rem;
 }
 
-.mainContainer img {
+.mainCarousel1 img {
   width: 100%;
   height: 100%;
 }
@@ -343,39 +335,54 @@
   margin: 2rem 0.5rem 0.5rem 0.5rem;
 }
 
-.sectionIndex__efecto div {
-  height: 550px;
-  width: 550px;
+/* .sectionIndex__efecto{
+    div{
+        height: 550px;
+        width: 550px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 280px 280px, 570px 570px;        
+        @include centrado;
+        animation: efecto 20s infinite;
+        @keyframes efecto {
+            25%{background-image: url("../img/chala.webp"), url("../img/frame2.png");}
+            50%{background-image: url("../img/chala.webp"), url("../img/frame3.png");}
+            75%{background-image: url("../img/chala.webp"), url("../img/frame4.png");}
+        }
+    }
+} */
+.sectionIndex__giratorio {
+  margin: 0rem 0rem 1rem 1rem;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 280px 280px, 570px 570px;
+}
+
+.sectionIndex__giratorio img {
   display: block;
   margin: auto;
-  -webkit-animation: efecto 20s infinite;
-          animation: efecto 20s infinite;
+  -webkit-animation: girar 20s infinite linear;
+          animation: girar 20s infinite linear;
 }
 
-@-webkit-keyframes efecto {
-  25% {
-    background-image: url("../img/chala.webp"), url("../img/frame2.png");
+@-webkit-keyframes girar {
+  from {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
-  50% {
-    background-image: url("../img/chala.webp"), url("../img/frame3.png");
-  }
-  75% {
-    background-image: url("../img/chala.webp"), url("../img/frame4.png");
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 
-@keyframes efecto {
-  25% {
-    background-image: url("../img/chala.webp"), url("../img/frame2.png");
+@keyframes girar {
+  from {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
-  50% {
-    background-image: url("../img/chala.webp"), url("../img/frame3.png");
-  }
-  75% {
-    background-image: url("../img/chala.webp"), url("../img/frame4.png");
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 
@@ -420,32 +427,18 @@
   letter-spacing: 0.3rem;
 }
 
-.carousel-control-prev-icon {
-  background: none;
-}
-
-.carousel-control-next-icon {
-  background: none;
-}
-
-.mainContainer {
-  margin: 5rem 0rem 5rem 0rem;
-}
-
 .indexCombos__promo {
   margin: 2rem 0rem 0rem 0rem;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1.5fr 1fr;
-      grid-template-columns: 1.5fr 1fr;
+  -ms-grid-columns: 1fr 1.5fr;
+      grid-template-columns: 1fr 1.5fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
       grid-template-areas: "foto texto";
 }
 
 .indexCombos__promo .comboPromo {
-  display: block;
-  margin: auto;
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: foto;
@@ -454,6 +447,16 @@
 .indexCombos__promo .comboPromo img {
   width: 672px;
   height: auto;
+  margin-left: 3rem;
+}
+
+.indexCombos__promo .comboPromo p {
+  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
 }
 
 .indexCombos__promo .promo__texto {
@@ -468,7 +471,8 @@
   grid-area: texto;
   display: block;
   margin: auto;
-  padding: 0rem 3rem 0rem 0rem;
+  text-align: end;
+  padding: 0rem 3rem 0rem 3rem;
 }
 
 .indexCombos__promo .promo__texto button {

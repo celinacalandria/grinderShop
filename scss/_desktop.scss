@@ -97,13 +97,7 @@
 
 /* section */
 /* section carousel */
-.carousel-control-prev-icon{
-    background: none;
-}
-.carousel-control-next-icon{
-    background: none;
-}
-.mainContainer{
+.mainCarousel1{
     margin: 5rem 0rem 5rem 0rem;
     img{
         width: 100%;
@@ -213,7 +207,7 @@
     }
 }
 
-.sectionIndex__efecto{
+/* .sectionIndex__efecto{
     div{
         height: 550px;
         width: 550px;
@@ -228,7 +222,27 @@
             75%{background-image: url("../img/chala.webp"), url("../img/frame4.png");}
         }
     }
+} */
+
+.sectionIndex__giratorio{
+    margin: 0rem 0rem 1rem 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    img{
+        @include centrado;
+        animation: girar 20s infinite linear;
+        @keyframes girar{
+            from{
+                transform: rotate(360deg);
+            }
+            to{
+                transform: rotate(0deg);
+            }   
+        }
+
+    }
 }
+
 
 .sectionIndex__combos{
     display: flex;
@@ -252,28 +266,25 @@
         }
     }
 }
-.carousel-control-prev-icon{
-    background: none;
-}
-.carousel-control-next-icon{
-    background: none;
-}
-.mainContainer{
-    margin: 5rem 0rem 5rem 0rem;
-}
 
 .indexCombos__promo{
     margin: 2rem 0rem 0rem 0rem;
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
     grid-template-rows: auto;
     grid-template-areas: "foto texto";
     .comboPromo{
-        @include centrado;
         grid-area: foto;
         img{
             width: 672px;
             height: auto;
+            margin-left: 3rem;
+        }
+        p{
+            @include letraTexto2;
+            font-size: 20px;
+            font-weight: 700;
+            color: $negro;
         }
     }
     .promo__texto{
@@ -282,7 +293,8 @@
         font-weight: 300;
         grid-area: texto;
         @include centrado;
-        padding: 0rem 3rem 0rem 0rem;
+        text-align: end;
+        padding: 0rem 3rem 0rem 3rem;
         button{
             @include centrado;
             background-color: $verde;
