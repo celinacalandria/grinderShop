@@ -137,21 +137,91 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-        }
-        img{
-            width: 350px;
-            height: auto;
-            @include centrado;
-            margin: 5rem 1rem 1rem 1rem;
-        }
-        p{
-            border: 1px solid $verde;
-            border-radius: 20px;
-            text-align: center;
-            @include letraRegular;
-            font-size: 24px;
-            padding: 2rem 0rem 2rem 0rem;
-            margin: 2rem 0.5rem 0.5rem 0.5rem;
+            overflow: hidden;
+            position: relative;
+            height: 600px;
+            z-index: 0;
+            img{
+                width: 350px;
+                height: auto;
+                @include centrado;
+                margin: 5rem 1rem 1rem 1rem;
+                transition: all 0.3s;
+            }
+            p{
+                border: 1px solid $verde;
+                border-radius: 20px;
+                text-align: center;
+                @include letraRegular;
+                font-size: 24px;
+                padding: 2rem 0rem 2rem 0rem;
+                margin: 2rem 0.5rem 0.5rem 0.5rem;
+                transition: all 0.3s;
+            }
+            &:hover img{
+                filter: blur(1.1px) brightness(60%);
+                transform: scale(1.1);
+                transition: all 0.3s;
+            }
+            &:hover p{
+                display: none;
+                transition: all 0.3s;
+            }
+            &:hover {
+                border: 3px solid $hover;
+            }
+            .cardEfecto{
+                z-index: 10;
+                text-align: center;
+                color: $blanco;
+                @include letraRegular;
+                margin: 0;
+                border: none;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                .efecto{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    margin: 0;
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    bottom: 100%;
+                    transition: all 0.3s;
+                    h6{
+                        font-size: 34px;
+                        font-weight: 700;
+                        margin: 2rem;
+                    }
+                    p{
+                        font-size: 20px;
+                        color: $blanco;
+                        border: none;
+                        margin: 2rem;
+                    }
+                    button{
+                        @include centrado;
+                        margin: 2rem;
+                        border: 0.2px solid $blanco;
+                        border-radius: 10px;
+                        background-color: $fondo;
+                        color: $blanco;
+                        width: 50%;
+                        height: 3rem;
+                    }
+                }
+            }
+            &:hover .efecto{
+                bottom: 0;
+                transition: all 0.3s;
+            }
+            &:hover .efectoP{
+                display: block;
+                transition: all 0.3s;
+            }
         }
     }
 }
@@ -188,44 +258,88 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            overflow: hidden;
+            position: relative;
+            height: 700px;
+            z-index: 0;
+            img{
+                width: 350px;
+                height: auto;
+                @include centrado;
+                margin: 5rem 1rem 1rem 1rem;
+                transition: all 0.3s;
+            }
+            p{
+                border: 1px solid $verde;
+                border-radius: 20px;
+                text-align: center;
+                @include letraRegular;
+                font-size: 24px;
+                padding: 2rem 0rem 2rem 0rem;
+                margin: 2rem 0.5rem 0.5rem 0.5rem;
+                transition: all 0.3s;
+            }
+            &:hover img{
+                filter: blur(1.1px) brightness(60%);
+                transform: scale(1.3);
+                transition: all 0.3s;
+            }
+            &:hover p{
+                display: none;
+                transition: all 0.3s;
+            }
+            &:hover {
+                border: 3px solid $hover;
+            }
+            .cardEfecto{
+                z-index: 10;
+                text-align: center;
+                color: $blanco;
+                @include letraRegular;
+                margin: 0;
+                border: none;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                .efecto{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    margin: 0;
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    bottom: 100%;
+                    transition: all 0.3s;
+                    h6{
+                        font-size: 34px;
+                        font-weight: 700;
+                        margin: 4rem;
+                    }
+                    button{
+                        @include centrado;
+                        margin: 8rem 0 0 0;
+                        border: 0.2px solid $blanco;
+                        border-radius: 10px;
+                        background-color: $fondo;
+                        color: $blanco;
+                        width: 50%;
+                        height: 3rem;
+                    }
+                }
+            }
+            &:hover .efecto{
+                bottom: 0;
+                transition: all 0.3s;
+            }
         }
-        img{
-            width: 350px;
-            height: auto;
-            @include centrado;
-            margin: 5rem 1rem 1rem 1rem;
-        }
-        p{
-            border: 1px solid $verde;
-            border-radius: 20px;
-            text-align: center;
-            @include letraRegular;
-            font-size: 24px;
-            padding: 2rem 0rem 2rem 0rem;
-            margin: 2rem 0.5rem 0.5rem 0.5rem;
-        }
+        
     }
 }
 
-/* .sectionIndex__efecto{
-    div{
-        height: 550px;
-        width: 550px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 280px 280px, 570px 570px;        
-        @include centrado;
-        animation: efecto 20s infinite;
-        @keyframes efecto {
-            25%{background-image: url("../img/chala.webp"), url("../img/frame2.png");}
-            50%{background-image: url("../img/chala.webp"), url("../img/frame3.png");}
-            75%{background-image: url("../img/chala.webp"), url("../img/frame4.png");}
-        }
-    }
-} */
-
 .sectionIndex__giratorio{
-    margin: 0rem 0rem 1rem 1rem;
+    margin: 0;
     background-repeat: no-repeat;
     background-position: center;
     img{
@@ -239,10 +353,8 @@
                 transform: rotate(0deg);
             }   
         }
-
     }
 }
-
 
 .sectionIndex__combos{
     display: flex;
