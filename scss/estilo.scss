@@ -2,11 +2,14 @@
 
 @import "variables";
 @import "mixin";
+@import "mobile";
 @import "desktop";
-/* @import "tablet";
-@import "mobile"; */
+
+
+
 
 /* generales */
 #inicio{
     background-color: $fondo;
+    box-sizing: border-box;
 }

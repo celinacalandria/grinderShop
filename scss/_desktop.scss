@@ -1,4 +1,5 @@
 /* DESKTOP */
+@media (min-width: 991px) {
 
 /* INDEX */
 
@@ -27,14 +28,17 @@
         }
     }
 }
-.navbar-brand{
+#navbar-brandDesktop1{
+    display: block;
     @include ceroMP;
     align-items: center;
+}
+#navbar-brandDesktop2{
+    display: none;
 }
 
 /* main */
 .mainIndex{
-    background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
     width: 100%;       
@@ -349,7 +353,7 @@
 }
 
 .sectionIndex__giratorio{
-    margin: 0;
+    margin: 0 0 4px 4px;
     background-repeat: no-repeat;
     background-position: center;
     img{
@@ -781,4 +785,6 @@
 }
 #imgIg{
     margin-left: 0px;
+}
+
 }
