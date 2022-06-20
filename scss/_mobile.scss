@@ -28,7 +28,7 @@
 .mainIndex{
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 450px;
     width: 100%;
     h1{
         padding: 4rem 4rem 2rem 4rem;
@@ -110,6 +110,7 @@
         justify-content: center;
         img{
             @include centrado;
+            margin: 10px;
             height: 40px;
             width: 40px;
         }
@@ -135,7 +136,7 @@
             flex-direction: column;
             overflow: hidden;
             position: relative;
-            height: 300px;
+            height: 400px;
             width: 300px;
             z-index: 0;
             img{
@@ -232,6 +233,7 @@
         justify-content: center;
         img{
             @include centrado;
+            margin: 10px;
             height: 40px;
             width: 40px;
         }
@@ -349,9 +351,8 @@
     background-repeat: no-repeat;
     background-position: center;
     img{
-        
-        
-        
+        width: 500px;
+        height: 500px;
         animation: girar 20s infinite linear;
         @keyframes girar{
             from{
@@ -364,5 +365,252 @@
     }
 }
 
+.sectionIndex__combos{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0rem 3rem 0rem;
+    .indexCombos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        img{
+            @include centrado;
+            margin: 10px;
+            height: 40px;
+            width: 40px;
+        }
+        h4{
+            @include letraRegular;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 400;
+            margin: 10px;
+        }
+    }
+}
+
+.indexCombos__promo{
+    margin: 2rem 0rem 2rem 0rem;
+    .comboPromo{
+        img{
+            width: 100%;
+            height: auto;
+        }
+        p{
+            @include letraTexto2;
+            font-size: 20px;
+            font-weight: 700;
+            color: $negro;
+        }
+    }
+    .promo__texto{
+        p{
+            display: none;
+        }
+        button{
+            @include centrado;
+            margin-top: 2rem;
+            background-color: $verde;
+            border-radius: 10px;
+            border: none;
+            padding: 5px 5px 2px 5px;
+            cursor: pointer;
+            img{
+                width: 23px;
+                height: 23px;
+                margin: 6px 6px 14px 6px;
+            }
+            a{
+                @include letraTexto2;
+                font-size: 15px;
+                color: $negro;
+                text-decoration: none;
+            }
+            &:hover{
+                background-color: $hover;
+                letter-spacing: 0.03rem;
+            }
+        }
+    }
+}
+
+.sectionIndex__marcas{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    .indexMarcas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        img{
+            @include centrado;
+            margin: 10px;
+            height: 40px;
+            width: 40px;
+        }
+        h4{
+            @include letraGrinder;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 400;
+            margin: 10px;
+        }
+    }
+    .indexMarcas__cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        div{
+            margin: 1rem;
+        }
+        img{
+            width: 150px;
+            height: auto;
+            @include centrado;
+            margin: 1rem;
+        }
+    }
+}
+
+.sectionIndex__compra{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        i{
+            @include centrado;
+            margin: 0;
+            color: $form;
+            font-size: 30px;
+        }
+        
+        h4{
+            margin: 2rem 1rem 2rem 1rem;
+            @include letraTexto;
+            font-weight: 300;
+            font-size: 20px;
+        }
+    }
+}
+
+/* FOOTER */
+.footer{
+    background-color: $negro;
+    width: 100%;
+    height: auto;
+}
+.footerGrinder{
+    padding: 40px; 
+    text-align: center;
+    @include letraGrinder;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 0.03rem;
+    margin: 0px;
+}
+.footerImg{
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        @include ceroMP;
+        @include letraRegular;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.03rem;
+        li{
+            width: 40%;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            padding: 20px;
+            text-align: center;
+            p{
+                margin: 5px;
+            }
+            img{
+                padding: 5px;
+                @include centrado;
+                height: 80px;
+                width: 80px;
+            }
+        }
+    }
+}
+.footerTexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    @include letraRegular;
+    margin-top: 25px;
+}
+.footerInfo{
+    h6{
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.03rem; 
+        @include ceroMP;
+        margin: 1rem 2rem 1rem 2rem;
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        margin: 1rem 2rem 1rem 2rem;
+        i{
+            font-size: 16px;
+            margin: 0.5rem;
+        }
+        p{
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+    p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+}
+.footerContacto{
+    h6{
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.03rem;
+        @include ceroMP;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        img{
+            @include centrado;
+            width: 32px;
+            height: 32px;
+        }
+    }
+    p{
+        text-align: center;
+        margin: 0px;
+        padding: 15px;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.03rem;
+    }
+}
+#imgIg{
+    margin-left: 0px;
+}
+
 
 }
+
