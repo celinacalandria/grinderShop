@@ -347,22 +347,7 @@
 }
 
 .sectionIndex__giratorio{
-    margin: 0;
-    background-repeat: no-repeat;
-    background-position: center;
-    img{
-        width: 500px;
-        height: 500px;
-        animation: girar 20s infinite linear;
-        @keyframes girar{
-            from{
-                transform: rotate(360deg);
-            }
-            to{
-                transform: rotate(0deg);
-            }   
-        }
-    }
+    display: none;
 }
 
 .sectionIndex__combos{
@@ -465,7 +450,7 @@
             margin: 1rem;
         }
         img{
-            width: 150px;
+            width: 110px;
             height: auto;
             @include centrado;
             margin: 1rem;
@@ -517,19 +502,17 @@
     ul{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: center;
         @include ceroMP;
         @include letraRegular;
-        font-size: 24px;
-        line-height: 29px;
+        font-size: 18px;
         letter-spacing: 0.03rem;
         li{
-            width: 40%;
+            width: 25%;
             display: flex;
             flex-direction: column-reverse;
             justify-content: center;
-            padding: 20px;
+            padding: 10px;
             text-align: center;
             p{
                 margin: 5px;
@@ -537,8 +520,8 @@
             img{
                 padding: 5px;
                 @include centrado;
-                height: 80px;
-                width: 80px;
+                height: 50px;
+                width: 50px;
             }
         }
     }
@@ -546,69 +529,62 @@
 .footerTexto{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     @include letraRegular;
-    margin-top: 25px;
+    margin-top: 1.5rem;
 }
 .footerInfo{
+    width: 100%;
     h6{
-        font-size: 24px;
-        line-height: 29px;
-        letter-spacing: 0.03rem; 
+        font-size: 18px;
         @include ceroMP;
         margin: 1rem 2rem 1rem 2rem;
     }
-    div{
+    .footerInfo__email{
         display: flex;
         flex-direction: row;
-        justify-content: baseline;
-        margin: 1rem 2rem 1rem 2rem;
+        justify-content: flex-start;
+        align-items: center;
         i{
+            margin: 10px;
             font-size: 16px;
-            margin: 0.5rem;
         }
         p{
+            margin: 10px;
             font-size: 16px;
-            line-height: 20px;
         }
     }
     p{
+        margin: 10px;
         font-size: 16px;
-        line-height: 20px;
     }
     
 }
 .footerContacto{
+    width: 100%;
+    margin-top: 1.5rem;
     h6{
-        font-size: 24px;
-        line-height: 29px;
-        letter-spacing: 0.03rem;
+        font-size: 18px;
         @include ceroMP;
-        margin-bottom: 10px;
-        text-align: center;
+        margin: 10px;
+        text-align: end;
     }
-    div{
+    .footerContacto__redes{
         display: flex;
         flex-direction: row;
-        justify-content: baseline;
-        img{
-            @include centrado;
-            width: 32px;
-            height: 32px;
+        justify-content: flex-end;
+        align-items: center;
+        i{
+            text-align: start;
+            margin: 10px;
+            font-size: 20px;
+        }
+        p{
+            text-align: start;
+            margin: 10px;
+            font-size: 16px; 
         }
     }
-    p{
-        text-align: center;
-        margin: 0px;
-        padding: 15px;
-        font-size: 24px;
-        line-height: 29px;
-        letter-spacing: 0.03rem;
-    }
-}
-#imgIg{
-    margin-left: 0px;
 }
 
 
