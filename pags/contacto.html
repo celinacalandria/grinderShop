@@ -23,7 +23,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Yeseva+One&display=swap" rel="stylesheet">
 
-    
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/cb92ffd13d.js" crossorigin="anonymous"></script>
+
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -37,31 +39,36 @@
 
     <!-- header -->
     <nav class="navbar navbar-dark sticky-top navbar-expand-lg">
+        <div class="navbarMobile">
+            <a class="narbar-brand" id="navbar-brandDesktop2" href="../index.html">
+                <img src="../img/logo.webp" alt="logo" width="80px" height="80px">
+            </a>
+        </div>
 
         <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav navbar-dark">
+            <ul class="navbar-nav navbar-dark hover">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="productos.html">Productos</a>
+                    <a class="nav-link" aria-current="page" href="../pags/productos.html">Productos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="combos.html">Combos</a>
+                    <a class="nav-link" href="../pags/combos.html">Combos</a>
                 </li>
 
                 <div class="container-fluid">
-                    <a class="navbar-brand" id="navbar-brandDesktop" href="../index.html">
+                    <a class="navbar-brand" id="navbar-brandDesktop1" href="../index.html">
                         <img src="../img/logo.webp" alt="logo" width="80px" height="80px">
                     </a>
                 </div>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="../pags/nosotros.html">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contacto.html" id="contacto">Contacto</a>
+                    <a class="nav-link" href="../pags/contacto.html" id="contacto">Contacto</a>
                 </li>
             </ul>
         </div> 
@@ -113,88 +120,85 @@
             </a>
 
             <div class="icons__inputs">
-                <img class="icons_image1" src="../img/envio.webp" alt="envios"> 
+                <i class="fa-solid fa-truck-fast"></i>
                 <h4 class="icons_texto">Hacé tu compra y nosotros te lo enviamos</h4>
             </div>
 
             <div class="icons__inputs">
-                <img class="icons_image2" src="../img/card.webp" alt="card"> 
+                <i class="fa-solid fa-credit-card"></i>
                 <h4 class="icons_texto ">Múltiples formas de pago</h4>
             </div>
 
             <div class="icons__inputs">
-                <img class="icons_image3" src="../img/candado1.webp" alt="candado"> 
-                <img class="icons_image4" src="../img/candado2.webp" alt="persona candado"> 
-                <h4 class="icons_texto">Tu compra y datos están protegidos </h4>
+                <i class="fa-solid fa-user-lock"></i>
+                <h4 class="icons_texto">Tu compra y tus datos están protegidos </h4>
             </div>
         </section>
     </main>
 
    <!-- footer -->
-   <footer class="footer">
-    <h3 class="footerGrinder">Grinder Shop</h3>
+    <footer class="footer">
+        <h3 class="footerGrinder">Grinder Shop</h3>
 
-    <div class="footerImg">
-        <ul>
-            <li>
-                <p>Bongs</p>
-                <img src="../img/bongs.webp" alt="bongs">
-            </li>
-            <li>
-                <p>Combos</p>
-                <img src="../img/combos.webp" alt="combos">
-            </li>
-            <li>
-                <p>Picadores</p>
-                <img src="../img/picadores.webp" alt="picadores">
-            </li>
-            <li>
-                <p>Sedas</p>
-                <img src="../img/sedas.webp" alt="sedas">
-            </li>
-        </ul>
-    </div>
-
-    <div class="footerTexto">
-        <div class="footerInfo">
-            <h6>
-                Informacion de contacto
-            </h6>
-            <div>
-                <img src="../img/email.webp" alt="email">
-                <p>
-                    E-mail: info@grindershops.com
-                </p>
-            </div>
-            <p>
-                Lunes a Viernes: de 09:00 a 17:00 horas
-            </p>
-            <p>
-                Dirección: Villa del Parque, Ciudad Autónoma de Buenos Aires - Argentina
-            </p>
+        <div class="footerImg">
+            <ul>
+                <li>
+                    <p>Bongs</p>
+                    <img src="../img/bongs.webp" alt="bongs">
+                </li>
+                <li>
+                    <p>Combos</p>
+                    <img src="../img/combos.webp" alt="combos">
+                </li>
+                <li>
+                    <p>Picadores</p>
+                    <img src="../img/picadores.webp" alt="picadores">
+                </li>
+                <li>
+                    <p>Sedas</p>
+                    <img src="../img/sedas.webp" alt="sedas">
+                </li>
+            </ul>
         </div>
 
-        <div class="footerContacto">
-            <h6>
-                Contáctanos
-            </h6>
-            <div>
-                <img src="../img/ig.webp" id="imgIg" alt="ig">
+        <div class="footerTexto">
+            <div class="footerInfo">
+                <h6>
+                    Informacion de contacto
+                </h6>
+                <div class="footerInfo__email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>
+                        E-mail: info@grindershops.com
+                    </p>
+                </div>
                 <p>
-                    grindershops.ok
+                    Lunes a Viernes: de 09:00 a 17:00 horas
+                </p>
+                <p>
+                    Dirección: Villa del Parque, Ciudad Autónoma de Buenos Aires - Argentina
                 </p>
             </div>
-            <div>
-                <img src="../img/whatsapp.webp" alt="whatsapp">
-                <p>
-                    +54 9 11 2292-5532
-                </p>
+
+            <div class="footerContacto">
+                <h6>
+                    Contáctanos
+                </h6>
+                <div class="footerContacto__redes">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>
+                        grindershops.ok
+                    </p>
+                </div>
+                <div class="footerContacto__redes">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <p>
+                        +54 9 11 2292-5532
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-
-</footer>
-
+    </footer>
 
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

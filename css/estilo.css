@@ -647,20 +647,215 @@
             align-items: center;
   }
   .sectionIndex__compra div i {
-    display: block;
-    margin: auto;
-    margin: 0;
+    padding: 0;
+    margin: 1rem;
     color: #1BD743;
     font-size: 30px;
   }
   .sectionIndex__compra div h4 {
-    margin: 2rem 1rem 2rem 1rem;
+    padding: 0;
+    margin: 1rem;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     color: #FFFFFF;
     font-weight: 300;
     font-size: 20px;
+  }
+  /* NOSOTROS */
+  .nosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nosotrosInfo {
+    margin: 1rem 2rem 1rem 2rem;
+  }
+  .nosotrosInfo h2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 24px;
+    letter-spacing: 0.03rem;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+  }
+  .nosotrosInfo h6 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0px;
+  }
+  .nosotrosInfo p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+  }
+  .nosotrosFoto {
+    display: block;
+    margin: auto;
+    margin: 2rem;
+  }
+  .nosotrosFoto img {
+    width: 22rem;
+    height: auto;
+  }
+  /* CONTACTO */
+  .mainContacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sectionFormulario {
+    width: 90%;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  .sectionFormulario div h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 20px;
+    text-align: center;
+  }
+  .sectionFormulario div form {
+    text-align: center;
+  }
+  .sectionFormulario div form ::-webkit-input-placeholder {
+    color: #FFFFFF;
+  }
+  .sectionFormulario div form :-ms-input-placeholder {
+    color: #FFFFFF;
+  }
+  .sectionFormulario div form ::-ms-input-placeholder {
+    color: #FFFFFF;
+  }
+  .sectionFormulario div form ::placeholder {
+    color: #FFFFFF;
+  }
+  .sectionFormulario div form input {
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #080808;
+    border: solid #FFFFFF 2px;
+    border-radius: 8px;
+    color: #FFFFFF;
+  }
+  .sectionFormulario div form .formulario__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sectionFormulario div form .formulario__flex input {
+    width: 90%;
+  }
+  .sectionFormulario div form textarea {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    height: 150px;
+    background-color: #080808;
+    color: #FFFFFF;
+    border: solid #FFFFFF 2px;
+    border-radius: 8px;
+  }
+  .sectionFormulario div form .form__boton {
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    width: 35%;
+    height: 40px;
+    border: solid #000000 2px;
+    border-radius: 8px;
+    font-weight: 600;
+    background-color: #1BD743;
+    color: #080808;
+  }
+  .sectionIconos {
+    width: 90%;
+    margin: 1rem;
+  }
+  .sectionIconos a img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: auto;
+  }
+  .sectionIconos .icons__inputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 20px;
+  }
+  .sectionIconos .icons__inputs i {
+    padding: 0;
+    margin: 1rem;
+    color: #1BD743;
+    font-size: 22px;
+  }
+  .sectionIconos .icons__inputs h4 {
+    padding: 0;
+    margin: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 18px;
   }
   /* FOOTER */
   .footer {
@@ -697,8 +892,7 @@
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
-    font-size: 18px;
-    letter-spacing: 0.03rem;
+    font-size: 15px;
   }
   .footerImg ul li {
     width: 25%;
@@ -1377,9 +1571,8 @@
     grid-area: foto;
   }
   .indexCombos__promo .comboPromo img {
-    width: 672px;
+    width: 700px;
     height: auto;
-    margin-left: 3rem;
   }
   .indexCombos__promo .comboPromo p {
     font-family: 'Lato', sans-serif;
@@ -1609,8 +1802,8 @@
   }
   /* CONTACTO */
   #contacto {
-    color: #59CD90;
     text-decoration: overline;
+    color: #59CD90;
   }
   .mainContacto {
     display: -webkit-box;
@@ -1697,33 +1890,31 @@
     width: 308px;
     height: auto;
   }
-  .sectionIconos div {
+  .sectionIconos .icons__inputs {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 45px;
   }
-  .sectionIconos div .icons_image1 {
-    width: 52.5px;
-    height: 42px;
+  .sectionIconos .icons__inputs i {
+    padding: 0;
+    margin: 1rem;
+    color: #1BD743;
+    font-size: 30px;
   }
-  .sectionIconos div .icons_image2 {
-    margin-right: 5px;
-    width: 46px;
-    height: 32px;
-  }
-  .sectionIconos div .icons_image3 {
-    margin-left: 10px;
-    width: 28px;
-    height: 37px;
-  }
-  .sectionIconos div .icons_image4 {
-    margin-top: 21px;
-    width: 17.7px;
-    height: 17.7px;
-  }
-  .sectionIconos div h4 {
-    margin-left: 20px;
+  .sectionIconos .icons__inputs h4 {
+    padding: 0;
+    margin: 1rem;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;

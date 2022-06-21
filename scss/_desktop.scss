@@ -402,9 +402,8 @@
     .comboPromo{
         grid-area: foto;
         img{
-            width: 672px;
+            width: 700px;
             height: auto;
-            margin-left: 3rem;
         }
         p{
             @include letraTexto2;
@@ -565,8 +564,8 @@
 
 /* CONTACTO */
 #contacto{
-    color: $hover;
     text-decoration: overline;
+    color: $hover;
 }
 .mainContacto{
     display: flex;
@@ -637,30 +636,21 @@
             height: auto;
         }
     }
-    div{
+    .icons__inputs{
         display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
         margin: 45px;
-        .icons_image1{
-            width: 52.5px;
-            height: 42px;
-        }
-        .icons_image2{
-            margin-right: 5px;
-            width: 46px;
-            height: 32px;
-        }
-        .icons_image3{
-            margin-left: 10px;
-            width: 28px;
-            height: 37px;
-        }
-        .icons_image4{
-            margin-top: 21px;
-            width: 17.7px;
-            height: 17.7px;
+        i{
+            padding: 0;
+            margin: 1rem;
+            color: $form;
+            font-size: 30px;
         }
         h4{
-            margin-left: 20px;
+            padding: 0;
+            margin: 1rem;
             @include letraTexto;
             font-weight: 300;
             font-size: 20px;

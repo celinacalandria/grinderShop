@@ -468,19 +468,164 @@
         justify-content: flex-start;
         align-items: center;
         i{
-            @include centrado;
-            margin: 0;
+            padding: 0;
+            margin: 1rem;
             color: $form;
             font-size: 30px;
         }
         h4{
-            margin: 2rem 1rem 2rem 1rem;
+            padding: 0;
+            margin: 1rem;
             @include letraTexto;
             font-weight: 300;
             font-size: 20px;
         }
     }
 }
+
+
+/* NOSOTROS */
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nosotrosInfo{
+    margin: 1rem 2rem 1rem 2rem;
+    h2{
+        @include letraGrinder;
+        font-size: 24px;
+        letter-spacing: 0.03rem;
+        padding: 10px;
+        margin: 0px;
+        text-align: center;
+    }
+    h6{
+        @include letraTexto;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+        margin: 0px;
+    }
+    p{
+        @include letraTexto;
+        font-weight: 200;
+        font-size: 18px;
+        padding: 10px 0px 10px 0px;
+        margin: 0px;
+    }
+}
+.nosotrosFoto{
+    @include centrado;
+    margin: 2rem;
+    img{
+        width: 22rem;
+        height: auto;
+    }
+}
+
+/* CONTACTO */
+.mainContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sectionFormulario{
+    width: 90%;
+    margin: 1rem 0rem 1rem 0rem;
+    div{
+        h2{
+            @include letraTexto;
+            font-size: 24px;
+            font-weight: 300;
+            margin: 20px;
+            text-align: center;
+        }
+        form{
+            text-align: center;
+            ::placeholder{
+                color: $blanco;
+            }
+            input{
+                width: 90%;
+                height: 30px;
+                margin: 10px;
+                padding: 10px;
+                background-color: $fondo;
+                border: solid $blanco 2px;
+                border-radius: 8px;
+                color: $blanco;
+            }
+            .formulario__flex{
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                input{
+                    width: 90%;
+                }
+            }
+            textarea{
+                text-align: center;
+                margin: 10px;
+                padding: 10px;
+                width: 90%;
+                height: 150px;
+                background-color: $fondo;
+                color: $blanco;
+                border: solid $blanco 2px;
+                border-radius: 8px;
+            }
+            .form__boton{
+                text-align: center;
+                margin: 10px;
+                padding: 5px;
+                width: 35%;
+                height: 40px;
+                border: solid $negro 2px;
+                border-radius: 8px;
+                font-weight: 600;
+                background-color: $form;
+                color: $fondo;
+            }
+        }
+    }
+}
+.sectionIconos{
+    width: 90%;
+    margin: 1rem;
+    a{
+        img{
+            @include centrado;
+            width: 200px;
+            height: auto;
+        }
+    }
+    .icons__inputs{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 20px;
+        i{
+            padding: 0;
+            margin: 1rem;
+            color: $form;
+            font-size: 22px;
+        }
+        h4{
+            padding: 0;
+            margin: 1rem;
+            @include letraTexto;
+            font-weight: 300;
+            font-size: 18px;
+
+        }
+    }
+}
+
 
 /* FOOTER */
 .footer{
@@ -504,8 +649,7 @@
         justify-content: center;
         @include ceroMP;
         @include letraRegular;
-        font-size: 18px;
-        letter-spacing: 0.03rem;
+        font-size: 15px;
         li{
             width: 25%;
             display: flex;
