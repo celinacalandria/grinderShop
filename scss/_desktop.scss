@@ -552,7 +552,6 @@
                 padding: 6px, 16px, 6px, 16px;
                 margin: 0.75rem;
                 @include letraTexto;
-                color: $fondo;
                 font-size: 18px;
                 i{
                     display: none;
@@ -565,6 +564,10 @@
                 }
                 &:hover i{
                     display: inline-block;
+                }
+                a{
+                    text-decoration: none;
+                    color: $fondo;
                 }
             }
         }
@@ -610,20 +613,25 @@
             }
         }
     }
-    .productosCards{
+    .contenedor-productos__cards{
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: center;
-        div{
+        .cards{
             width: 290px;
-            height: auto;   
-            border: 2px solid $verde;
-            border-radius: 8px;
+            height: 515px;   
+            border: 3px solid $verde;
+            border-radius: 15px;     
+            box-shadow: 0px 3px 3px 0px;
             padding-top: 1.5rem;
             margin: 1.5rem 1rem 1.5rem 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
             img{
-                width: 250px;
+                width: 200px;
                 height: auto;
                 @include centrado;
                 margin-bottom: 30px;
@@ -634,6 +642,7 @@
                 font-weight: 600;
                 font-size: 20px;
                 margin: 20px;
+                padding-top: 0.5rem;
             }
             p{
                 @include letraRegular;
@@ -642,30 +651,34 @@
                 margin: 20px;
             }
             .mensajeWAPP{
-                @include ceroMP;
+                @include centrado;
+                padding: 0.5rem 0 1rem 0;
                 text-align: center;
-                font-size: 16px;
+                font-size: 18px;
                 background-color: $hover;
-                color: $negro;
                 border: 2px solid $hover;
-                border-radius: 8px;
-                height: 2rem;
+                border-radius: 0 0 15px 15px;
+                height: 3rem;
+                a{
+                    text-decoration: none;
+                    color: $negro;
+                }
             }
         }
     }
 }
 
-/* PROMOS */
-#promos{
+/* COMBOS */
+#combos{
     color: $hover;
     text-decoration: overline;
 }
-.mainPromos{
+.mainCombos{
     display: grid;
     grid-template-columns: 2fr 5fr;
     grid-template-rows: auto;
     grid-template-areas: "barra principal";
-    .sectionPromos__barra{
+    .sectionCombos__barra{
         grid-area: barra;
         background-color: $fondo;
         h5{
@@ -674,7 +687,7 @@
             font-size: 26px;
             margin: 4rem 2rem 3rem 6rem;
         }
-        .promosBotones{
+        .combosBotones{
             margin: 2rem 2rem 3rem 5rem;
             display: flex;
             flex-wrap: wrap;
@@ -701,7 +714,7 @@
                 }
             }
         }
-        .promosMensaje{
+        .combosMensaje{
             margin: 4rem 2rem 3rem 6rem;
             h5{
               margin: 0 0 1rem 0;  
@@ -720,11 +733,11 @@
             }
         }
     }
-    .sectionPromos__principal{
+    .sectionCombos__principal{
         background-color: $fondo2;
         margin: 0;
         padding: 0 6rem 6rem 1rem;
-        .promosPrincipal{
+        .combosPrincipal{
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -743,7 +756,7 @@
             }
         }
     }
-    .promosCards{
+    .combosCards{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -786,6 +799,9 @@
             }
         }
     }
+}
+#bola8{
+    margin-top: 1rem;
 }
 
 

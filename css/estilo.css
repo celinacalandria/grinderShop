@@ -2801,7 +2801,6 @@
     font-style: normal;
     font-weight: 500;
     color: #FFFFFF;
-    color: #080808;
     font-size: 18px;
   }
   .mainProductos .sectionProductos__barra .productosBotones button i {
@@ -2816,6 +2815,10 @@
   }
   .mainProductos .sectionProductos__barra .productosBotones button:hover i {
     display: inline-block;
+  }
+  .mainProductos .sectionProductos__barra .productosBotones button a {
+    text-decoration: none;
+    color: #080808;
   }
   .mainProductos .sectionProductos__barra .productosMensaje {
     margin: 4rem 2rem 3rem 6rem;
@@ -2872,7 +2875,7 @@
     font-size: 52px;
     margin: 30px 0 30px 0;
   }
-  .mainProductos .productosCards {
+  .mainProductos .contenedor-productos__cards {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2885,22 +2888,35 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .mainProductos .productosCards div {
+  .mainProductos .contenedor-productos__cards .cards {
     width: 290px;
-    height: auto;
-    border: 2px solid #2A8052;
-    border-radius: 8px;
+    height: 515px;
+    border: 3px solid #2A8052;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 3px 3px 0px;
+            box-shadow: 0px 3px 3px 0px;
     padding-top: 1.5rem;
     margin: 1.5rem 1rem 1.5rem 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center;
   }
-  .mainProductos .productosCards div img {
-    width: 250px;
+  .mainProductos .contenedor-productos__cards .cards img {
+    width: 200px;
     height: auto;
     display: block;
     margin: auto;
     margin-bottom: 30px;
   }
-  .mainProductos .productosCards div h6 {
+  .mainProductos .contenedor-productos__cards .cards h6 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -2909,8 +2925,9 @@
     font-weight: 600;
     font-size: 20px;
     margin: 20px;
+    padding-top: 0.5rem;
   }
-  .mainProductos .productosCards div p {
+  .mainProductos .contenedor-productos__cards .cards p {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -2919,23 +2936,27 @@
     font-size: 18px;
     margin: 20px;
   }
-  .mainProductos .productosCards div .mensajeWAPP {
-    margin: 0px;
-    padding: 0px;
+  .mainProductos .contenedor-productos__cards .cards .mensajeWAPP {
+    display: block;
+    margin: auto;
+    padding: 0.5rem 0 1rem 0;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #59CD90;
-    color: #000000;
     border: 2px solid #59CD90;
-    border-radius: 8px;
-    height: 2rem;
+    border-radius: 0 0 15px 15px;
+    height: 3rem;
   }
-  /* PROMOS */
-  #promos {
+  .mainProductos .contenedor-productos__cards .cards .mensajeWAPP a {
+    text-decoration: none;
+    color: #000000;
+  }
+  /* COMBOS */
+  #combos {
     color: #59CD90;
     text-decoration: overline;
   }
-  .mainPromos {
+  .mainCombos {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 2fr 5fr;
@@ -2944,13 +2965,13 @@
         grid-template-rows: auto;
         grid-template-areas: "barra principal";
   }
-  .mainPromos .sectionPromos__barra {
+  .mainCombos .sectionCombos__barra {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: barra;
     background-color: #080808;
   }
-  .mainPromos .sectionPromos__barra h5 {
+  .mainCombos .sectionCombos__barra h5 {
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -2959,7 +2980,7 @@
     font-size: 26px;
     margin: 4rem 2rem 3rem 6rem;
   }
-  .mainPromos .sectionPromos__barra .promosBotones {
+  .mainCombos .sectionCombos__barra .combosBotones {
     margin: 2rem 2rem 3rem 5rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2967,7 +2988,7 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .mainPromos .sectionPromos__barra .promosBotones button {
+  .mainCombos .sectionCombos__barra .combosBotones button {
     border: 2px solid #2A8052;
     border-radius: 8px;
     background-color: #E5E5E5;
@@ -2980,26 +3001,26 @@
     color: #080808;
     font-size: 18px;
   }
-  .mainPromos .sectionPromos__barra .promosBotones button i {
+  .mainCombos .sectionCombos__barra .combosBotones button i {
     display: none;
   }
-  .mainPromos .sectionPromos__barra .promosBotones button:hover {
+  .mainCombos .sectionCombos__barra .combosBotones button:hover {
     background-color: #59CD90;
     color: #000000;
     border: 2px solid #000000;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .mainPromos .sectionPromos__barra .promosBotones button:hover i {
+  .mainCombos .sectionCombos__barra .combosBotones button:hover i {
     display: inline-block;
   }
-  .mainPromos .sectionPromos__barra .promosMensaje {
+  .mainCombos .sectionCombos__barra .combosMensaje {
     margin: 4rem 2rem 3rem 6rem;
   }
-  .mainPromos .sectionPromos__barra .promosMensaje h5 {
+  .mainCombos .sectionCombos__barra .combosMensaje h5 {
     margin: 0 0 1rem 0;
   }
-  .mainPromos .sectionPromos__barra .promosMensaje p {
+  .mainCombos .sectionCombos__barra .combosMensaje p {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -3007,18 +3028,18 @@
     color: #FFFFFF;
     font-size: 16px;
   }
-  .mainPromos .sectionPromos__barra .promosMensaje a img {
+  .mainCombos .sectionCombos__barra .combosMensaje a img {
     display: block;
     margin: auto;
     width: 280px;
     height: auto;
   }
-  .mainPromos .sectionPromos__principal {
+  .mainCombos .sectionCombos__principal {
     background-color: #E5E5E5;
     margin: 0;
     padding: 0 6rem 6rem 1rem;
   }
-  .mainPromos .sectionPromos__principal .promosPrincipal {
+  .mainCombos .sectionCombos__principal .combosPrincipal {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3033,12 +3054,12 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .mainPromos .sectionPromos__principal .promosPrincipal img {
+  .mainCombos .sectionCombos__principal .combosPrincipal img {
     height: 60px;
     width: 60px;
     margin: 30px;
   }
-  .mainPromos .sectionPromos__principal .promosPrincipal h2 {
+  .mainCombos .sectionCombos__principal .combosPrincipal h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -3048,7 +3069,7 @@
     font-size: 52px;
     margin: 30px 0 30px 0;
   }
-  .mainPromos .promosCards {
+  .mainCombos .combosCards {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3061,7 +3082,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .mainPromos .promosCards div {
+  .mainCombos .combosCards div {
     width: 290px;
     height: auto;
     border: 2px solid #2A8052;
@@ -3069,14 +3090,14 @@
     padding-top: 1.5rem;
     margin: 1.5rem 1rem 1.5rem 1rem;
   }
-  .mainPromos .promosCards div img {
+  .mainCombos .combosCards div img {
     width: 250px;
     height: auto;
     display: block;
     margin: auto;
     margin-bottom: 30px;
   }
-  .mainPromos .promosCards div h6 {
+  .mainCombos .combosCards div h6 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -3086,7 +3107,7 @@
     font-size: 20px;
     margin: 20px;
   }
-  .mainPromos .promosCards div p {
+  .mainCombos .combosCards div p {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -3095,7 +3116,7 @@
     font-size: 18px;
     margin: 20px;
   }
-  .mainPromos .promosCards div .mensajeWAPP {
+  .mainCombos .combosCards div .mensajeWAPP {
     margin: 0px;
     padding: 0px;
     text-align: center;
@@ -3105,6 +3126,9 @@
     border: 2px solid #59CD90;
     border-radius: 8px;
     height: 2rem;
+  }
+  #bola8 {
+    margin-top: 1rem;
   }
   /* NOSOTROS */
   #nosotros {

@@ -1,0 +1,781 @@
+ <main>
+        <section>
+                <h2 class="iniciocategorias">Selecciona</h2>
+                <h3>La categoría de Productos</h3>    
+
+                <div class="contenedores__categorias">
+                    <a href="bongsypipas.html"  id="btn-bongs" class="categoria__bongs">Bongs y Pipas</a>
+                    
+                </div>
+
+                <div class="contenedores__categorias">
+                   <a href="sedas.html" class="categoria__bongs">Sedas</a>
+                </div>
+                
+                <div class="contenedores__categorias">
+                    <a href="picadores.html" class="categoria__bongs">Picadores</a>
+                </div>
+
+                <div class="contenedores__categorias">
+                    <a href="parafernalia.html" class="categoria__bongs">Parafernalias</a>
+                </div>
+
+                 <div class="pedidoconnosotros">
+                    <h2>Hacé tu pedido con Nosotros</h2>
+                    <h3>Coordina con nosotros la forma de pago y envío</h3>
+
+                    <a  href="https://api.whatsapp.com/send?phone=5491168069296"><img src="img/icons/BOTON-WHATSAPP 1.svg" ></a>
+                 </div>
+        </section>
+    
+        <div class="contenedor-productos" >
+    
+            <div class="contenedor-productos__titulo">
+                <img class="icn" src="img/icons/hoja.png">
+                <h2 class="titulo">Productos</h2>
+                <img class="icn" src="img/icons/hoja.png">
+            </div>
+    
+            <div class="contenedor-productos__cards" id="tarjetasproductos">
+
+                <div class="cards"> 
+
+                    <img  class="seda-prisma" src="img/fotosproductos/picadores/supreme1.jpg">
+
+                    <h2 class="titulotarjetas"> Picadores Supreme 👌🏻 𝑬𝒔𝒕𝒂𝒎𝒐𝒔 𝒂 𝒍𝒂 𝑴𝒐𝒅𝒂
+                        <h2>
+                    <h3 class="titulotarjetas">
+                        ♦️Unico Modelo
+                        ♦️Plástico Rígido
+                        ♦️2 Partes
+                        ♦️Imán integrado
+                        </h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                <div class="cards"> 
+
+                    <img  class="seda-prisma" src="img/fotosproductos/picadores/brillos.png">
+
+                    <h2 class="titulotarjetas">PICADOR CON BRILLO 3/P 💫 Tu imagen es Importante
+                        <h2>
+                    <h3 class="titulotarjetas">
+                        ✔ Metálico 100%
+                        ✔ Con filtro Hachis integrado
+                        ✔ Con Anti-deslizante
+                        ✔ Medida Grande
+                        </h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+
+                <div class="cards"> 
+
+                    <img  class="imagencard" src="img/fotosproductos/parafernalia/ocb1.jpg">
+
+                    <h2 class="titulotarjetas">  PORTA SEDAS OCB <h2>
+                    <h3 class="titulotarjetas">𝑬𝒍 𝒆𝒔𝒕𝒖𝒄𝒉𝒆 𝒑𝒆𝒓𝒇𝒆𝒄𝒕𝒐 𝒑𝒂𝒓𝒂 𝒕𝒖𝒔 𝒔𝒆𝒅𝒂𝒔 <br>
+
+                        ✔ Metal
+                        ✔ tamaño 1/4
+                        ✔ original de OCB
+                        ✔ con traba</h3>
+
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+
+                <div class="cards"> 
+
+                    <img  class="imagencard-bob" src="img/fotosproductos/sedas/zeus.jpg">
+
+                    <h2 class="titulotarjetas">  Celulosa Naranja ZEUS 👌🏻 <h2>
+                    <h3 class="titulotarjetas">𝑪𝒐𝒎𝒃𝒖𝒔𝒕𝒊𝒐𝒏 𝑳𝒆𝒏𝒕𝒂 𝒚 𝒇𝒖𝒆𝒓𝒕𝒆 ⚡
+                        🚬 100 % Biodegradable
+                        🚬 Color Naranja
+                        🚬 Tamaño 1/4</h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+                <div class="cards"> 
+
+                    <img  class="seda-prisma" src="img/fotosproductos/sedas/lyon.jpg">
+
+                    <h2 class="titulotarjetas"> SEDAS SABORIZADAS LION 🤪 🍒🍓🍫🌱<h2>
+                    <h3 class="titulotarjetas">✔ Menta
+                        ✔ Chocolate
+                        ✔ Grape
+                        ✔ Frutilla
+                        ✔ Chicle
+                        </h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+
+                <div class="cards"> 
+
+                    <img  class="seda-prisma" src="img/fotosproductos/sedas/sedasocb.jpg">
+
+                    <h2 class="titulotarjetas"> Sedas OCB
+                        Vos cual preferis? 💣💥<h2>
+                    <h3 class="titulotarjetas">✔ Premium
+                        ✔ Cañamo
+                        ✔ X-pert
+                        ✔ Ultimate
+                        ✔ No Blanqueado
+                        </h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>  
+
+                <div class="cards"> 
+
+                    <img  class="imagencard-ceniceros" src="img/fotosproductos/parafernalia/ceniceros.jpg">
+
+                    <h2 class="titulotarjetas">  CENICEROS 𝐋𝐈𝐎𝐍 🤡 𝐂𝐈𝐑𝐂𝐔𝐒 GRANDES<h2>
+                    <h3 class="titulotarjetas">👉 100% Metalicos
+                        👉 Tamaño grande
+                        👉 no se les borra el dibujo</h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+                <div class="cards"> 
+
+                    <img  class="imagencard-fumanyi" src="img/fotosproductos/parafernalia/Fumanyi2.png">
+
+                    <h2 class="titulotarjetas">LLEGO FUMANYI 😚👌🏻💨<h2>
+                    <h3 class="titulotarjetas">👽 Las consignas son sencillas
+                        👽 Si no fumas no juegues
+                        👽 El mejor juego de cartas 420</h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+                <div class="cards"> 
+
+                    <img  class="imagencard-bob" src="img/fotosproductos/parafernalia/bob.jpg">
+
+                    <h2 class="titulotarjetas">  BANDEJA BOB 420 👌🏻 <h2>
+                    <h3 class="titulotarjetas">✔ No se borra el dibujo 🚫
+                        ✔ Metal 100%
+                        ✔ Sin tapa
+                        ✔ Medida 13 x 18 cm</h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+                <div class="cards"> 
+
+                    <img  class="imagencard-bob" src="img/fotosproductos/parafernalia/scooby.jpg">
+
+                    <h2 class="titulotarjetas">  BANDEJA 420 SCOOBY DOO <h2>
+                    <h3 class="titulotarjetas">✔ No se borra el dibujo 🚫
+                        ✔ Metal 100%
+                        ✔ Sin tapa
+                        ✔ Medida 13 x 18 cm</h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+                <div class="cards"> 
+
+                    <img  class="imagencard-bob" src="img/fotosproductos/parafernalia/bart.jpg">
+
+                    <h2 class="titulotarjetas">  BANDEJA 420 BART 👌🏻 <h2>
+                    <h3 class="titulotarjetas">✔ No se borra el dibujo 🚫
+                        ✔ Metal 100%
+                        ✔ Sin tapa
+                        ✔ Medida 13 x 18 cm</h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+                <div class="cards"> 
+
+                    <img  class="imagencard-bob" src="img/fotosproductos/parafernalia/calavera.png">
+
+                    <h2 class="titulotarjetas">  𝐂𝐄𝐍𝐈𝐂𝐄𝐑𝐎𝐒 𝐂𝐀𝐋𝐀𝐕𝐄𝐑𝐀 🍁
+                        💀<h2>
+                    <h3 class="titulotarjetas">✅ 100% Metalicos
+                        ✅ Grandes
+                        ✅ NO se les borra el dibujo
+                        ✅ Modelo exclusivo
+                        </h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+                
+    
+            </div>
+    
+    
+        </div>
+    </main>  
+    
+<!-- BONGS Y PIPAS -->
+    <main>
+        <section>
+            <h2 class="iniciocategorias">Selecciona</h2>
+            <h3>La categoría de Productos</h3>    
+
+            <div class="contenedores__categorias">
+              <a href="bongsypipas.html" id="btn-bongs" class="categoria__bongs">Bongs y Pipas</a>
+              
+           </div>
+           <div class="contenedores__categorias">
+             <a href="sedas.html" class="categoria__bongs">Sedas</a>
+          </div>
+          
+           <div class="contenedores__categorias">
+              <a href="picadores.html" class="categoria__bongs">Picadores</a>
+          </div>
+          <div class="contenedores__categorias">
+              <a href="parafernalia.html" class="categoria__bongs">Parafernalias</a>
+          </div>
+
+           <div class="pedidoconnosotros">
+              <h2>Hacé tu pedido con Nosotros</h2>
+              <h3>Coordina con nosotros la forma de pago y envío</h3>
+
+              <a  href="https://api.whatsapp.com/send?phone=5491168069296"><img src="img/icons/BOTON-WHATSAPP 1.svg" ></a>
+           </div>
+  </section>
+    
+        <div class="contenedor-productos" >
+    
+            <div class="contenedor-productos__titulo">
+                <img class="icn" src="img/icons/hoja.png">
+                <h2 class="titulo">Productos</h2>
+                <img class="icn" src="img/icons/hoja.png">
+            </div>
+    
+            <div class="contenedor-productos__cards" id="tarjetasproductos">
+
+                <div class="cards"> 
+
+                    <img  class="pipa01" src="img/fotosproductos/bongsypipas/pipa01.jpg">
+
+                    <h2 class="titulotarjetas"> PIPA BOLA 8
+                        Atómic 🎱
+                         <h2>
+                    <h3 class="titulotarjetas">✔ Quemador metálico
+                        ✔ Vidrio Pirex
+                        ✔ Medida: Largo 12,5 cm
+                        
+                        Lo mejor de Parafernalia 👽</h3>
+
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+
+                <div class="cards"> 
+
+                    <img  class="pipa01" src="img/fotosproductos/bongsypipas/pipa02.jpg">
+
+                    <h2 class="titulotarjetas"> PIPA CON DISEÑO D&K 🔥<h2>
+                    <h3 class="titulotarjetas">👉 Anti-deslizante
+                        👉 Tamaño medio
+                        👉 Varios Colores</h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                <div class="cards"> 
+
+                    <img  class="seda-prisma" src="img/fotosproductos/bongsypipas/pipacalavera.png">
+
+                    <h2 class="titulotarjetas"> PIPA METAL  D&K
+                        𝑫𝒆𝒔𝒎𝒐𝒏𝒕𝒂𝒃𝒍𝒆 💀<h2>
+                    <h3 class="titulotarjetas">✔ 100% Metal
+                        ✔ Color oro, plata o bronce
+                        ✔ medida Corta</h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+                <div class="cards"> 
+
+                    <img  class="seda-prisma" src="img/fotosproductos/bongsypipas/atomicpipa.jpg">
+
+                    <h2 class="titulotarjetas">Glass Pipe + Filtro Atomic Pipa Vidrio💀<h2>
+                    <h3 class="titulotarjetas">✔ Material del cuerpo: Cristal
+                        ✔ Largo: 10 cm
+                        ✔ Incluye filtro: Sí</h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                <div class="cards"> 
+
+                    <img  class="pipa01" src="img/fotosproductos/bongsypipas/bongsbk.png">
+
+                    <h2 class="titulotarjetas">Bong Mediano D&K 20,5 cm💀<h2>
+                    <h3 class="titulotarjetas">✔ Quemador de Vidrio
+                        ✔ Vidrio Pirex
+                        ✔ Resistente 🔥</h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+                
+    
+            </div>
+    
+    
+        </div>
+    </main> 
+
+
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- seo -->
+    <meta name="description" content="productos, 420, pedidos">
+    <meta name="keywords" content="picadores, sedas, filtros, accesorios, bongs, combos, pipas, encendedores">
+    <meta name="author" content="martin hernandez, juan velasquez, celina calandria, coderhouse">
+    <meta name="copyright" content="martin hernandez, juan velasquez, celina calandria, coderhouse">
+
+    <title>Productos | Grinder Shop</title>
+
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="../img/logo.webp">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- estilo css -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="productos.css">
+
+</head>
+
+<body>
+<div class="container-fluid m-0 p-0" id="inicio">
+
+    <!-- header -->
+    <nav class="navbar navbar-dark sticky-top navbar-expand-lg">
+
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav navbar-dark">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="combos.html">Combos</a>
+                </li>
+
+                <div class="container-fluid">
+                    <a class="navbar-brand" id="navbar-brandDesktop" href="../index.html">
+                        <img src="../img/logo.webp" alt="logo" width="80px" height="80px">
+                    </a>
+                </div>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div> 
+
+    </nav>
+
+    
+    <!--  -->
+    <main>
+        <section>
+            <h2 class="iniciocategorias">Selecciona</h2>
+            <h3>La categoría de Productos</h3>    
+
+            <div class="contenedores__categorias">
+              <a href="bongsypipas.html"  id="btn-bongs" class="categoria__bongs">Bongs y Pipas</a>
+              
+           </div>
+           <div class="contenedores__categorias">
+             <a href="sedas.html" class="categoria__bongs">Sedas</a>
+          </div>
+          
+           <div class="contenedores__categorias">
+              <a href="picadores.html" class="categoria__bongs">Picadores</a>
+          </div>
+          <div class="contenedores__categorias">
+              <a href="parafernalia.html" class="categoria__bongs">Parafernalias</a>
+          </div>
+
+           <div class="pedidoconnosotros">
+              <h2>Hacé tu pedido con Nosotros</h2>
+              <h3>Coordina con nosotros la forma de pago y envío</h3>
+
+              <a  href="https://api.whatsapp.com/send?phone=5491168069296"><img src="img/icons/BOTON-WHATSAPP 1.svg" ></a>
+           </div>
+  </section>
+    
+        <div class="contenedor-productos" >
+    
+            <div class="contenedor-productos__titulo">
+                <img class="icn" src="img/icons/hoja.png">
+                <h2 class="titulo">Productos</h2>
+                <img class="icn" src="img/icons/hoja.png">
+            </div>
+    
+            <div class="contenedor-productos__cards" id="tarjetasproductos">
+
+                <div class="cards"> 
+
+                    <img  class="seda-bob" src="img/fotosproductos/sedas/sedabob.jpg">
+
+                    <h2 class="titulotarjetas">  EL BATE DE BOB MARLEY 🏏 <h2>
+                    <h3 class="titulotarjetas">Sedas chicas y grandes
+
+                        Disponibles en Grinder Shop 📩
+                        Envíos a todo el país 🇦🇷<br>
+                    </h3>
+
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+
+                <div class="cards"> 
+
+                    <img  class="seda-prisma" src="img/fotosproductos/sedas/sedaprisma.jpg">
+
+                    <h2 class="titulotarjetas">  SEDAS PRISMA 100% CELULOSA<h2>
+                    <h3 class="titulotarjetas">👉 Ya disponibles en Grinder Shops
+                        Envíos a todo el País ✈</h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+                <div class="cards"> 
+
+                    <img  class="seda-prisma" src="img/fotosproductos/sedas/stamps.png">
+
+                    <h2 class="titulotarjetas">CELULOSA STAMPS 78mm 😚👌🏻💨<h2>
+                    <h3 class="titulotarjetas">👽 50 rolling papers<br>
+                        👽Mas grande de lo normal 🐘</h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+                <div class="cards"> 
+
+                    <img  class="seda-prisma" src="img/fotosproductos/sedas/bar.jpg">
+
+                    <h2 class="titulotarjetas"> 𝑮𝒓𝒊𝒏𝒅𝒆𝒓 𝑺𝒉𝒐𝒑𝒔 𝒆𝒔𝒕𝒂 𝒅𝒆 𝒇𝒊𝒆𝒔𝒕𝒂 🍸🍹🥂 <h2>
+                    <h3 class="titulotarjetas">👽 Piña colada
+                        👽 Xo Cognac
+                        👽 Gin & Juice
+                        👽 Champagne
+                        👽 Mojito</h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+                <div class="cards"> 
+
+                    <img  class="seda-prisma" src="img/fotosproductos/sedas/frutas.jpg">
+
+                    <h2 class="titulotarjetas">  BLUNT WRAP<br>
+                        👌🏻<h2>
+                    <h3 class="titulotarjetas">
+                        🍫Chocolate 🍒Blueberry 🍓Stramberry 🍇Purple 🍯NaturalFlavor
+                    </h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+                <div class="cards"> 
+
+                    <img  class="imagencard-bob" src="img/fotosproductos/sedas/zeus.jpg">
+
+                    <h2 class="titulotarjetas">  Celulosa Naranja ZEUS 👌🏻 <h2>
+                    <h3 class="titulotarjetas">𝑪𝒐𝒎𝒃𝒖𝒔𝒕𝒊𝒐𝒏 𝑳𝒆𝒏𝒕𝒂 𝒚 𝒇𝒖𝒆𝒓𝒕𝒆 ⚡
+                        🚬 100 % Biodegradable
+                        🚬 Color Naranja
+                        🚬 Tamaño 1/4</h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+                <div class="cards"> 
+
+                    <img  class="seda-prisma" src="img/fotosproductos/sedas/lyon.jpg">
+
+                    <h2 class="titulotarjetas"> SEDAS SABORIZADAS LION 🤪 🍒🍓🍫🌱<h2>
+                    <h3 class="titulotarjetas">✔ Menta
+                        ✔ Chocolate
+                        ✔ Grape
+                        ✔ Frutilla
+                        ✔ Chicle
+                        </h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+
+                <div class="cards"> 
+
+                    <img  class="seda-prisma" src="img/fotosproductos/sedas/sedasocb.jpg">
+
+                    <h2 class="titulotarjetas"> Sedas OCB
+                        Vos cual preferis? 💣💥<h2>
+                    <h3 class="titulotarjetas">✔ Premium
+                        ✔ Cañamo
+                        ✔ X-pert
+                        ✔ Ultimate
+                        ✔ No Blanqueado
+                        </h3>
+                    <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+                </div>
+                
+                
+    
+            </div>
+    
+    
+        </div>
+    </main>  
+    
+
+    <!-- footer -->
+    <footer class="footer">
+        <h3 class="footerGrinder">Grinder Shop</h3>
+
+        <div class="footerImg">
+            <ul>
+                <li>
+                    <p>Bongs</p>
+                    <img src="../img/bongs.webp">
+                </li>
+                <li>
+                    <p>Combos</p>
+                    <img src="../img/combos.webp">
+                </li>
+                <li>
+                    <p>Picadores</p>
+                    <img src="../img/picadores.webp">
+                </li>
+                <li>
+                    <p>Sedas</p>
+                    <img src="../img/sedas.webp">
+                </li>
+            </ul>
+        </div>
+
+        <div class="footerTexto">
+            <div class="footerInfo">
+                <h6>
+                    Informacion de contacto
+                </h6>
+                <div>
+                    <img>
+                    <p>
+                        E-mail:
+                    </p>
+                </div>
+                <p>
+                    Lunes a Viernes: de 09:00 a 17:00 horas
+                </p>
+                <p>
+                    Dirección: Nazca 3356, Ciudad Autónoma de Buenos Aires.
+                </p>
+            </div>
+
+            <div class="footerContacto">
+                <h6>
+                    Contáctanos
+                </h6>
+                <div>
+                    <img>
+                    <p>
+                        grindershops.ok
+                    </p>
+                </div>
+                <div>
+                    <img>
+                    <p>
+                        +54 9 11 5555-1422
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script src="productos.js"></script> -->
+</div>
+</body>
+</html>
+
+<!--  -->
+<main>
+    <section>
+        <h2 class="iniciocategorias">Selecciona</h2>
+        <h3>La categoría de Productos</h3>    
+
+        <div class="contenedores__categorias">
+          <a href="bongsypipas.html"  id="btn-bongs" class="categoria__bongs">Bongs y Pipas</a>
+          
+       </div>
+       <div class="contenedores__categorias">
+         <a href="sedas.html" class="categoria__bongs">Sedas</a>
+      </div>
+      
+       <div class="contenedores__categorias">
+          <a href="picadores.html" class="categoria__bongs">Picadores</a>
+      </div>
+      <div class="contenedores__categorias">
+          <a href="parafernalia.html" class="categoria__bongs">Parafernalias</a>
+      </div>
+
+       <div class="pedidoconnosotros">
+          <h2>Hacé tu pedido con Nosotros</h2>
+          <h3>Coordina con nosotros la forma de pago y envío</h3>
+
+          <a  href="https://api.whatsapp.com/send?phone=5491168069296"><img src="img/icons/BOTON-WHATSAPP 1.svg" ></a>
+       </div>
+</section>
+
+    <div class="contenedor-productos" >
+
+        <div class="contenedor-productos__titulo">
+            <img class="icn" src="img/icons/hoja.png">
+            <h2 class="titulo">Productos</h2>
+            <img class="icn" src="img/icons/hoja.png">
+        </div>
+
+        <div class="contenedor-productos__cards" id="tarjetasproductos">
+
+            <div class="cards"> 
+
+                <img  class="seda-prisma" src="img/fotosproductos/picadores/amsterdam.jpg">
+
+                <h2 class="titulotarjetas"> PICADOR METAL LABRADO 3/P
+                    𝑳𝒊𝒏𝒆𝒂 𝑨𝒎𝒔𝒕𝒆𝒓𝒅𝒂𝒎 🍁
+                     <h2>
+                <h3 class="titulotarjetas">✔️ Metálico %100
+                    ✔️ Filtro integrado
+                    ✔️ Pala removedora
+                    ✔️ Varios Modelos</h3>
+
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+
+            <div class="cards"> 
+
+                <img  class="seda-prisma" src="img/fotosproductos/picadores/plastico.jpg">
+
+                <h2 class="titulotarjetas">  PICADORES ACRÍLICO GRANDES 2/P<h2>
+                <h3 class="titulotarjetas">👉 Anti-deslizante
+                    👉 Tamaño medio
+                    👉 Varios Colores</h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            
+            <div class="cards"> 
+
+                <img  class="picador-lyon" src="img/fotosproductos/picadores/picadorlion.jpg">
+
+                <h2 class="titulotarjetas">PICADOR LION CIRCUS PLATEADO👌🏻💨
+                    <h2>
+                <h3 class="titulotarjetas">👽 Aluminio
+                    👽 Originales
+                    👽 Grandes
+                </h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            
+            <div class="cards"> 
+
+                <img  class="picador-calavera" src="img/fotosproductos/picadores/calavera.JPG">
+
+                <h2 class="titulotarjetas">  PICADOR REY CALAVERA 3/P💀👑 <h2>
+                <h3 class="titulotarjetas">✔ Metálico
+                    ✔ Con Filtro Hachis Integrado
+                    ✔ Medida Grande                        
+                    Picas hay muchos, Rey uno solo... 👑</h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            
+            <div class="cards"> 
+
+                <img  class="seda-prisma" src="img/fotosproductos/picadores/acrilico.png">
+
+                <h2 class="titulotarjetas">  PICADORES ACRÍLICO CHICOS 2/P<h2>
+                <h3 class="titulotarjetas">Anti-deslizante 👽
+                    ✔ Acrílico 100%
+                    ✔ Varios Colores
+                    </h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            
+            <div class="cards"> 
+
+                <img  class="seda-prisma" src="img/fotosproductos/picadores/amsterdam2.png">
+
+                <h2 class="titulotarjetas">  PICADOR SUPER ÁMSTERDAM 4/P👌🏻 <h2>
+                <h3 class="titulotarjetas">✔ Metal 100%
+                    ✔ Varios Diseños
+                    ✔ Con pala y filtro Integrado
+                    ✔ Medida extra Grande
+                    </h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            
+            <div class="cards"> 
+
+                <img  class="seda-prisma" src="img/fotosproductos/picadores/granada.png">
+
+                <h2 class="titulotarjetas"> PICADOR GRANADA 3/P 🍁
+                    💀<h2>
+                <h3 class="titulotarjetas">El pica mas explotado 💥
+
+                    ✔ Metálico
+                    ✔ Con filtro Integrado
+                    ✔ Medida Grande
+                    </h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            <div class="cards"> 
+
+                <img  class="seda-prisma" src="img/fotosproductos/picadores/oreo.png">
+
+                <h2 class="titulotarjetas"> PICADOR OREO 2/P
+                    Original & Pink👌🏻
+                    <h2>
+                <h3 class="titulotarjetas">✔ Plástico Rígido
+                    ✔ Medida Grande
+                    ✔ Picado Perfecto
+                    </h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            <div class="cards"> 
+
+                <img  class="seda-prisma" src="img/fotosproductos/picadores/supreme1.jpg">
+
+                <h2 class="titulotarjetas"> Picadores Supreme 👌🏻 𝑬𝒔𝒕𝒂𝒎𝒐𝒔 𝒂 𝒍𝒂 𝑴𝒐𝒅𝒂
+                    <h2>
+                <h3 class="titulotarjetas">
+                    ♦️Unico Modelo
+                    ♦️Plástico Rígido
+                    ♦️2 Partes
+                    ♦️Imán integrado
+                    </h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            <div class="cards"> 
+
+                <img  class="seda-prisma" src="img/fotosproductos/picadores/brillos.png">
+
+                <h2 class="titulotarjetas">PICADOR CON BRILLO 3/P 💫 Tu imagen es Importante
+                    <h2>
+                <h3 class="titulotarjetas">
+                    ✔ Metálico 100%
+                    ✔ Con filtro Hachis integrado
+                    ✔ Con Anti-deslizante
+                    ✔ Medida Grande
+                    </h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            
+
+        </div>
+
+
+    </div>
+</main>  
+
