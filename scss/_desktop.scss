@@ -220,6 +220,13 @@
                             color: $negro;   
                             border: 1px solid $negro;
                         }
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
+                        &:hover a{
+                            color: $negro;
+                        }
                     }
                 }
             }
@@ -345,6 +352,13 @@
                             background-color: $hover;
                             color: $negro;   
                             border: 1px solid $negro;
+                        }
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
+                        &:hover a{
+                            color: $negro;
                         }
                     }
                 }
@@ -539,10 +553,10 @@
             color: $blanco;
             @include letraTexto;
             font-size: 26px;
-            margin: 4rem 2rem 3rem 6rem;
+            margin: 4rem 2rem 3rem 5rem;
         }
         .productosBotones{
-            margin: 2rem 2rem 3rem 5.25rem;
+            margin: 2rem 2rem 3rem 4.25rem;
             display: flex;
             flex-wrap: wrap;
             button{
@@ -572,7 +586,7 @@
             }
         }
         .productosMensaje{
-            margin: 4rem 2rem 3rem 6rem;
+            margin: 4rem 2rem 3rem 5rem;
             h5{
               margin: 0 0 1rem 0;  
             }
@@ -616,52 +630,72 @@
     .contenedor-productos__cards{
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         .cards{
             width: 290px;
-            height: 515px;   
+            height: 525px;   
             border: 3px solid $verde;
             border-radius: 15px;     
             box-shadow: 0px 3px 3px 0px;
-            padding-top: 1.5rem;
-            margin: 1.5rem 1rem 1.5rem 1rem;
+            margin: 1rem;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            text-align: center;
-            img{
-                width: 200px;
-                height: auto;
-                @include centrado;
-                margin-bottom: 30px;
+            text-align: left;            
+            .infoCard{
+                height: 48%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 190px;
+                    height: auto;
+                }
+                #sedasLionS{
+                    width: 150px;
+                    height: auto;
+                }
             }
-            h6{
-                @include letraRegular;
-                color: $fondo;
-                font-weight: 600;
-                font-size: 20px;
-                margin: 20px;
-                padding-top: 0.5rem;
-            }
-            p{
-                @include letraRegular;
-                color: $fondo;
-                font-size: 18px;
-                margin: 20px;
-            }
-            .mensajeWAPP{
-                @include centrado;
-                padding: 0.5rem 0 1rem 0;
-                text-align: center;
-                font-size: 18px;
-                background-color: $hover;
-                border: 2px solid $hover;
-                border-radius: 0 0 15px 15px;
-                height: 3rem;
-                a{
-                    text-decoration: none;
-                    color: $negro;
+            .mensajeCard{
+                height: 52%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h6{
+                    @include letraRegular;
+                    text-align: center;
+                    text-decoration: overline 2px $verde;
+                    color: $fondo;
+                    font-weight: 600;
+                    font-size: 20px;
+                    margin: 15px;
+                }
+                p{
+                    @include letraRegular;
+                    color: $fondo;
+                    font-size: 18px;
+                    margin: 15px 0 15px 20px;
+                }
+                .tituloCardsR{
+                    font-size: 18px;
+                }
+                .descripcionCardsR{
+                    font-size: 16px;
+                }
+                .mensajeWAPP{
+                    margin: 0;
+                    padding: 0.5rem 0 1rem 0;
+                    text-align: center;
+                    font-size: 18px;
+                    background-color: $hover;
+                    border: 2px solid $hover;
+                    border-radius: 0 0 15px 15px;
+                    height: 3rem;
+                    a{
+                        text-decoration: none;
+                        color: $negro;
+                    }
                 }
             }
         }

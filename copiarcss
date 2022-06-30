@@ -779,3 +779,164 @@
     </div>
 </main>  
 
+<main>
+    <section>
+        <h2 class="iniciocategorias">Selecciona</h2>
+        <h3>La categoría de Productos</h3>    
+
+        <div class="contenedores__categorias">
+          <a href="bongsypipas.html"  id="btn-bongs" class="categoria__bongs">Bongs y Pipas</a>
+          
+       </div>
+       <div class="contenedores__categorias">
+         <a href="sedas.html" class="categoria__bongs">Sedas</a>
+      </div>
+      
+       <div class="contenedores__categorias">
+          <a href="picadores.html" class="categoria__bongs">Picadores</a>
+      </div>
+      <div class="contenedores__categorias">
+          <a href="parafernalia.html" class="categoria__bongs">Parafernalias</a>
+      </div>
+
+       <div class="pedidoconnosotros">
+          <h2>Hacé tu pedido con Nosotros</h2>
+          <h3>Coordina con nosotros la forma de pago y envío</h3>
+
+          <a  href="https://api.whatsapp.com/send?phone=5491168069296"><img src="img/icons/BOTON-WHATSAPP 1.svg" ></a>
+       </div>
+</section>
+
+    <div class="contenedor-productos" >
+
+        <div class="contenedor-productos__titulo">
+            <img class="icn" src="img/icons/hoja.png">
+            <h2 class="titulo">Productos</h2>
+            <img class="icn" src="img/icons/hoja.png">
+        </div>
+
+        <div class="contenedor-productos__cards" id="tarjetasproductos">
+
+            <div class="cards"> 
+
+                <img  class="imagencard" src="img/fotosproductos/parafernalia/ocb1.jpg">
+
+                <h2 class="titulotarjetas">  PORTA SEDAS OCB <h2>
+                <h3 class="titulotarjetas">𝑬𝒍 𝒆𝒔𝒕𝒖𝒄𝒉𝒆 𝒑𝒆𝒓𝒇𝒆𝒄𝒕𝒐 𝒑𝒂𝒓𝒂 𝒕𝒖𝒔 𝒔𝒆𝒅𝒂𝒔 <br>
+
+                    ✔ Metal
+                    ✔ tamaño 1/4
+                    ✔ original de OCB
+                    ✔ con traba</h3>
+
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+
+            <div class="cards"> 
+
+                <img  class="imagencard-ceniceros" src="img/fotosproductos/parafernalia/ceniceros.jpg">
+
+                <h2 class="titulotarjetas">  CENICEROS 𝐋𝐈𝐎𝐍 🤡 𝐂𝐈𝐑𝐂𝐔𝐒 GRANDES<h2>
+                <h3 class="titulotarjetas">👉 100% Metalicos
+                    👉 Tamaño grande
+                    👉 no se les borra el dibujo</h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            
+            <div class="cards"> 
+
+                <img  class="imagencard-fumanyi" src="img/fotosproductos/parafernalia/Fumanyi2.png">
+
+                <h2 class="titulotarjetas">LLEGO FUMANYI 😚👌🏻💨<h2>
+                <h3 class="titulotarjetas">👽 Las consignas son sencillas
+                    👽 Si no fumas no juegues
+                    👽 El mejor juego de cartas 420</h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            
+            <div class="cards"> 
+
+                <img  class="imagencard-bob" src="img/fotosproductos/parafernalia/bob.jpg">
+
+                <h2 class="titulotarjetas">  BANDEJA BOB 420 👌🏻 <h2>
+                <h3 class="titulotarjetas">✔ No se borra el dibujo 🚫
+                    ✔ Metal 100%
+                    ✔ Sin tapa
+                    ✔ Medida 13 x 18 cm</h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            
+            <div class="cards"> 
+
+                <img  class="imagencard-bob" src="img/fotosproductos/parafernalia/scooby.jpg">
+
+                <h2 class="titulotarjetas">  BANDEJA 420 SCOOBY DOO <h2>
+                <h3 class="titulotarjetas">✔ No se borra el dibujo 🚫
+                    ✔ Metal 100%
+                    ✔ Sin tapa
+                    ✔ Medida 13 x 18 cm</h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            
+            <div class="cards"> 
+
+                <img  class="imagencard-bob" src="img/fotosproductos/parafernalia/bart.jpg">
+
+                <h2 class="titulotarjetas">  BANDEJA 420 BART 👌🏻 <h2>
+                <h3 class="titulotarjetas">✔ No se borra el dibujo 🚫
+                    ✔ Metal 100%
+                    ✔ Sin tapa
+                    ✔ Medida 13 x 18 cm</h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            
+            <div class="cards"> 
+
+                <img  class="imagencard-bob" src="img/fotosproductos/parafernalia/calavera.png">
+
+                <h2 class="titulotarjetas">  𝐂𝐄𝐍𝐈𝐂𝐄𝐑𝐎𝐒 𝐂𝐀𝐋𝐀𝐕𝐄𝐑𝐀 🍁
+                    💀<h2>
+                <h3 class="titulotarjetas">✅ 100% Metalicos
+                    ✅ Grandes
+                    ✅ NO se les borra el dibujo
+                    ✅ Modelo exclusivo
+                    </h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            <div class="cards"> 
+
+                <img  class="imagencard-bob" src="img/fotosproductos/parafernalia/filtrolion.png">
+
+                <h2 class="titulotarjetas">  FILTROS LION CIRCUS 🤡
+                    💀<h2>
+                <h3 class="titulotarjetas">✅ 100% Metalicos
+                    ✅ Grandes
+                    ✅ NO se les borra el dibujo
+                    ✅ Modelo exclusivo
+                    </h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            <div class="cards"> 
+
+                <img  class="imagencard-bob" src="img/fotosproductos/parafernalia/Clipperalien.jpg">
+
+                <h2 class="titulotarjetas">  Encendedores Clipper Aliens 💀<h2>
+                <h3 class="titulotarjetas">Mini silver Tips & Pre-Rolled
+
+                    ✔ Material: Plástico
+                    ✔ Es recargable: Sí
+                    
+                    ✔Grinder Shops 💣
+                    </h3>
+                <h4 class="pedidocard"><a class="pedidoaqui" href="https://api.whatsapp.com/send?phone=5491168069296">Hacé tu pedido por Whatsapp</a> </h4>
+            </div>
+            
+            
+            
+            
+
+        </div>
+
+
+    </div>
+</main>  
