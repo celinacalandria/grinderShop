@@ -106,133 +106,14 @@
 
 /* section picadores */
 .sectionIndex__picadores{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 3rem;
-    .indexPicadores{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        img{
-            @include centrado;
-            margin: 10px;
-            height: 40px;
-            width: 40px;
-        }
-        h4{
-            @include letraRegular;
-            text-align: center;
-            font-size: 30px;
-            font-weight: 400;
-            margin: 10px;
-        }
-    }
-    .indexPicadores__cards{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 2rem;
-        div{
-            border: 3px solid $verde;
-            border-radius: 20px;
-            margin: 1rem;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-            position: relative;
-            height: 400px;
-            width: 300px;
-            z-index: 0;
-            img{
-                width: 200px;
-                height: auto;
-                @include centrado;
-                transition: all 0.3s;
-            }
-            p{
-                border: 1px solid $verde;
-                border-radius: 20px;
-                text-align: center;
-                @include letraRegular;
-                font-size: 18px;
-                padding: 1rem 0rem 1rem 0rem;
-                margin: 2rem 0.5rem 0.5rem 0.5rem;
-                transition: all 0.3s;
-            }
-            &:hover img{
-                filter: blur(1.1px) brightness(20%);
-                transform: scale(1.1);
-                transition: all 0.3s;
-            }
-            &:hover p{
-                display: none;
-                transition: all 0.3s;
-            }
-            &:hover {
-                border: 3px solid $hover;
-            }
-            .cardEfecto{
-                z-index: 10;
-                text-align: center;
-                color: $blanco;
-                @include letraRegular;
-                margin: 0;
-                border: none;
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                .efecto{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    border: none;
-                    margin: 0;
-                    position: relative;
-                    width: 100%;
-                    height: 100%;
-                    bottom: 100%;
-                    transition: all 0.3s;
-                    h6{
-                        font-size: 24px;
-                        font-weight: 700;
-                        margin: 2rem;
-                    }
-                    p{
-                        font-size: 15px;
-                        color: $blanco;
-                        border: none;
-                        margin: 1rem;
-                    }
-                    button{
-                        @include centrado;
-                        margin: 2rem;
-                        border: 0.2px solid $blanco;
-                        border-radius: 10px;
-                        background-color: $fondo;
-                        color: $blanco;
-                        width: 50%;
-                        height: 2rem;
-                    }
-                }
-            }
-            &:hover .efecto{
-                bottom: 0;
-                transition: all 0.3s;
-            }
-            &:hover .efectoP{
-                display: block;
-                transition: all 0.3s;
-            }
-        }
-    }
+    display: none;
 }
 
-.sectionIndex__accesorios{
+.sectionIndex__mobile{
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
-    .indexAccesorios{
+    .indexMobile{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -250,7 +131,7 @@
             margin: 10px;
         }
     }
-    .indexAccesorios__cards{
+    .indexMobile__cards{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -355,6 +236,10 @@
     display: none;
 }
 
+.sectionIndex__accesorios{
+    display: none;
+}
+
 .sectionIndex__combos{
     display: flex;
     flex-direction: column;
@@ -383,8 +268,9 @@
     margin: 2rem 0rem 2rem 0rem;
     .comboPromo{
         img{
-            width: 100%;
-            height: auto;
+            @include centrado;
+            height: 280px;
+            width: auto
         }
         p{
             @include letraTexto2;
@@ -395,11 +281,14 @@
     }
     .promo__texto{
         p{
-            display: none;
+            @include letraRegular;
+            font-size: 18px;
+            font-weight: 300;
+            text-align: center;
+            padding: 2rem 3rem 2rem 3rem;
         }
         button{
             @include centrado;
-            margin-top: 2rem;
             background-color: $verde;
             border-radius: 10px;
             border: none;
