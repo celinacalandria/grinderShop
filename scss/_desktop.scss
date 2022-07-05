@@ -428,7 +428,7 @@
         img{
             @include centrado;
             width: auto;
-            height: 500px;
+            height: 400px;
         }
     }
     .promo__texto{
@@ -438,7 +438,7 @@
         grid-area: texto;
         @include centrado;
         text-align: end;
-        padding: 0rem 3rem 0rem 3rem;
+        padding: 0rem 4rem 0rem 4rem;
         button{
             @include centrado;
             background-color: $verde;
@@ -655,6 +655,22 @@
                     width: 150px;
                     height: auto;
                 }
+                #filtrosVarios{
+                    width: 150px;
+                    height: auto;
+                }
+                #bongArana{
+                    width: 150px;
+                    height: auto;
+                }
+                #bongDK11{
+                    width: 150px;
+                    height: auto;
+                }
+                #bongNacional{
+                    width: 150px;
+                    height: auto;
+                }
             }
             .mensajeCard{
                 height: 52%;
@@ -684,7 +700,7 @@
                     font-size: 16px;
                 }
                 .descripcionCardsR2{
-                    font-size: 12px;
+                    font-size: 13px;
                 }
                 .mensajeWAPP{
                     margin: 0;
@@ -825,7 +841,7 @@
                 align-items: center;/* 
                 transition: all 0.3s; */
                 img{
-                    width: 190px;
+                    width: 230px;
                     height: auto;
                 }
                 #sedasLionS{

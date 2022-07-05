@@ -2605,7 +2605,7 @@
     display: block;
     margin: auto;
     width: auto;
-    height: 500px;
+    height: 400px;
   }
   .indexCombos__promo .promo__texto {
     font-family: 'Montserrat';
@@ -2620,7 +2620,7 @@
     display: block;
     margin: auto;
     text-align: end;
-    padding: 0rem 3rem 0rem 3rem;
+    padding: 0rem 4rem 0rem 4rem;
   }
   .indexCombos__promo .promo__texto button {
     display: block;
@@ -2947,6 +2947,22 @@
     width: 150px;
     height: auto;
   }
+  .mainProductos .contenedor-productos__cards .cards .infoCard #filtrosVarios {
+    width: 150px;
+    height: auto;
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard #bongArana {
+    width: 150px;
+    height: auto;
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard #bongDK11 {
+    width: 150px;
+    height: auto;
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard #bongNacional {
+    width: 150px;
+    height: auto;
+  }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard {
     height: 52%;
     display: -webkit-box;
@@ -2991,7 +3007,7 @@
     font-size: 16px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR2 {
-    font-size: 12px;
+    font-size: 13px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .mensajeWAPP {
     margin: 0;
@@ -3175,7 +3191,7 @@
                 transition: all 0.3s; */
   }
   .mainCombos .contenedor-combos__cards .cards .infoCard img {
-    width: 190px;
+    width: 230px;
     height: auto;
   }
   .mainCombos .contenedor-combos__cards .cards .infoCard #sedasLionS {
