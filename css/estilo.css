@@ -18,11 +18,15 @@
     display: block;
     margin: 1rem;
   }
+  .navbar {
+    background-color: #000000;
+    height: 120px;
+  }
   .navbar button {
     margin: 1rem;
   }
   #navbarSupportedContent {
-    margin: 10px 0 10px 0;
+    margin: 0;
     text-align: center;
     font-family: 'Montserrat';
     font-style: normal;
@@ -31,6 +35,7 @@
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 400;
+    background-color: #000000;
   }
   /* main */
   .mainIndex {
@@ -663,6 +668,471 @@
     color: #FFFFFF;
     font-weight: 300;
     font-size: 20px;
+  }
+  /* PRODUCTOS */
+  .mainProductos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #FFFFFF;
+  }
+  .mainProductos .sectionProductos__barra h5 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    color: #080808;
+    font-size: 20px;
+    text-align: center;
+    margin: 2rem;
+  }
+  .mainProductos .sectionProductos__barra .productosBotones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mainProductos .sectionProductos__barra .productosBotones button {
+    border: 2px solid #28aa65;
+    border-radius: 13px;
+    background-color: #28aa65;
+    padding: 8px 6px 8px 6px;
+    margin: 8px;
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 14px;
+  }
+  .mainProductos .sectionProductos__barra .productosBotones button i {
+    display: none;
+  }
+  .mainProductos .sectionProductos__barra .productosBotones button:hover {
+    -webkit-filter: brightness(80%);
+            filter: brightness(80%);
+    border: 2px solid #59CD90;
+  }
+  .mainProductos .sectionProductos__barra .productosBotones button:hover a {
+    color: #080808;
+  }
+  .mainProductos .sectionProductos__barra .productosBotones button a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .mainProductos .sectionProductos__barra .productosMensaje {
+    display: none;
+  }
+  .mainProductos .sectionProductos__principal {
+    background-color: #FFFFFF;
+    display: block;
+    margin: auto;
+  }
+  .mainProductos .sectionProductos__principal .productosPrincipal {
+    margin: 10px 0 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mainProductos .sectionProductos__principal .productosPrincipal img {
+    height: 40px;
+    width: auto;
+    margin: 15px;
+  }
+  .mainProductos .sectionProductos__principal .productosPrincipal h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-weight: 800;
+    color: #000000;
+    font-size: 32px;
+    margin: 15px 0 15px 0;
+  }
+  .mainProductos .contenedor-productos__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mainProductos .contenedor-productos__cards .cards {
+    width: 290px;
+    height: 525px;
+    border: 3px solid #2A8052;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 3px 3px 0px;
+            box-shadow: 0px 3px 3px 0px;
+    margin: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+    /* 
+            overflow: hidden;
+            position: relative;
+            z-index: 0;    */
+    /* &:hover{
+                filter: blur(1.2px) brightness(20%);
+                transform: scale(1.3);
+                transition: all 0.3s;
+            } */
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard {
+    height: 48%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* 
+                transition: all 0.3s; */
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard img {
+    width: 190px;
+    height: auto;
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard #sedasLionS {
+    width: 150px;
+    height: auto;
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard #filtrosVarios {
+    width: 150px;
+    height: auto;
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard #bongArana {
+    width: 150px;
+    height: auto;
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard #bongDK11 {
+    width: 150px;
+    height: auto;
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard #bongNacional {
+    width: 150px;
+    height: auto;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard {
+    height: 52%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    /* 
+                transition: all 0.3s; */
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard h6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    -webkit-text-decoration: overline 2px #2A8052;
+            text-decoration: overline 2px #2A8052;
+    color: #080808;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 15px;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    color: #080808;
+    font-size: 18px;
+    margin: 15px 2px 15px 20px;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard .tituloCardsR {
+    font-size: 18px;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR {
+    font-size: 16px;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR2 {
+    font-size: 13px;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard .mensajeWAPP {
+    margin: 0;
+    padding: 0.5rem 0 1rem 0;
+    text-align: center;
+    font-size: 18px;
+    background-color: #59CD90;
+    border: 2px solid #59CD90;
+    border-radius: 0 0 15px 15px;
+    height: 3rem;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard .mensajeWAPP a {
+    text-decoration: none;
+    color: #000000;
+  }
+  /* COMBOS */
+  .mainCombos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #FFFFFF;
+  }
+  .mainCombos .sectionCombos__barra {
+    /* .combosBotones{
+            margin: 2rem 2rem 3rem 4rem;
+            display: flex;
+            flex-wrap: wrap;
+            button{
+                border: 2px solid $verde;
+                border-radius: 8px;
+                background-color: $fondo2;
+                padding: 6px, 16px, 6px, 16px;
+                margin: 1rem;
+                @include letraTexto;
+                color: $fondo;
+                font-size: 18px;
+                i{
+                    display: none;
+                }
+                &:hover{
+                    background-color: $hover;
+                    color: $negro;   
+                    border: 2px solid $negro;
+                    transition: all 0.3s;
+                }
+                &:hover i{
+                    display: inline-block;
+                }
+            }
+        } */
+  }
+  .mainCombos .sectionCombos__barra h5 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    color: #080808;
+    font-size: 24px;
+    text-align: center;
+    margin: 2rem;
+  }
+  .mainCombos .sectionCombos__barra .combosMensaje {
+    display: none;
+  }
+  .mainCombos .sectionCombos__principal {
+    background-color: #FFFFFF;
+    display: block;
+    margin: auto;
+  }
+  .mainCombos .sectionCombos__principal .combosPrincipal {
+    margin: 5px 0 5px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mainCombos .sectionCombos__principal .combosPrincipal img {
+    height: 40px;
+    width: auto;
+    margin: 15px;
+  }
+  .mainCombos .sectionCombos__principal .combosPrincipal h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-weight: 800;
+    color: #000000;
+    font-size: 32px;
+    margin: 15px 0 15px 0;
+  }
+  .mainCombos .contenedor-combos__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mainCombos .contenedor-combos__cards .cards {
+    width: 295px;
+    height: 535px;
+    border: 3px solid #2A8052;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 3px 3px 0px;
+            box-shadow: 0px 3px 3px 0px;
+    margin: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+    /* 
+            overflow: hidden;
+            position: relative;
+            z-index: 0;    */
+    /* &:hover{
+                filter: blur(1.2px) brightness(20%);
+                transform: scale(1.3);
+                transition: all 0.3s;
+            } */
+  }
+  .mainCombos .contenedor-combos__cards .cards .infoCard {
+    height: 48%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* 
+                transition: all 0.3s; */
+  }
+  .mainCombos .contenedor-combos__cards .cards .infoCard img {
+    width: 230px;
+    height: auto;
+  }
+  .mainCombos .contenedor-combos__cards .cards .infoCard #sedasLionS {
+    width: 150px;
+    height: auto;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard {
+    height: 52%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    /* 
+                transition: all 0.3s; */
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard h6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    -webkit-text-decoration: overline 2px #2A8052;
+            text-decoration: overline 2px #2A8052;
+    color: #080808;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 10px;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    color: #080808;
+    font-size: 16px;
+    margin: 15px 2px 15px 20px;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard .descripcionCardsR {
+    font-size: 14px;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard .mensajeWAPP {
+    margin: 0;
+    padding: 0.5rem 0 1rem 0;
+    text-align: center;
+    font-size: 18px;
+    background-color: #59CD90;
+    border: 2px solid #59CD90;
+    border-radius: 0 0 15px 15px;
+    height: 3rem;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard .mensajeWAPP a {
+    text-decoration: none;
+    color: #000000;
+  }
+  #bola8 {
+    margin-top: 1rem;
   }
   /* NOSOTROS */
   .nosotros {
@@ -2849,7 +3319,7 @@
     height: auto;
   }
   .mainProductos .sectionProductos__principal {
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
     margin: 0;
     padding: 0 5rem 6rem 1rem;
   }
@@ -3100,7 +3570,7 @@
     height: auto;
   }
   .mainCombos .sectionCombos__principal {
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
     margin: 0;
     padding: 0 5rem 6rem 1rem;
   }
