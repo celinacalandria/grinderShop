@@ -9,17 +9,20 @@
     margin: 1rem;
 }
 .navbar{
+    background-color: $negro;
+    height: 120px;
     button{
         margin: 1rem;
     }
 }
 #navbarSupportedContent{
-    margin: 10px 0 10px 0;
+    margin: 0 0 10px 0;
     text-align: center;
     @include letraRegular;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 400; 
+    background-color: $negro;
 }
 
 /* main */
@@ -99,133 +102,18 @@
 
 /* section picadores */
 .sectionIndex__picadores{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 3rem;
-    .indexPicadores{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        img{
-            @include centrado;
-            margin: 10px;
-            height: 40px;
-            width: 40px;
-        }
-        h4{
-            @include letraRegular;
-            text-align: center;
-            font-size: 30px;
-            font-weight: 400;
-            margin: 10px;
-        }
-    }
-    .indexPicadores__cards{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 2rem;
-        div{
-            border: 3px solid $verde;
-            border-radius: 20px;
-            margin: 1rem;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-            position: relative;
-            height: 400px;
-            width: 300px;
-            z-index: 0;
-            img{
-                width: 200px;
-                height: auto;
-                @include centrado;
-                transition: all 0.3s;
-            }
-            p{
-                border: 1px solid $verde;
-                border-radius: 20px;
-                text-align: center;
-                @include letraRegular;
-                font-size: 18px;
-                padding: 1rem 0rem 1rem 0rem;
-                margin: 2rem 0.5rem 0.5rem 0.5rem;
-                transition: all 0.3s;
-            }
-            &:hover img{
-                filter: blur(1.1px) brightness(20%);
-                transform: scale(1.1);
-                transition: all 0.3s;
-            }
-            &:hover p{
-                display: none;
-                transition: all 0.3s;
-            }
-            &:hover {
-                border: 3px solid $hover;
-            }
-            .cardEfecto{
-                z-index: 10;
-                text-align: center;
-                color: $blanco;
-                @include letraRegular;
-                margin: 0;
-                border: none;
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                .efecto{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    border: none;
-                    margin: 0;
-                    position: relative;
-                    width: 100%;
-                    height: 100%;
-                    bottom: 100%;
-                    transition: all 0.3s;
-                    h6{
-                        font-size: 24px;
-                        font-weight: 700;
-                        margin: 2rem;
-                    }
-                    p{
-                        font-size: 15px;
-                        color: $blanco;
-                        border: none;
-                        margin: 1rem;
-                    }
-                    button{
-                        @include centrado;
-                        margin: 2rem;
-                        border: 0.2px solid $blanco;
-                        border-radius: 10px;
-                        background-color: $fondo;
-                        color: $blanco;
-                        width: 50%;
-                        height: 2rem;
-                    }
-                }
-            }
-            &:hover .efecto{
-                bottom: 0;
-                transition: all 0.3s;
-            }
-            &:hover .efectoP{
-                display: block;
-                transition: all 0.3s;
-            }
-        }
-    }
+    display: none;
 }
 
 .sectionIndex__accesorios{
+    display: none;
+}
+
+.sectionIndex__mobile{
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
-    .indexAccesorios{
+    .indexMobile{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -243,7 +131,7 @@
             margin: 10px;
         }
     }
-    .indexAccesorios__cards{
+    .indexMobile__cards{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -261,7 +149,7 @@
             width: 300px;
             z-index: 0;
             img{
-                width: 200px;
+                width: 150px;
                 height: auto;
                 @include centrado;
                 transition: all 0.3s;
@@ -329,6 +217,18 @@
                         color: $blanco;
                         width: 50%;
                         height: 2rem;
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
+                        &:hover{
+                            background-color: $hover;
+                            color: $negro;   
+                            border: 1px solid $negro;
+                        }
+                        &:hover a{
+                            color: $negro;
+                        }
                     }
                 }
             }
@@ -343,7 +243,7 @@
         }
     }
 }
-
+ 
 .sectionIndex__giratorio{
     display: none;
 }
@@ -376,9 +276,9 @@
     margin: 2rem 0rem 2rem 0rem;
     .comboPromo{
         img{
-            width: 70%;
-            height: auto;
             @include centrado;
+            height: 350px;
+            width: auto;
         }
         p{
             @include letraTexto2;
@@ -389,7 +289,11 @@
     }
     .promo__texto{
         p{
-            display: none;
+            @include letraRegular;
+            font-size: 18px;
+            font-weight: 300;
+            text-align: center;
+            padding: 2rem 3rem 2rem 3rem;
         }
         button{
             @include centrado;
@@ -458,28 +362,362 @@
 }
 
 .sectionIndex__compra{
-    margin: 3rem;
+    margin: 2rem 0rem 1rem 0rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
     div{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         i{
             padding: 0;
-            margin: 1rem;
+            margin: 0.5rem;
             color: $form;
-            font-size: 30px;
+            font-size: 25px;
         }
         h4{
             padding: 0;
-            margin: 1rem;
+            margin: 0.5rem;
             @include letraTexto;
             font-weight: 300;
-            font-size: 20px;
+            font-size: 18px;
         }
     }
+}
+
+/* PRODUCTOS */
+.mainProductos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $blanco;
+    padding-bottom: 2rem;
+    .sectionProductos__barra{
+        h5{
+            @include letraTexto;
+            color: $fondo;
+            font-size: 20px;
+            text-align: center;
+            margin: 2rem;
+        }
+        .productosBotones{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            button{
+                border: 2px solid $mobile;
+                border-radius: 13px;
+                background-color: $mobile;
+                padding: 8px 6px 8px 6px;
+                margin: 8px;
+                width: 40%;
+                @include letraTexto;
+                font-size: 14px;
+                i{
+                    display: none;
+                }
+                &:hover{   
+                    filter: brightness(80%);
+                    border: 2px solid $hover;
+                }
+                &:hover a{
+                    color: $fondo;
+                }
+                a{
+                    text-decoration: none;
+                    color: $blanco;
+                }
+            }
+        }
+        .productosMensaje{
+            display: none;
+        }
+    }
+    .sectionProductos__principal{
+        background-color: $blanco;
+        @include centrado;
+        .productosPrincipal{
+            margin: 10px 0 10px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            img{
+                height: 40px;
+                width: auto;
+                margin: 15px;
+            }
+            h2{
+                @include letraRegular;
+                font-weight: 800;
+                color: $negro;
+                font-size: 32px;
+                margin: 15px 0 15px 0;
+            }
+        }
+    }
+    .contenedor-productos__cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .cards{
+            width: 290px;
+            height: 525px;   
+            border: 3px solid $verde;
+            border-radius: 15px;     
+            box-shadow: 0px 3px 3px 0px;
+            margin: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: left; /* 
+            overflow: hidden;
+            position: relative;
+            z-index: 0;    */        
+            .infoCard{
+                height: 48%;
+                display: flex;
+                justify-content: center;
+                align-items: center;/* 
+                transition: all 0.3s; */
+                img{
+                    width: 190px;
+                    height: auto;
+                }
+                #sedasLionS{
+                    width: 150px;
+                    height: auto;
+                }
+                #filtrosVarios{
+                    width: 150px;
+                    height: auto;
+                }
+                #bongArana{
+                    width: 150px;
+                    height: auto;
+                }
+                #bongDK11{
+                    width: 150px;
+                    height: auto;
+                }
+                #bongNacional{
+                    width: 150px;
+                    height: auto;
+                }
+            }
+            .mensajeCard{
+                height: 52%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;/* 
+                transition: all 0.3s; */
+                h6{
+                    @include letraRegular;
+                    text-align: center;
+                    text-decoration: overline 2px $verde;
+                    color: $fondo;
+                    font-weight: 600;
+                    font-size: 20px;
+                    margin: 15px;
+                }
+                p{
+                    @include letraRegular;
+                    color: $fondo;
+                    font-size: 18px;
+                    margin: 15px 2px 15px 20px;
+                }
+                .tituloCardsR{
+                    font-size: 18px;
+                }
+                .descripcionCardsR{
+                    font-size: 16px;
+                }
+                .descripcionCardsR2{
+                    font-size: 13px;
+                }
+                .mensajeWAPP{
+                    margin: 0;
+                    padding: 0.5rem 0 1rem 0;
+                    text-align: center;
+                    font-size: 18px;
+                    background-color: $hover;
+                    border: 2px solid $hover;
+                    border-radius: 0 0 15px 15px;
+                    height: 3rem;
+                    a{
+                        text-decoration: none;
+                        color: $negro;
+                    }
+                }
+            }
+            /* &:hover{
+                filter: blur(1.2px) brightness(20%);
+                transform: scale(1.3);
+                transition: all 0.3s;
+            } */
+            
+        }
+    }
+}
+
+/* COMBOS */
+.mainCombos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $blanco;
+    padding-bottom: 2rem;
+    .sectionCombos__barra{
+        h5{
+            @include letraTexto;
+            color: $fondo;
+            font-size: 24px;
+            text-align: center;
+            margin: 2rem;
+        }
+        /* .combosBotones{
+            margin: 2rem 2rem 3rem 4rem;
+            display: flex;
+            flex-wrap: wrap;
+            button{
+                border: 2px solid $verde;
+                border-radius: 8px;
+                background-color: $fondo2;
+                padding: 6px, 16px, 6px, 16px;
+                margin: 1rem;
+                @include letraTexto;
+                color: $fondo;
+                font-size: 18px;
+                i{
+                    display: none;
+                }
+                &:hover{
+                    background-color: $hover;
+                    color: $negro;   
+                    border: 2px solid $negro;
+                    transition: all 0.3s;
+                }
+                &:hover i{
+                    display: inline-block;
+                }
+            }
+        } */
+        .combosMensaje{
+            display: none;
+        }
+    }
+    .sectionCombos__principal{
+        background-color: $blanco;
+        @include centrado;
+        .combosPrincipal{
+            margin: 5px 0 5px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            img{
+                height: 40px;
+                width: auto;
+                margin: 15px;
+            }
+            h2{
+                @include letraRegular;
+                font-weight: 800;
+                color: $negro;
+                font-size: 32px;
+                margin: 15px 0 15px 0;
+            }
+        }
+    }
+    .contenedor-combos__cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .cards{
+            width: 295px;
+            height: 535px;   
+            border: 3px solid $verde;
+            border-radius: 15px;     
+            box-shadow: 0px 3px 3px 0px;
+            margin: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: left; /* 
+            overflow: hidden;
+            position: relative;
+            z-index: 0;    */        
+            .infoCard{
+                height: 48%;
+                display: flex;
+                justify-content: center;
+                align-items: center;/* 
+                transition: all 0.3s; */
+                img{
+                    width: 230px;
+                    height: auto;
+                }
+                #sedasLionS{
+                    width: 150px;
+                    height: auto;
+                }
+            }
+            .mensajeCard{
+                height: 52%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;/* 
+                transition: all 0.3s; */
+                h6{
+                    @include letraRegular;
+                    text-align: center;
+                    text-decoration: overline 2px $verde;
+                    color: $fondo;
+                    font-weight: 600;
+                    font-size: 22px;
+                    margin: 10px;
+                }
+                p{
+                    @include letraRegular;
+                    color: $fondo;
+                    font-size: 16px;
+                    margin: 15px 2px 15px 20px;
+                }
+                .descripcionCardsR{
+                    font-size: 14px;
+                }
+                .mensajeWAPP{
+                    margin: 0;
+                    padding: 0.5rem 0 1rem 0;
+                    text-align: center;
+                    font-size: 18px;
+                    background-color: $hover;
+                    border: 2px solid $hover;
+                    border-radius: 0 0 15px 15px;
+                    height: 3rem;
+                    a{
+                        text-decoration: none;
+                        color: $negro;
+                    }
+                }
+            }
+            /* &:hover{
+                filter: blur(1.2px) brightness(20%);
+                transform: scale(1.3);
+                transition: all 0.3s;
+            } */
+        }
+    }
+}
+#bola8{
+    margin-top: 1rem;
 }
 
 /* NOSOTROS */
@@ -723,6 +961,8 @@
             text-align: start;
             margin: 10px;
             font-size: 16px; 
+            text-decoration: none;
+            color: $blanco;
         }
     }
 }
