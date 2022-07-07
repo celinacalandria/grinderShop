@@ -538,6 +538,9 @@
     background-color: #FFFFFF;
     padding-bottom: 2rem;
   }
+  .mainProductos .sectionProductos__barra {
+    width: 100%;
+  }
   .mainProductos .sectionProductos__barra h5 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -569,7 +572,7 @@
     background-color: #28aa65;
     padding: 8px 6px 8px 6px;
     margin: 8px;
-    width: 40%;
+    width: 25%;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -645,7 +648,7 @@
   }
   .mainProductos .contenedor-productos__cards .cards {
     width: 290px;
-    height: 525px;
+    height: 530px;
     border: 3px solid #2A8052;
     border-radius: 15px;
     -webkit-box-shadow: 0px 3px 3px 0px;
@@ -736,7 +739,7 @@
     color: #080808;
     font-weight: 600;
     font-size: 20px;
-    margin: 15px;
+    margin: 10px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard p {
     font-family: 'Montserrat';
@@ -745,13 +748,13 @@
     color: #FFFFFF;
     color: #080808;
     font-size: 18px;
-    margin: 15px 2px 15px 20px;
+    margin: 15px 5px 15px 20px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .tituloCardsR {
     font-size: 18px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR {
-    font-size: 16px;
+    font-size: 15px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR2 {
     font-size: 13px;
@@ -880,8 +883,8 @@
             align-items: center;
   }
   .mainCombos .contenedor-combos__cards .cards {
-    width: 295px;
-    height: 535px;
+    width: 300px;
+    height: 540px;
     border: 3px solid #2A8052;
     border-radius: 15px;
     -webkit-box-shadow: 0px 3px 3px 0px;
@@ -965,7 +968,10 @@
     color: #FFFFFF;
     color: #080808;
     font-size: 16px;
-    margin: 15px 2px 15px 20px;
+    margin: 15px 5px 15px 20px;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard .tituloCardsR {
+    font-size: 20px;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 14px;
@@ -1870,6 +1876,9 @@
     background-color: #FFFFFF;
     padding-bottom: 2rem;
   }
+  .mainProductos .sectionProductos__barra {
+    width: 100%;
+  }
   .mainProductos .sectionProductos__barra h5 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -1901,7 +1910,7 @@
     background-color: #28aa65;
     padding: 8px 6px 8px 6px;
     margin: 8px;
-    width: 40%;
+    width: 25%;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1977,7 +1986,7 @@
   }
   .mainProductos .contenedor-productos__cards .cards {
     width: 290px;
-    height: 525px;
+    height: 530px;
     border: 3px solid #2A8052;
     border-radius: 15px;
     -webkit-box-shadow: 0px 3px 3px 0px;
@@ -2068,7 +2077,7 @@
     color: #080808;
     font-weight: 600;
     font-size: 20px;
-    margin: 15px;
+    margin: 10px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard p {
     font-family: 'Montserrat';
@@ -2076,14 +2085,14 @@
     font-weight: 400;
     color: #FFFFFF;
     color: #080808;
-    font-size: 18px;
-    margin: 15px 2px 15px 20px;
+    font-size: 16px;
+    margin: 15px 5px 15px 20px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .tituloCardsR {
     font-size: 18px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR {
-    font-size: 16px;
+    font-size: 15px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR2 {
     font-size: 13px;
@@ -2212,8 +2221,8 @@
             align-items: center;
   }
   .mainCombos .contenedor-combos__cards .cards {
-    width: 295px;
-    height: 535px;
+    width: 300px;
+    height: 540px;
     border: 3px solid #2A8052;
     border-radius: 15px;
     -webkit-box-shadow: 0px 3px 3px 0px;
@@ -2296,8 +2305,11 @@
     font-weight: 400;
     color: #FFFFFF;
     color: #080808;
-    font-size: 16px;
-    margin: 15px 2px 15px 20px;
+    font-size: 15px;
+    margin: 15px 5px 15px 20px;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard .tituloCardsR {
+    font-size: 20px;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 14px;

@@ -396,6 +396,7 @@
     background-color: $blanco;
     padding-bottom: 2rem;
     .sectionProductos__barra{
+        width: 100%;
         h5{
             @include letraTexto;
             color: $fondo;
@@ -414,7 +415,7 @@
                 background-color: $mobile;
                 padding: 8px 6px 8px 6px;
                 margin: 8px;
-                width: 40%;
+                width: 25%;
                 @include letraTexto;
                 font-size: 14px;
                 i{
@@ -467,7 +468,7 @@
         align-items: center;
         .cards{
             width: 290px;
-            height: 525px;   
+            height: 530px;   
             border: 3px solid $verde;
             border-radius: 15px;     
             box-shadow: 0px 3px 3px 0px;
@@ -523,19 +524,19 @@
                     color: $fondo;
                     font-weight: 600;
                     font-size: 20px;
-                    margin: 15px;
+                    margin: 10px;
                 }
                 p{
                     @include letraRegular;
                     color: $fondo;
-                    font-size: 18px;
-                    margin: 15px 2px 15px 20px;
+                    font-size: 16px;
+                    margin: 15px 5px 15px 20px;
                 }
                 .tituloCardsR{
                     font-size: 18px;
                 }
                 .descripcionCardsR{
-                    font-size: 16px;
+                    font-size: 15px;
                 }
                 .descripcionCardsR2{
                     font-size: 13px;
@@ -641,8 +642,8 @@
         justify-content: center;
         align-items: center;
         .cards{
-            width: 295px;
-            height: 535px;   
+            width: 300px;
+            height: 540px;   
             border: 3px solid $verde;
             border-radius: 15px;     
             box-shadow: 0px 3px 3px 0px;
@@ -687,8 +688,11 @@
                 p{
                     @include letraRegular;
                     color: $fondo;
-                    font-size: 16px;
-                    margin: 15px 2px 15px 20px;
+                    font-size: 15px;
+                    margin: 15px 5px 15px 20px;
+                }
+                .tituloCardsR{
+                    font-size: 20px;
                 }
                 .descripcionCardsR{
                     font-size: 14px;
