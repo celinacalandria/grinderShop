@@ -421,14 +421,32 @@
     }
 }
 
+.sectionIndex__publicidad{
+    div{
+        width: 100%;
+        margin: 4rem 0 4rem 0;
+        img{
+            @include centrado;
+            width: 70%;
+            height: auto;
+        }
+    }
+}
+
 .indexCombos__promo{
-    margin: 2rem 0rem 0rem 0rem;
+    margin: 2rem 0rem 2rem 0rem;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     grid-template-rows: auto;
     grid-template-areas: "foto texto";
     .comboPromo{
         grid-area: foto;
+        /* border:{
+            top: solid 2px $hover;
+            left: none;
+            bottom: solid 2px $hover;
+            right: none;
+        } */
         img{
             @include centrado;
             width: auto;
@@ -470,10 +488,23 @@
     }
 }
 
+.asideFondo{
+    @include centrado;
+    height: 600px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .sectionIndex__marcas{
     display: flex;
     flex-direction: column;
-    margin: 8rem 0rem 3rem 0rem;
+    margin: 4rem 0rem 0rem 0rem;
     .indexMarcas{
         display: flex;
         flex-direction: row;
@@ -502,7 +533,7 @@
             justify-content: space-between;
         }
         img{
-            width: 150px;
+            width: 120px;
             height: auto;
             @include centrado;
             margin: 1rem;
@@ -511,6 +542,7 @@
 }
 
 .sectionIndex__compra{
+    width: 100%;
     margin: 2rem 0rem 1rem 0rem;
     display: flex;
     flex-direction: row;

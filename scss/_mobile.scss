@@ -244,6 +244,10 @@
     }
 }
 
+.sectionIndex__publicidad{
+    display: none;
+}
+
 .sectionIndex__giratorio{
     display: none;
 }
@@ -325,10 +329,23 @@
     }
 }
 
+.asideFondo{
+    @include centrado;
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .sectionIndex__marcas{
     display: flex;
     flex-direction: column;
-    margin: 2rem;
+    margin: 1rem;
     .indexMarcas{
         display: flex;
         flex-direction: row;
@@ -336,13 +353,13 @@
         img{
             @include centrado;
             margin: 10px;
-            height: 40px;
-            width: 40px;
+            height: 30px;
+            width: 30px;
         }
         h4{
             @include letraGrinder;
             text-align: center;
-            font-size: 30px;
+            font-size: 27px;
             font-weight: 400;
             margin: 10px;
         }
@@ -356,7 +373,7 @@
             margin: 1rem;
         }
         img{
-            width: 110px;
+            width: 100px;
             height: auto;
             @include centrado;
             margin: 1rem;
@@ -523,7 +540,7 @@
                 h6{
                     @include letraRegular;
                     text-align: center;
-                    text-decoration: overline 2px $verde;
+                    text-decoration: overline 2.5px $verde;
                     color: $fondo;
                     font-weight: 600;
                     font-size: 20px;
@@ -682,7 +699,7 @@
                 h6{
                     @include letraRegular;
                     text-align: center;
-                    text-decoration: overline 2px $verde;
+                    text-decoration: overline 2.5px $verde;
                     color: $fondo;
                     font-weight: 600;
                     font-size: 22px;

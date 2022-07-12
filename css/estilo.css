@@ -318,6 +318,9 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
+  .sectionIndex__publicidad {
+    display: none;
+  }
   .sectionIndex__giratorio {
     display: none;
   }
@@ -416,6 +419,28 @@
     background-color: #59CD90;
     letter-spacing: 0.03rem;
   }
+  .asideFondo {
+    display: block;
+    margin: auto;
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .sectionIndex__marcas {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -424,7 +449,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 2rem;
+    margin: 1rem;
   }
   .sectionIndex__marcas .indexMarcas {
     display: -webkit-box;
@@ -442,8 +467,8 @@
     display: block;
     margin: auto;
     margin: 10px;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
   }
   .sectionIndex__marcas .indexMarcas h4 {
     font-family: 'Yeseva One';
@@ -451,7 +476,7 @@
     font-weight: 400;
     color: #FFFFFF;
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 400;
     margin: 10px;
   }
@@ -473,7 +498,7 @@
     margin: 1rem;
   }
   .sectionIndex__marcas .indexMarcas__cards img {
-    width: 110px;
+    width: 100px;
     height: auto;
     display: block;
     margin: auto;
@@ -734,8 +759,8 @@
     font-weight: 400;
     color: #FFFFFF;
     text-align: center;
-    -webkit-text-decoration: overline 2px #2A8052;
-            text-decoration: overline 2px #2A8052;
+    -webkit-text-decoration: overline 2.5px #2A8052;
+            text-decoration: overline 2.5px #2A8052;
     color: #080808;
     font-weight: 600;
     font-size: 20px;
@@ -954,8 +979,8 @@
     font-weight: 400;
     color: #FFFFFF;
     text-align: center;
-    -webkit-text-decoration: overline 2px #2A8052;
-            text-decoration: overline 2px #2A8052;
+    -webkit-text-decoration: overline 2.5px #2A8052;
+            text-decoration: overline 2.5px #2A8052;
     color: #080808;
     font-weight: 600;
     font-size: 22px;
@@ -1655,6 +1680,16 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
+  .sectionIndex__publicidad div {
+    width: 100%;
+    margin: 4rem 0 4rem 0;
+  }
+  .sectionIndex__publicidad div img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: auto;
+  }
   .sectionIndex__giratorio {
     display: none;
   }
@@ -1751,6 +1786,28 @@
     background-color: #59CD90;
     letter-spacing: 0.03rem;
   }
+  .asideFondo {
+    display: block;
+    margin: auto;
+    height: 450px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .sectionIndex__marcas {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1808,11 +1865,11 @@
     margin: 1rem;
   }
   .sectionIndex__marcas .indexMarcas__cards img {
-    width: 110px;
+    width: 90px;
     height: auto;
     display: block;
     margin: auto;
-    margin: 1rem;
+    margin: 0.5rem;
   }
   .sectionIndex__compra {
     margin: 2rem 0rem 1rem 0rem;
@@ -2072,8 +2129,8 @@
     font-weight: 400;
     color: #FFFFFF;
     text-align: center;
-    -webkit-text-decoration: overline 2px #2A8052;
-            text-decoration: overline 2px #2A8052;
+    -webkit-text-decoration: overline 2.5px #2A8052;
+            text-decoration: overline 2.5px #2A8052;
     color: #080808;
     font-weight: 600;
     font-size: 20px;
@@ -2292,8 +2349,8 @@
     font-weight: 400;
     color: #FFFFFF;
     text-align: center;
-    -webkit-text-decoration: overline 2px #2A8052;
-            text-decoration: overline 2px #2A8052;
+    -webkit-text-decoration: overline 2.5px #2A8052;
+            text-decoration: overline 2.5px #2A8052;
     color: #080808;
     font-weight: 600;
     font-size: 22px;
@@ -2494,7 +2551,7 @@
     width: 200px;
     height: auto;
   }
-  .sectionIconos .icons__inputs {
+  .sectionIconos .iconos__contacto {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2508,15 +2565,30 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 20px;
   }
-  .sectionIconos .icons__inputs i {
+  .sectionIconos .iconos__contacto .icons__inputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 5px;
+  }
+  .sectionIconos .iconos__contacto .icons__inputs i {
     padding: 0;
     margin: 1rem;
     color: #1BD743;
-    font-size: 22px;
+    font-size: 18px;
   }
-  .sectionIconos .icons__inputs h4 {
+  .sectionIconos .iconos__contacto .icons__inputs h4 {
     padding: 0;
     margin: 1rem;
     font-family: 'Roboto', sans-serif;
@@ -2524,7 +2596,7 @@
     font-weight: 500;
     color: #FFFFFF;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 14px;
   }
   /* FOOTER */
   .footer {
@@ -3253,8 +3325,18 @@
     margin: 10px 0px 50px 0px;
     letter-spacing: 0.3rem;
   }
+  .sectionIndex__publicidad div {
+    width: 100%;
+    margin: 4rem 0 4rem 0;
+  }
+  .sectionIndex__publicidad div img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: auto;
+  }
   .indexCombos__promo {
-    margin: 2rem 0rem 0rem 0rem;
+    margin: 2rem 0rem 2rem 0rem;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1.5fr;
@@ -3267,6 +3349,12 @@
     -ms-grid-row: 1;
     -ms-grid-column: 2;
     grid-area: foto;
+    /* border:{
+            top: solid 2px $hover;
+            left: none;
+            bottom: solid 2px $hover;
+            right: none;
+        } */
   }
   .indexCombos__promo .comboPromo img {
     display: block;
@@ -3316,6 +3404,28 @@
     background-color: #59CD90;
     letter-spacing: 0.03rem;
   }
+  .asideFondo {
+    display: block;
+    margin: auto;
+    height: 600px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .sectionIndex__marcas {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3324,7 +3434,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 8rem 0rem 3rem 0rem;
+    margin: 4rem 0rem 0rem 0rem;
   }
   .sectionIndex__marcas .indexMarcas {
     display: -webkit-box;
@@ -3379,13 +3489,14 @@
             justify-content: space-between;
   }
   .sectionIndex__marcas .indexMarcas__cards img {
-    width: 150px;
+    width: 120px;
     height: auto;
     display: block;
     margin: auto;
     margin: 1rem;
   }
   .sectionIndex__compra {
+    width: 100%;
     margin: 2rem 0rem 1rem 0rem;
     display: -webkit-box;
     display: -ms-flexbox;
