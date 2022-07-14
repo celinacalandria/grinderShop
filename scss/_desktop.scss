@@ -490,7 +490,6 @@
 
 .asideFondo{
     @include centrado;
-    height: 600px;
     width: 90%;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -1108,18 +1107,28 @@
         letter-spacing: 0.03rem;
         li{
             display: flex;
-            flex-direction: column-reverse;
+            flex-direction: column;
             justify-content: center;
             padding: 20px 40px 40px 40px;
             text-align: center;
-            p{
+            a{
                 margin: 5px;
+                text-decoration: none;
+                color: $blanco;
             }
             img{
-                padding: 5px;
+                padding: 10px;
                 @include centrado;
                 height: 80px;
                 width: 80px;
+                transition: all 0.3s;
+            }
+            &:hover a{
+                color: $hover;
+            }
+            &:hover img{
+                transform: scale(1.15,1.15);
+                transition: all 0.3s;
             }
         }
     }
@@ -1174,15 +1183,21 @@
         align-items: center;
         i{
             margin: 10px;
-            font-size: 20px;
+            font-size: 22px;
         }
-        p{
+        a{
             text-align: center;
             margin: 10px;
             font-size: 20px;
             line-height: 29px;
             letter-spacing: 0.03rem;
+            text-decoration: none;
+            color: $blanco;
+            &:hover i{
+                color: $hover;
+            }
         }
+
     }
     
 }

@@ -422,7 +422,6 @@
   .asideFondo {
     display: block;
     margin: auto;
-    height: 700px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -1248,7 +1247,7 @@
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 12px;
   }
   .footerImg ul li {
     width: 25%;
@@ -1265,8 +1264,10 @@
     padding: 10px;
     text-align: center;
   }
-  .footerImg ul li p {
+  .footerImg ul li a {
     margin: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
   }
   .footerImg ul li img {
     padding: 5px;
@@ -1274,6 +1275,15 @@
     margin: auto;
     height: 50px;
     width: 50px;
+  }
+  .footerImg ul li:hover a {
+    color: #59CD90;
+  }
+  .footerImg ul li:hover img {
+    -webkit-transform: scale(1.15, 1.15);
+            transform: scale(1.15, 1.15);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
   }
   .footerTexto {
     display: -webkit-box;
@@ -1359,12 +1369,15 @@
     margin: 10px;
     font-size: 20px;
   }
-  .footerContacto .footerContacto__redes p {
+  .footerContacto .footerContacto__redes a {
     text-align: start;
     margin: 10px;
     font-size: 16px;
     text-decoration: none;
     color: #FFFFFF;
+  }
+  .footerContacto .footerContacto__redes a:hover i {
+    color: #59CD90;
   }
 }
 
@@ -1789,7 +1802,6 @@
   .asideFondo {
     display: block;
     margin: auto;
-    height: 450px;
     width: 90%;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -2650,8 +2662,10 @@
     padding: 10px;
     text-align: center;
   }
-  .footerImg ul li p {
+  .footerImg ul li a {
     margin: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
   }
   .footerImg ul li img {
     padding: 5px;
@@ -2659,6 +2673,15 @@
     margin: auto;
     height: 50px;
     width: 50px;
+  }
+  .footerImg ul li:hover a {
+    color: #59CD90;
+  }
+  .footerImg ul li:hover img {
+    -webkit-transform: scale(1.15, 1.15);
+            transform: scale(1.15, 1.15);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
   }
   .footerTexto {
     display: -webkit-box;
@@ -2744,12 +2767,15 @@
     margin: 10px;
     font-size: 20px;
   }
-  .footerContacto .footerContacto__redes p {
+  .footerContacto .footerContacto__redes a {
     text-align: start;
     margin: 10px;
     font-size: 16px;
     text-decoration: none;
     color: #FFFFFF;
+  }
+  .footerContacto .footerContacto__redes a:hover i {
+    color: #59CD90;
   }
 }
 
@@ -3407,7 +3433,6 @@
   .asideFondo {
     display: block;
     margin: auto;
-    height: 600px;
     width: 90%;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -4261,24 +4286,37 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     padding: 20px 40px 40px 40px;
     text-align: center;
   }
-  .footerImg ul li p {
+  .footerImg ul li a {
     margin: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
   }
   .footerImg ul li img {
-    padding: 5px;
+    padding: 10px;
     display: block;
     margin: auto;
     height: 80px;
     width: 80px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .footerImg ul li:hover a {
+    color: #59CD90;
+  }
+  .footerImg ul li:hover img {
+    -webkit-transform: scale(1.15, 1.15);
+            transform: scale(1.15, 1.15);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
   }
   .footerTexto {
     display: -webkit-box;
@@ -4354,14 +4392,19 @@
   }
   .footerContacto .footerContacto__redes i {
     margin: 10px;
-    font-size: 20px;
+    font-size: 22px;
   }
-  .footerContacto .footerContacto__redes p {
+  .footerContacto .footerContacto__redes a {
     text-align: center;
     margin: 10px;
     font-size: 20px;
     line-height: 29px;
     letter-spacing: 0.03rem;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .footerContacto .footerContacto__redes a:hover i {
+    color: #59CD90;
   }
 }
 

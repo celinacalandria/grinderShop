@@ -336,7 +336,6 @@
 
 .asideFondo{
     @include centrado;
-    height: 450px;
     width: 90%;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -928,14 +927,23 @@
             justify-content: center;
             padding: 10px;
             text-align: center;
-            p{
+            a{
                 margin: 5px;
+                text-decoration: none;
+                color: $blanco;
             }
             img{
                 padding: 5px;
                 @include centrado;
                 height: 50px;
                 width: 50px;
+            }
+            &:hover a{
+                color: $hover;
+            }
+            &:hover img{
+                transform: scale(1.15,1.15);
+                transition: all 0.3s;
             }
         }
     }
@@ -992,12 +1000,15 @@
             margin: 10px;
             font-size: 20px;
         }
-        p{
+        a{
             text-align: start;
             margin: 10px;
             font-size: 16px; 
             text-decoration: none;
             color: $blanco;
+            &:hover i{
+                color: $hover;
+            }
         }
     }
 }
