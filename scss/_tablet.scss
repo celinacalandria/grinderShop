@@ -11,6 +11,7 @@
 .navbar{
     background-color: $negro;
     height: 120px;
+    padding: 0;
     button{
         margin: 1rem;
     }
@@ -500,19 +501,20 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            text-align: left; /* 
+            text-align: left;  
             overflow: hidden;
             position: relative;
-            z-index: 0;    */        
+            z-index: 0;          
             .infoCard{
                 height: 48%;
                 display: flex;
                 justify-content: center;
-                align-items: center;/* 
-                transition: all 0.3s; */
+                align-items: center;
+                transition: all 0.3s;
                 img{
                     width: 190px;
                     height: auto;
+                    transition: all 0.3s;
                 }
                 #sedasLionS{
                     width: 150px;
@@ -539,8 +541,8 @@
                 height: 52%;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between;/* 
-                transition: all 0.3s; */
+                justify-content: space-between;
+                transition: all 0.3s;
                 h6{
                     @include letraRegular;
                     text-align: center;
@@ -549,12 +551,14 @@
                     font-weight: 600;
                     font-size: 20px;
                     margin: 10px;
+                    transition: all 0.3s;
                 }
                 p{
                     @include letraRegular;
                     color: $fondo;
                     font-size: 16px;
                     margin: 15px 5px 15px 20px;
+                    transition: all 0.3s;
                 }
                 .tituloCardsR{
                     font-size: 18px;
@@ -567,25 +571,85 @@
                 }
                 .mensajeWAPP{
                     margin: 0;
-                    padding: 0.5rem 0 1rem 0;
+                    padding: 0.5rem;
                     text-align: center;
-                    font-size: 18px;
-                    background-color: $hover;
-                    border: 2px solid $hover;
+                    font-size: 22px;
+                    background-color: $verde;
+                    border: 2px solid $verde;
                     border-radius: 0 0 15px 15px;
                     height: 3rem;
+                    color: $fondo;
+                    font-weight: 800;
+                    letter-spacing: 0.1rem;
+                    transition: all 0.3s;
+                }
+            }
+            &:hover .infoCard img{
+                filter: saturate(1) ;
+                /* filter: blur(1.1) opacity(80%) brightness(90%) */
+                transform: scale(1.35);
+                transition: all 0.3s;
+                margin-top: 10rem;
+            }
+            &:hover .mensajeCard{
+                display: none;
+                transition: all 0.3s;
+            }
+            &:hover {
+                border: 3px solid $hover;
+            }
+            .cardEfecto{
+                z-index: 10;
+                text-align: center;
+                @include letraRegular;
+                margin: 0;
+                border: none;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                .efecto{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    margin: 0;
+                    margin-top: 10rem;
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    bottom: 100%;
+                    transition: all 0.3s;
+                    /* h6{
+                        font-size: 34px;
+                        font-weight: 700;
+                        margin: 2rem;
+                        color: $blanco;
+                        border-radius: 50px;
+                        border: 15px solid $verde;
+                        background-color: $verde;
+                    } */
                     a{
+                        font-size: 24px;
+                        color: $fondo;
                         text-decoration: none;
-                        color: $negro;
+                        text-align: center;
+                        font-weight: 500;
+                        text-shadow: 0 0 5px $verde, 0 0 5px $hover;
+                        &:hover {
+                            font-weight: 600;
+                        }
                     }
                 }
             }
-            /* &:hover{
-                filter: blur(1.2px) brightness(20%);
-                transform: scale(1.3);
+            &:hover .efecto{
+                bottom: 0;
                 transition: all 0.3s;
-            } */
-            
+            }
+            &:hover .efectoP{
+                display: block;
+                transition: all 0.3s;
+            }
         }
     }
 }
@@ -675,19 +739,20 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            text-align: left; /* 
+            text-align: left;
             overflow: hidden;
             position: relative;
-            z-index: 0;    */        
+            z-index: 0;        
             .infoCard{
                 height: 48%;
                 display: flex;
                 justify-content: center;
-                align-items: center;/* 
-                transition: all 0.3s; */
+                align-items: center;
+                transition: all 0.3s;
                 img{
                     width: 230px;
                     height: auto;
+                    transition: all 0.3s;
                 }
                 #sedasLionS{
                     width: 150px;
@@ -698,8 +763,8 @@
                 height: 52%;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between;/* 
-                transition: all 0.3s; */
+                justify-content: space-between;
+                transition: all 0.3s;
                 h6{
                     @include letraRegular;
                     text-align: center;
@@ -708,12 +773,14 @@
                     font-weight: 600;
                     font-size: 22px;
                     margin: 10px;
+                    transition: all 0.3s;
                 }
                 p{
                     @include letraRegular;
                     color: $fondo;
                     font-size: 15px;
                     margin: 15px 5px 15px 20px;
+                    transition: all 0.3s;
                 }
                 .tituloCardsR{
                     font-size: 20px;
@@ -723,24 +790,85 @@
                 }
                 .mensajeWAPP{
                     margin: 0;
-                    padding: 0.5rem 0 1rem 0;
+                    padding: 0.5rem;
                     text-align: center;
-                    font-size: 18px;
-                    background-color: $hover;
-                    border: 2px solid $hover;
+                    font-size: 22px;
+                    background-color: $verde;
+                    border: 2px solid $verde;
                     border-radius: 0 0 15px 15px;
                     height: 3rem;
+                    color: $fondo;
+                    font-weight: 800;
+                    letter-spacing: 0.1rem;
+                    transition: all 0.3s;
+                }
+            }
+            &:hover .infoCard img{
+                filter: saturate(1) ;
+                /* filter: blur(1.1) opacity(80%) brightness(90%) */
+                transform: scale(1.2);
+                transition: all 0.3s;
+                margin-top: 10rem;
+            }
+            &:hover .mensajeCard{
+                display: none;
+                transition: all 0.3s;
+            }
+            &:hover {
+                border: 3px solid $hover;
+            }
+            .cardEfecto{
+                z-index: 10;
+                text-align: center;
+                @include letraRegular;
+                margin: 0;
+                border: none;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                .efecto{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    margin: 0;
+                    margin-top: 10rem;
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    bottom: 100%;
+                    transition: all 0.3s;
+                    /* h6{
+                        font-size: 34px;
+                        font-weight: 700;
+                        margin: 2rem;
+                        color: $blanco;
+                        border-radius: 50px;
+                        border: 15px solid $verde;
+                        background-color: $verde;
+                    } */
                     a{
+                        font-size: 24px;
+                        color: $fondo;
                         text-decoration: none;
-                        color: $negro;
+                        text-align: center;
+                        font-weight: 500;
+                        text-shadow: 0 0 5px $verde, 0 0 5px $hover;
+                        &:hover {
+                            font-weight: 600;
+                        }
                     }
                 }
             }
-            /* &:hover{
-                filter: blur(1.2px) brightness(20%);
-                transform: scale(1.3);
+            &:hover .efecto{
+                bottom: 0;
                 transition: all 0.3s;
-            } */
+            }
+            &:hover .efectoP{
+                display: block;
+                transition: all 0.3s;
+            }
         }
     }
 }

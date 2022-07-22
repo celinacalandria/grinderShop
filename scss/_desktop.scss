@@ -741,9 +741,10 @@
                     font-size: 13px;
                 }
                 .mensajeWAPP{
-                    @include ceroMP;
+                    margin: 0;
+                    padding: 0.5rem;
                     text-align: center;
-                    font-size: 26px;
+                    font-size: 25px;
                     background-color: $verde;
                     border: 2px solid $verde;
                     border-radius: 0 0 15px 15px;
@@ -974,9 +975,10 @@
                     font-size: 14px;
                 }
                 .mensajeWAPP{
-                    @include ceroMP;
+                    margin: 0;
+                    padding: 0.5rem;
                     text-align: center;
-                    font-size: 26px;
+                    font-size: 25px;
                     background-color: $verde;
                     border: 2px solid $verde;
                     border-radius: 0 0 15px 15px;
@@ -1056,10 +1058,6 @@
         }
     }
 }
-#bola8{
-    margin-top: 1rem;
-}
-
 
 /* NOSOTROS */
 #nosotros{
