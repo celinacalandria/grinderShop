@@ -655,7 +655,7 @@
     color: #FFFFFF;
     font-weight: 800;
     color: #000000;
-    font-size: 32px;
+    font-size: 25px;
     margin: 15px 0 15px 0;
   }
   .mainProductos .contenedor-productos__cards {
@@ -770,7 +770,7 @@
     font-weight: 400;
     color: #FFFFFF;
     color: #080808;
-    font-size: 18px;
+    font-size: 16px;
     margin: 15px 5px 15px 20px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -782,7 +782,7 @@
     font-size: 15px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR2 {
-    font-size: 13px;
+    font-size: 14px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .mensajeWAPP {
     margin: 0;
@@ -795,6 +795,21 @@
     height: 3rem;
     color: #080808;
     font-weight: 800;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard .mensajeWAPPst {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 16px;
+    background-color: #2A8052;
+    border: 2px solid #2A8052;
+    border-radius: 0 0 15px 15px;
+    height: 3rem;
+    color: #080808;
+    font-weight: 700;
     letter-spacing: 0.1rem;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -1096,6 +1111,21 @@
     height: 3rem;
     color: #080808;
     font-weight: 800;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard .mensajeWAPPst {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 16px;
+    background-color: #2A8052;
+    border: 2px solid #2A8052;
+    border-radius: 0 0 15px 15px;
+    height: 3rem;
+    color: #080808;
+    font-weight: 700;
     letter-spacing: 0.1rem;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -2350,6 +2380,21 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard .mensajeWAPPst {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 16px;
+    background-color: #2A8052;
+    border: 2px solid #2A8052;
+    border-radius: 0 0 15px 15px;
+    height: 3rem;
+    color: #080808;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
   .mainProductos .contenedor-productos__cards .cards:hover .infoCard img {
     -webkit-filter: saturate(1);
             filter: saturate(1);
@@ -2649,6 +2694,21 @@
     height: 3rem;
     color: #080808;
     font-weight: 800;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard .mensajeWAPPst {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 16px;
+    background-color: #2A8052;
+    border: 2px solid #2A8052;
+    border-radius: 0 0 15px 15px;
+    height: 3rem;
+    color: #080808;
+    font-weight: 700;
     letter-spacing: 0.1rem;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -4139,7 +4199,7 @@
     font-weight: 400;
     color: #FFFFFF;
     color: #080808;
-    font-size: 18px;
+    font-size: 16px;
     margin: 15px 2px 15px 20px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -4157,13 +4217,28 @@
     margin: 0;
     padding: 0.5rem;
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
     background-color: #2A8052;
     border: 2px solid #2A8052;
     border-radius: 0 0 15px 15px;
     height: 3rem;
     color: #080808;
-    font-weight: 800;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard .mensajeWAPPst {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 16px;
+    background-color: #2A8052;
+    border: 2px solid #2A8052;
+    border-radius: 0 0 15px 15px;
+    height: 3rem;
+    color: #080808;
+    font-weight: 700;
     letter-spacing: 0.1rem;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -4472,13 +4547,28 @@
     margin: 0;
     padding: 0.5rem;
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
     background-color: #2A8052;
     border: 2px solid #2A8052;
     border-radius: 0 0 15px 15px;
     height: 3rem;
     color: #080808;
-    font-weight: 800;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard .mensajeWAPPst {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 16px;
+    background-color: #2A8052;
+    border: 2px solid #2A8052;
+    border-radius: 0 0 15px 15px;
+    height: 3rem;
+    color: #080808;
+    font-weight: 700;
     letter-spacing: 0.1rem;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;

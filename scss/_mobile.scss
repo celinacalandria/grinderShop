@@ -476,7 +476,7 @@
                 @include letraRegular;
                 font-weight: 800;
                 color: $negro;
-                font-size: 32px;
+                font-size: 25px;
                 margin: 15px 0 15px 0;
             }
         }
@@ -551,7 +551,7 @@
                 p{
                     @include letraRegular;
                     color: $fondo;
-                    font-size: 18px;
+                    font-size: 16px;
                     margin: 15px 5px 15px 20px;
                     transition: all 0.3s;
                 }
@@ -562,7 +562,7 @@
                     font-size: 15px;
                 }
                 .descripcionCardsR2{
-                    font-size: 13px;
+                    font-size: 14px;
                 }
                 .mensajeWAPP{
                     margin: 0;
@@ -577,7 +577,20 @@
                     font-weight: 800;
                     letter-spacing: 0.1rem;
                     transition: all 0.3s;
-                    
+                }
+                .mensajeWAPPst{
+                    margin: 0;
+                    padding: 0.5rem;
+                    text-align: center;
+                    font-size: 16px;
+                    background-color: $verde;
+                    border: 2px solid $verde;
+                    border-radius: 0 0 15px 15px;
+                    height: 3rem;
+                    color: $fondo;
+                    font-weight: 700;
+                    letter-spacing: 0.1rem;
+                    transition: all 0.3s;
                 }
             }
             &:hover .infoCard img{
@@ -794,6 +807,20 @@
                     height: 3rem;
                     color: $fondo;
                     font-weight: 800;
+                    letter-spacing: 0.1rem;
+                    transition: all 0.3s;
+                }
+                .mensajeWAPPst{
+                    margin: 0;
+                    padding: 0.5rem;
+                    text-align: center;
+                    font-size: 16px;
+                    background-color: $verde;
+                    border: 2px solid $verde;
+                    border-radius: 0 0 15px 15px;
+                    height: 3rem;
+                    color: $fondo;
+                    font-weight: 700;
                     letter-spacing: 0.1rem;
                     transition: all 0.3s;
                 }

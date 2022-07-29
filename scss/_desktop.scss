@@ -727,7 +727,7 @@
                 p{
                     @include letraRegular;
                     color: $fondo;
-                    font-size: 18px;
+                    font-size: 16px;
                     margin: 15px 2px 15px 20px;
                     transition: all 0.3s;
                 }
@@ -744,13 +744,27 @@
                     margin: 0;
                     padding: 0.5rem;
                     text-align: center;
-                    font-size: 25px;
+                    font-size: 24px;
                     background-color: $verde;
                     border: 2px solid $verde;
                     border-radius: 0 0 15px 15px;
                     height: 3rem;
                     color: $fondo;
-                    font-weight: 800;
+                    font-weight: 700;
+                    letter-spacing: 0.1rem;
+                    transition: all 0.3s;
+                }
+                .mensajeWAPPst{
+                    margin: 0;
+                    padding: 0.5rem;
+                    text-align: center;
+                    font-size: 16px;
+                    background-color: $verde;
+                    border: 2px solid $verde;
+                    border-radius: 0 0 15px 15px;
+                    height: 3rem;
+                    color: $fondo;
+                    font-weight: 700;
                     letter-spacing: 0.1rem;
                     transition: all 0.3s;
                 }
@@ -978,17 +992,31 @@
                     margin: 0;
                     padding: 0.5rem;
                     text-align: center;
-                    font-size: 25px;
+                    font-size: 24px;
                     background-color: $verde;
                     border: 2px solid $verde;
                     border-radius: 0 0 15px 15px;
                     height: 3rem;
                     color: $fondo;
-                    font-weight: 800;
+                    font-weight: 700;
                     letter-spacing: 0.1rem;
                     transition: all 0.3s;
                 }
-            }
+                .mensajeWAPPst{
+                    margin: 0;
+                    padding: 0.5rem;
+                    text-align: center;
+                    font-size: 16px;
+                    background-color: $verde;
+                    border: 2px solid $verde;
+                    border-radius: 0 0 15px 15px;
+                    height: 3rem;
+                    color: $fondo;
+                    font-weight: 700;
+                    letter-spacing: 0.1rem;
+                    transition: all 0.3s;
+                }
+            }    
             &:hover .infoCard img{
                 filter: saturate(1) ;
                 /* filter: blur(1.1) opacity(80%) brightness(90%) */
