@@ -429,7 +429,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            button{
+            a{
                 border: 2px solid $mobile;
                 border-radius: 13px;
                 background-color: $mobile;
@@ -438,20 +438,14 @@
                 width: 40%;
                 @include letraTexto;
                 font-size: 14px;
-                i{
-                    display: none;
-                }
+                text-decoration: none;
+                color: $blanco;
+                text-align: center;
                 &:hover{   
                     filter: brightness(80%);
                     border: 2px solid $hover;
-                }
-                &:hover a{
                     color: $fondo;
-                }
-                a{
-                    text-decoration: none;
-                    color: $blanco;
-                }
+                }               
             }
         }
         .productosMensaje{
@@ -476,8 +470,9 @@
                 @include letraRegular;
                 font-weight: 800;
                 color: $negro;
-                font-size: 25px;
+                font-size: 24px;
                 margin: 15px 0 15px 0;
+                text-align: center;
             }
         }
     }

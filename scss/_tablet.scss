@@ -434,7 +434,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            button{
+            a{
                 border: 2px solid $mobile;
                 border-radius: 13px;
                 background-color: $mobile;
@@ -443,19 +443,13 @@
                 width: 25%;
                 @include letraTexto;
                 font-size: 14px;
-                i{
-                    display: none;
-                }
+                text-decoration: none;
+                color: $blanco;
+                text-align: center;
                 &:hover{   
                     filter: brightness(80%);
                     border: 2px solid $hover;
-                }
-                &:hover a{
                     color: $fondo;
-                }
-                a{
-                    text-decoration: none;
-                    color: $blanco;
                 }
             }
         }
@@ -587,14 +581,13 @@
                     margin: 0;
                     padding: 0.5rem;
                     text-align: center;
-                    font-size: 16px;
+                    font-size: 14px;
                     background-color: $verde;
                     border: 2px solid $verde;
                     border-radius: 0 0 15px 15px;
                     height: 3rem;
                     color: $fondo;
-                    font-weight: 700;
-                    letter-spacing: 0.1rem;
+                    font-weight: 500;
                     transition: all 0.3s;
                 }
             }

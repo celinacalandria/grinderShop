@@ -589,7 +589,7 @@
             margin: 2rem 2rem 3rem 4.25rem;
             display: flex;
             flex-wrap: wrap;
-            button{
+            a{
                 border: 2px solid $verde;
                 border-radius: 8px;
                 background-color: $fondo2;
@@ -597,21 +597,14 @@
                 margin: 0.75rem;
                 @include letraTexto;
                 font-size: 18px;
-                i{
-                    display: none;
-                }
+                text-decoration: none;
+                padding: 0.1rem 0.3rem;
+                color: $fondo;
                 &:hover{
                     background-color: $hover;
                     color: $negro;   
                     border: 2px solid $negro;
                     transition: all 0.3s;
-                }
-                &:hover i{
-                    display: inline-block;
-                }
-                a{
-                    text-decoration: none;
-                    color: $fondo;
                 }
             }
         }
