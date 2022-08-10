@@ -574,7 +574,7 @@
     color: #080808;
     font-size: 20px;
     text-align: center;
-    margin: 2rem;
+    margin: 1rem;
   }
   .mainProductos .sectionProductos__barra .productosBotones {
     display: -webkit-box;
@@ -668,7 +668,7 @@
   }
   .mainProductos .contenedor-productos__cards .cards {
     width: 100%;
-    height: 600px;
+    height: 580px;
     border-top: 1px solid #080808;
     border-left: none;
     border-bottom: 1px solid #080808;
@@ -708,7 +708,7 @@
     transition: all 0.3s;
   }
   .mainProductos .contenedor-productos__cards .cards .infoCard img {
-    width: 65%;
+    width: 60%;
     height: auto;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -746,15 +746,13 @@
     font-weight: 400;
     color: #FFFFFF;
     text-align: center;
-    -webkit-text-decoration: overline 2.5px #2A8052;
-            text-decoration: overline 2.5px #2A8052;
     text-transform: uppercase;
     color: #080808;
     font-weight: 800;
     font-size: 20px;
-    margin: 10px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    text-shadow: 1.5px 1.5px #2A8052;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard p {
     font-family: 'Montserrat';
@@ -768,14 +766,8 @@
     transition: all 0.3s;
     text-align: left;
   }
-  .mainProductos .contenedor-productos__cards .cards .mensajeCard .tituloCardsR {
-    font-size: 18px;
-  }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 15px;
-  }
-  .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR2 {
-    font-size: 14px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .mensajeWAPP {
     margin: 0;
@@ -907,44 +899,15 @@
     background-color: #FFFFFF;
     padding-bottom: 2rem;
   }
-  .mainCombos .sectionCombos__barra {
-    /* .combosBotones{
-            margin: 2rem 2rem 3rem 4rem;
-            display: flex;
-            flex-wrap: wrap;
-            button{
-                border: 2px solid $verde;
-                border-radius: 8px;
-                background-color: $fondo2;
-                padding: 6px, 16px, 6px, 16px;
-                margin: 1rem;
-                @include letraTexto;
-                color: $fondo;
-                font-size: 18px;
-                i{
-                    display: none;
-                }
-                &:hover{
-                    background-color: $hover;
-                    color: $negro;   
-                    border: 2px solid $negro;
-                    transition: all 0.3s;
-                }
-                &:hover i{
-                    display: inline-block;
-                }
-            }
-        } */
-  }
   .mainCombos .sectionCombos__barra h5 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     color: #FFFFFF;
     color: #080808;
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
-    margin: 2rem;
+    margin: 1rem;
   }
   .mainCombos .sectionCombos__barra .combosMensaje {
     display: none;
@@ -999,13 +962,13 @@
             align-items: center;
   }
   .mainCombos .contenedor-combos__cards .cards {
-    width: 300px;
-    height: 540px;
-    border: 3px solid #2A8052;
-    border-radius: 15px;
-    -webkit-box-shadow: 0px 3px 3px 0px;
-            box-shadow: 0px 3px 3px 0px;
-    margin: 1rem;
+    width: 100%;
+    height: 550px;
+    border-top: 1px solid #080808;
+    border-left: none;
+    border-bottom: 1px solid #080808;
+    border-right: none;
+    border-radius: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1022,13 +985,17 @@
     z-index: 0;
   }
   .mainCombos .contenedor-combos__cards .cards .infoCard {
-    height: 48%;
+    height: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1036,17 +1003,13 @@
     transition: all 0.3s;
   }
   .mainCombos .contenedor-combos__cards .cards .infoCard img {
-    width: 230px;
+    width: 55%;
     height: auto;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .mainCombos .contenedor-combos__cards .cards .infoCard #sedasLionS {
-    width: 150px;
-    height: auto;
-  }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard {
-    height: 52%;
+    height: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1066,12 +1029,13 @@
     font-weight: 400;
     color: #FFFFFF;
     text-align: center;
-    -webkit-text-decoration: overline 2.5px #2A8052;
-            text-decoration: overline 2.5px #2A8052;
+    text-transform: uppercase;
     color: #080808;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 22px;
-    margin: 10px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-shadow: 1.5px 1.5px #2A8052;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard p {
     font-family: 'Montserrat';
@@ -1080,12 +1044,10 @@
     color: #FFFFFF;
     color: #080808;
     font-size: 16px;
-    margin: 15px 5px 15px 20px;
+    margin: 15px 10px 15px 10%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-  }
-  .mainCombos .contenedor-combos__cards .cards .mensajeCard .tituloCardsR {
-    font-size: 20px;
+    text-align: left;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 14px;
@@ -1097,7 +1059,6 @@
     font-size: 20px;
     background-color: #2A8052;
     border: 2px solid #2A8052;
-    border-radius: 0 0 15px 15px;
     height: 3rem;
     color: #080808;
     font-weight: 800;
@@ -1112,7 +1073,6 @@
     font-size: 14px;
     background-color: #2A8052;
     border: 2px solid #2A8052;
-    border-radius: 0 0 15px 15px;
     height: 3rem;
     color: #080808;
     font-weight: 600;
@@ -2144,7 +2104,7 @@
     color: #080808;
     font-size: 20px;
     text-align: center;
-    margin: 2rem;
+    margin: 1rem;
   }
   .mainProductos .sectionProductos__barra .productosBotones {
     display: -webkit-box;
@@ -2236,13 +2196,13 @@
             align-items: center;
   }
   .mainProductos .contenedor-productos__cards .cards {
-    width: 290px;
-    height: 530px;
-    border: 3px solid #2A8052;
-    border-radius: 15px;
-    -webkit-box-shadow: 0px 3px 3px 0px;
-            box-shadow: 0px 3px 3px 0px;
-    margin: 1rem;
+    width: 50%;
+    height: 580px;
+    border-top: 1px solid #080808;
+    border-left: 0.21px solid #080808;
+    border-bottom: 1px solid #080808;
+    border-right: 0.15px solid #080808;
+    border-radius: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2259,13 +2219,17 @@
     z-index: 0;
   }
   .mainProductos .contenedor-productos__cards .cards .infoCard {
-    height: 48%;
+    height: 55%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -2273,33 +2237,25 @@
     transition: all 0.3s;
   }
   .mainProductos .contenedor-productos__cards .cards .infoCard img {
-    width: 190px;
+    width: 65%;
     height: auto;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .mainProductos .contenedor-productos__cards .cards .infoCard #sedasLionS {
-    width: 150px;
+  .mainProductos .contenedor-productos__cards .cards .infoCard .imgD {
+    width: 45%;
     height: auto;
   }
-  .mainProductos .contenedor-productos__cards .cards .infoCard #filtrosVarios {
-    width: 150px;
+  .mainProductos .contenedor-productos__cards .cards .infoCard .imgD2 {
+    width: 40%;
     height: auto;
   }
-  .mainProductos .contenedor-productos__cards .cards .infoCard #bongArana {
-    width: 150px;
-    height: auto;
-  }
-  .mainProductos .contenedor-productos__cards .cards .infoCard #bongDK11 {
-    width: 150px;
-    height: auto;
-  }
-  .mainProductos .contenedor-productos__cards .cards .infoCard #bongNacional {
-    width: 150px;
+  .mainProductos .contenedor-productos__cards .cards .infoCard .imgD3 {
+    width: 30%;
     height: auto;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard {
-    height: 52%;
+    height: 45%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2319,14 +2275,13 @@
     font-weight: 400;
     color: #FFFFFF;
     text-align: center;
-    -webkit-text-decoration: overline 2.5px #2A8052;
-            text-decoration: overline 2.5px #2A8052;
+    text-transform: uppercase;
     color: #080808;
-    font-weight: 600;
-    font-size: 20px;
-    margin: 10px;
+    font-weight: 800;
+    font-size: 22px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    text-shadow: 1.5px 1.5px #2A8052;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard p {
     font-family: 'Montserrat';
@@ -2335,18 +2290,13 @@
     color: #FFFFFF;
     color: #080808;
     font-size: 16px;
-    margin: 15px 5px 15px 20px;
+    margin: 15px 10px 15px 10%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-  }
-  .mainProductos .contenedor-productos__cards .cards .mensajeCard .tituloCardsR {
-    font-size: 18px;
+    text-align: left;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 15px;
-  }
-  .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR2 {
-    font-size: 13px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .mensajeWAPP {
     margin: 0;
@@ -2355,7 +2305,6 @@
     font-size: 22px;
     background-color: #2A8052;
     border: 2px solid #2A8052;
-    border-radius: 0 0 15px 15px;
     height: 3rem;
     color: #080808;
     font-weight: 800;
@@ -2370,7 +2319,6 @@
     font-size: 14px;
     background-color: #2A8052;
     border: 2px solid #2A8052;
-    border-radius: 0 0 15px 15px;
     height: 3rem;
     color: #080808;
     font-weight: 600;
@@ -2480,35 +2428,6 @@
     background-color: #FFFFFF;
     padding-bottom: 2rem;
   }
-  .mainCombos .sectionCombos__barra {
-    /* .combosBotones{
-            margin: 2rem 2rem 3rem 4rem;
-            display: flex;
-            flex-wrap: wrap;
-            button{
-                border: 2px solid $verde;
-                border-radius: 8px;
-                background-color: $fondo2;
-                padding: 6px, 16px, 6px, 16px;
-                margin: 1rem;
-                @include letraTexto;
-                color: $fondo;
-                font-size: 18px;
-                i{
-                    display: none;
-                }
-                &:hover{
-                    background-color: $hover;
-                    color: $negro;   
-                    border: 2px solid $negro;
-                    transition: all 0.3s;
-                }
-                &:hover i{
-                    display: inline-block;
-                }
-            }
-        } */
-  }
   .mainCombos .sectionCombos__barra h5 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -2517,7 +2436,7 @@
     color: #080808;
     font-size: 24px;
     text-align: center;
-    margin: 2rem;
+    margin: 1rem;
   }
   .mainCombos .sectionCombos__barra .combosMensaje {
     display: none;
@@ -2572,13 +2491,13 @@
             align-items: center;
   }
   .mainCombos .contenedor-combos__cards .cards {
-    width: 300px;
-    height: 540px;
-    border: 3px solid #2A8052;
-    border-radius: 15px;
-    -webkit-box-shadow: 0px 3px 3px 0px;
-            box-shadow: 0px 3px 3px 0px;
-    margin: 1rem;
+    width: 50%;
+    height: 580px;
+    border-top: 1px solid #080808;
+    border-left: 0.21px solid #080808;
+    border-bottom: 1px solid #080808;
+    border-right: 0.15px solid #080808;
+    border-radius: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2595,7 +2514,7 @@
     z-index: 0;
   }
   .mainCombos .contenedor-combos__cards .cards .infoCard {
-    height: 48%;
+    height: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2609,17 +2528,13 @@
     transition: all 0.3s;
   }
   .mainCombos .contenedor-combos__cards .cards .infoCard img {
-    width: 230px;
+    width: 55%;
     height: auto;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .mainCombos .contenedor-combos__cards .cards .infoCard #sedasLionS {
-    width: 150px;
-    height: auto;
-  }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard {
-    height: 52%;
+    height: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2639,14 +2554,13 @@
     font-weight: 400;
     color: #FFFFFF;
     text-align: center;
-    -webkit-text-decoration: overline 2.5px #2A8052;
-            text-decoration: overline 2.5px #2A8052;
+    text-transform: uppercase;
     color: #080808;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 22px;
-    margin: 10px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    text-shadow: 1.5px 1.5px #2A8052;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard p {
     font-family: 'Montserrat';
@@ -2655,12 +2569,10 @@
     color: #FFFFFF;
     color: #080808;
     font-size: 15px;
-    margin: 15px 5px 15px 20px;
+    margin: 15px 10px 15px 10%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-  }
-  .mainCombos .contenedor-combos__cards .cards .mensajeCard .tituloCardsR {
-    font-size: 20px;
+    text-align: left;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 14px;
@@ -2672,7 +2584,6 @@
     font-size: 22px;
     background-color: #2A8052;
     border: 2px solid #2A8052;
-    border-radius: 0 0 15px 15px;
     height: 3rem;
     color: #080808;
     font-weight: 800;
@@ -2687,7 +2598,6 @@
     font-size: 16px;
     background-color: #2A8052;
     border: 2px solid #2A8052;
-    border-radius: 0 0 15px 15px;
     height: 3rem;
     color: #080808;
     font-weight: 600;
@@ -4029,7 +3939,7 @@
   .mainProductos .sectionProductos__principal {
     background-color: #FFFFFF;
     margin: 0;
-    padding: 0 5rem 6rem 1rem;
+    padding: 0 0 2rem 0;
   }
   .mainProductos .sectionProductos__principal .productosPrincipal {
     display: -webkit-box;
@@ -4073,15 +3983,16 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding: 0;
   }
   .mainProductos .contenedor-productos__cards .cards {
-    width: 290px;
-    height: 525px;
-    border: 3px solid #2A8052;
-    border-radius: 15px;
-    -webkit-box-shadow: 0px 3px 3px 0px;
-            box-shadow: 0px 3px 3px 0px;
-    margin: 1rem;
+    width: 33.33%;
+    height: 580px;
+    border-top: 1px solid #080808;
+    border-left: 0.21px solid #080808;
+    border-bottom: 1px solid #080808;
+    border-right: 0.15px solid #080808;
+    border-radius: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4098,13 +4009,17 @@
     z-index: 0;
   }
   .mainProductos .contenedor-productos__cards .cards .infoCard {
-    height: 48%;
+    height: 55%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -4112,33 +4027,25 @@
     transition: all 0.3s;
   }
   .mainProductos .contenedor-productos__cards .cards .infoCard img {
-    width: 190px;
+    width: 65%;
     height: auto;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .mainProductos .contenedor-productos__cards .cards .infoCard #sedasLionS {
-    width: 150px;
+  .mainProductos .contenedor-productos__cards .cards .infoCard .imgD {
+    width: 55%;
     height: auto;
   }
-  .mainProductos .contenedor-productos__cards .cards .infoCard #filtrosVarios {
-    width: 150px;
+  .mainProductos .contenedor-productos__cards .cards .infoCard .imgD2 {
+    width: 45%;
     height: auto;
   }
-  .mainProductos .contenedor-productos__cards .cards .infoCard #bongArana {
-    width: 150px;
-    height: auto;
-  }
-  .mainProductos .contenedor-productos__cards .cards .infoCard #bongDK11 {
-    width: 150px;
-    height: auto;
-  }
-  .mainProductos .contenedor-productos__cards .cards .infoCard #bongNacional {
-    width: 150px;
+  .mainProductos .contenedor-productos__cards .cards .infoCard .imgD3 {
+    width: 40%;
     height: auto;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard {
-    height: 52%;
+    height: 45%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4158,14 +4065,14 @@
     font-weight: 400;
     color: #FFFFFF;
     text-align: center;
-    -webkit-text-decoration: overline 2px #2A8052;
-            text-decoration: overline 2px #2A8052;
+    text-transform: uppercase;
     color: #080808;
-    font-weight: 600;
-    font-size: 20px;
-    margin: 15px;
+    font-weight: 800;
+    font-size: 22px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    text-shadow: 1.5px 1.5px #2A8052;
+    margin: 5px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard p {
     font-family: 'Montserrat';
@@ -4174,18 +4081,13 @@
     color: #FFFFFF;
     color: #080808;
     font-size: 16px;
-    margin: 15px 2px 15px 20px;
+    margin: 15px 10px 15px 10%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-  }
-  .mainProductos .contenedor-productos__cards .cards .mensajeCard .tituloCardsR {
-    font-size: 18px;
+    text-align: left;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR {
-    font-size: 16px;
-  }
-  .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR2 {
-    font-size: 13px;
+    font-size: 15px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .mensajeWAPP {
     margin: 0;
@@ -4194,10 +4096,9 @@
     font-size: 24px;
     background-color: #2A8052;
     border: 2px solid #2A8052;
-    border-radius: 0 0 15px 15px;
     height: 3rem;
     color: #080808;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: 0.1rem;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -4209,7 +4110,6 @@
     font-size: 16px;
     background-color: #2A8052;
     border: 2px solid #2A8052;
-    border-radius: 0 0 15px 15px;
     height: 3rem;
     color: #080808;
     font-weight: 700;
@@ -4321,33 +4221,6 @@
     -ms-grid-column: 1;
     grid-area: barra;
     background-color: #080808;
-    /* .combosBotones{
-            margin: 2rem 2rem 3rem 4rem;
-            display: flex;
-            flex-wrap: wrap;
-            button{
-                border: 2px solid $verde;
-                border-radius: 8px;
-                background-color: $fondo2;
-                padding: 6px, 16px, 6px, 16px;
-                margin: 1rem;
-                @include letraTexto;
-                color: $fondo;
-                font-size: 18px;
-                i{
-                    display: none;
-                }
-                &:hover{
-                    background-color: $hover;
-                    color: $negro;   
-                    border: 2px solid $negro;
-                    transition: all 0.3s;
-                }
-                &:hover i{
-                    display: inline-block;
-                }
-            }
-        } */
   }
   .mainCombos .sectionCombos__barra h5 {
     color: #FFFFFF;
@@ -4381,7 +4254,7 @@
   .mainCombos .sectionCombos__principal {
     background-color: #FFFFFF;
     margin: 0;
-    padding: 0 5rem 6rem 1rem;
+    padding: 0 0 2rem 0;
   }
   .mainCombos .sectionCombos__principal .combosPrincipal {
     display: -webkit-box;
@@ -4425,15 +4298,16 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding: 0;
   }
   .mainCombos .contenedor-combos__cards .cards {
-    width: 295px;
-    height: 535px;
-    border: 3px solid #2A8052;
-    border-radius: 15px;
-    -webkit-box-shadow: 0px 3px 3px 0px;
-            box-shadow: 0px 3px 3px 0px;
-    margin: 1rem;
+    width: 33.33%;
+    height: 580px;
+    border-top: 1px solid #080808;
+    border-left: 0.21px solid #080808;
+    border-bottom: 1px solid #080808;
+    border-right: 0.15px solid #080808;
+    border-radius: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4450,13 +4324,17 @@
     z-index: 0;
   }
   .mainCombos .contenedor-combos__cards .cards .infoCard {
-    height: 48%;
+    height: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -4464,17 +4342,13 @@
     transition: all 0.3s;
   }
   .mainCombos .contenedor-combos__cards .cards .infoCard img {
-    width: 230px;
+    width: 65%;
     height: auto;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .mainCombos .contenedor-combos__cards .cards .infoCard #sedasLionS {
-    width: 150px;
-    height: auto;
-  }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard {
-    height: 52%;
+    height: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4494,14 +4368,13 @@
     font-weight: 400;
     color: #FFFFFF;
     text-align: center;
-    -webkit-text-decoration: overline 2px #2A8052;
-            text-decoration: overline 2px #2A8052;
+    text-transform: uppercase;
     color: #080808;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 22px;
-    margin: 10px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    text-shadow: 1.5px 1.5px #2A8052;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard p {
     font-family: 'Montserrat';
@@ -4510,9 +4383,10 @@
     color: #FFFFFF;
     color: #080808;
     font-size: 16px;
-    margin: 15px 2px 15px 20px;
+    margin: 15px 10px 15px 10%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    text-align: left;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 14px;
@@ -4524,7 +4398,6 @@
     font-size: 24px;
     background-color: #2A8052;
     border: 2px solid #2A8052;
-    border-radius: 0 0 15px 15px;
     height: 3rem;
     color: #080808;
     font-weight: 700;
@@ -4539,7 +4412,6 @@
     font-size: 16px;
     background-color: #2A8052;
     border: 2px solid #2A8052;
-    border-radius: 0 0 15px 15px;
     height: 3rem;
     color: #080808;
     font-weight: 700;

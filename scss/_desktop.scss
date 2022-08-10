@@ -630,7 +630,7 @@
     .sectionProductos__principal{
         background-color: $blanco;
         margin: 0;
-        padding: 0 5rem 6rem 1rem;
+        padding: 0 0 2rem 0;
         .productosPrincipal{
             display: flex;
             flex-direction: row;
@@ -655,13 +655,17 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        padding: 0;
         .cards{
-            width: 290px;
-            height: 525px;   
-            border: 3px solid $verde;
-            border-radius: 15px;     
-            box-shadow: 0px 3px 3px 0px;
-            margin: 1rem;
+            width: 33.33%;
+            height: 580px;   
+            border: {
+                top: 1px solid $fondo;
+                left: 0.21px solid $fondo;
+                bottom: 1px solid $fondo;
+                right: 0.15px solid $fondo;
+            }
+            border-radius: 0px;  
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -670,39 +674,32 @@
             position: relative;
             z-index: 0;   
             .infoCard{
-                height: 48%;
+                height: 55%;
                 display: flex;
                 justify-content: center;
+                flex-direction: column;
                 align-items: center;
                 transition: all 0.3s;
                 img{
-                    width: 190px;
+                    width: 65%;
                     height: auto;
                     transition: all 0.3s;
                 }
-                #sedasLionS{
-                    width: 150px;
+                .imgD{
+                    width: 55%;
                     height: auto;
                 }
-                #filtrosVarios{
-                    width: 150px;
+                .imgD2{
+                    width: 45%;
                     height: auto;
-                }
-                #bongArana{
-                    width: 150px;
+                } 
+                .imgD3{
+                    width: 40%;
                     height: auto;
-                }
-                #bongDK11{
-                    width: 150px;
-                    height: auto;
-                }
-                #bongNacional{
-                    width: 150px;
-                    height: auto;
-                }
+                } 
             }
             .mensajeCard{
-                height: 52%;
+                height: 45%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -710,28 +707,24 @@
                 h6{
                     @include letraRegular;
                     text-align: center;
-                    text-decoration: overline 2px $verde;
+                    text-transform: uppercase;
                     color: $fondo;
-                    font-weight: 600;
-                    font-size: 20px;
-                    margin: 15px;
+                    font-weight: 800;
+                    font-size: 22px;
                     transition: all 0.3s;
+                    text-shadow: 1.5px 1.5px $verde;
+                    margin: 5px
                 }
                 p{
                     @include letraRegular;
                     color: $fondo;
                     font-size: 16px;
-                    margin: 15px 2px 15px 20px;
+                    margin: 15px 10px 15px 10%;
                     transition: all 0.3s;
-                }
-                .tituloCardsR{
-                    font-size: 18px;
+                    text-align: left;
                 }
                 .descripcionCardsR{
-                    font-size: 16px;
-                }
-                .descripcionCardsR2{
-                    font-size: 13px;
+                    font-size: 15px;
                 }
                 .mensajeWAPP{
                     margin: 0;
@@ -740,10 +733,9 @@
                     font-size: 24px;
                     background-color: $verde;
                     border: 2px solid $verde;
-                    border-radius: 0 0 15px 15px;
                     height: 3rem;
                     color: $fondo;
-                    font-weight: 700;
+                    font-weight: 800;
                     letter-spacing: 0.1rem;
                     transition: all 0.3s;
                 }
@@ -754,7 +746,6 @@
                     font-size: 16px;
                     background-color: $verde;
                     border: 2px solid $verde;
-                    border-radius: 0 0 15px 15px;
                     height: 3rem;
                     color: $fondo;
                     font-weight: 700;
@@ -851,33 +842,6 @@
             font-size: 26px;
             margin: 4rem 2rem 3rem 5rem;
         }
-        /* .combosBotones{
-            margin: 2rem 2rem 3rem 4rem;
-            display: flex;
-            flex-wrap: wrap;
-            button{
-                border: 2px solid $verde;
-                border-radius: 8px;
-                background-color: $fondo2;
-                padding: 6px, 16px, 6px, 16px;
-                margin: 1rem;
-                @include letraTexto;
-                color: $fondo;
-                font-size: 18px;
-                i{
-                    display: none;
-                }
-                &:hover{
-                    background-color: $hover;
-                    color: $negro;   
-                    border: 2px solid $negro;
-                    transition: all 0.3s;
-                }
-                &:hover i{
-                    display: inline-block;
-                }
-            }
-        } */
         .combosMensaje{
             margin: 4rem 2rem 3rem 5rem;
             h5{
@@ -900,7 +864,7 @@
     .sectionCombos__principal{
         background-color: $blanco;
         margin: 0;
-        padding: 0 5rem 6rem 1rem;
+        padding: 0 0 2rem 0;
         .combosPrincipal{
             display: flex;
             flex-direction: row;
@@ -925,13 +889,17 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        padding: 0;
         .cards{
-            width: 295px;
-            height: 535px;   
-            border: 3px solid $verde;
-            border-radius: 15px;     
-            box-shadow: 0px 3px 3px 0px;
-            margin: 1rem;
+            width: 33.33%;
+            height: 580px;   
+            border: {
+                top: 1px solid $fondo;
+                left: 0.21px solid $fondo;
+                bottom: 1px solid $fondo;
+                right: 0.15px solid $fondo;
+            }
+            border-radius: 0px; 
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -940,23 +908,20 @@
             position: relative;
             z-index: 0;         
             .infoCard{
-                height: 48%;
+                height: 50%;
                 display: flex;
                 justify-content: center;
+                flex-direction: column;
                 align-items: center;
                 transition: all 0.3s;
                 img{
-                    width: 230px;
+                    width: 65%;
                     height: auto;
                     transition: all 0.3s;
                 }
-                #sedasLionS{
-                    width: 150px;
-                    height: auto;
-                }
             }
             .mensajeCard{
-                height: 52%;
+                height: 50%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -964,19 +929,20 @@
                 h6{
                     @include letraRegular;
                     text-align: center;
-                    text-decoration: overline 2px $verde;
+                    text-transform: uppercase;
                     color: $fondo;
-                    font-weight: 600;
+                    font-weight: 800;
                     font-size: 22px;
-                    margin: 10px;
                     transition: all 0.3s;
+                    text-shadow: 1.5px 1.5px $verde;
                 }
                 p{
                     @include letraRegular;
                     color: $fondo;
                     font-size: 16px;
-                    margin: 15px 2px 15px 20px;
+                    margin: 15px 10px 15px 10%;
                     transition: all 0.3s;
+                    text-align: left;
                 }
                 .descripcionCardsR{
                     font-size: 14px;
@@ -988,7 +954,6 @@
                     font-size: 24px;
                     background-color: $verde;
                     border: 2px solid $verde;
-                    border-radius: 0 0 15px 15px;
                     height: 3rem;
                     color: $fondo;
                     font-weight: 700;
@@ -1002,7 +967,6 @@
                     font-size: 16px;
                     background-color: $verde;
                     border: 2px solid $verde;
-                    border-radius: 0 0 15px 15px;
                     height: 3rem;
                     color: $fondo;
                     font-weight: 700;
