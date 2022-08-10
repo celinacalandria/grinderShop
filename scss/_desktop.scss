@@ -148,6 +148,7 @@
             img{
                 width: 300px;
                 height: auto;
+                padding: 50px 15px 0 15px;
                 @include centrado;
                 margin: 5rem 1rem 1rem 1rem;
                 transition: all 0.3s;
@@ -380,6 +381,64 @@
     display: none;
 }
 
+.sectionMobile__amigues{
+    display: none;
+}
+
+.sectionIndex__colores{
+    margin: 6rem 0 4rem 0;
+    div{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        a{
+            text-decoration: none;
+            width: 16.66%;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 70%;
+                height: auto;
+                @include centrado;
+                transition: all 0.3s;
+                &:hover{
+                    transform: scale(1.2);
+                    transition: all 0.3s;
+                    filter: blur(1);
+                }
+            }
+        }
+        .imgD{
+            width: 50%;
+            height: auto;
+        }
+        .imgM{
+            width: 75%;
+            height: auto;
+        }
+        .color1{
+            background-color: $color1;
+        }
+        .color2{
+            background-color: $color2;   
+        }
+        .color3{
+            background-color: $color3;
+        }
+        .color4{
+            background-color: $color4;
+        }
+        .color5{
+            background-color: $verde;   
+        }
+    }
+}
+
 .sectionIndex__giratorio{
     margin: 0 0 4px 4px;
     background-repeat: no-repeat;
@@ -401,7 +460,7 @@
 .sectionIndex__combos{
     display: flex;
     flex-direction: column;
-    margin: 3rem 0rem 3rem 0rem;
+    margin: 3rem 0rem 0rem 0rem;
     .indexCombos{
         display: flex;
         flex-direction: row;
