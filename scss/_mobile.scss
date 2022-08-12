@@ -570,7 +570,7 @@
         align-items: center;
         .cards{
             width: 100%;
-            height: 580px;   
+            height: 600px;   
             border: {
                 top: 1px solid $fondo;
                 left: none;
@@ -586,7 +586,7 @@
             position: relative;
             z-index: 0;         
             .infoCard{
-                height: 55%;
+                height: 50%;
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
@@ -611,11 +611,12 @@
                 } 
             }
             .mensajeCard{
-                height: 45%;
+                height: 50%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 transition: all 0.3s;
+                background-color: $fondito;
                 h6{
                     @include letraRegular;
                     text-align: center;
@@ -624,6 +625,7 @@
                     font-weight: 800;
                     font-size: 20px;
                     transition: all 0.3s;
+                    padding-top: 10px;
                     text-shadow: 1.5px 1.5px $verde;
                 }
                 p{
@@ -783,7 +785,7 @@
         align-items: center;
         .cards{
             width: 100%;
-            height: 550px;   
+            height: 600px;   
             border: {
                 top: 1px solid $fondo;
                 left: none;
@@ -817,6 +819,7 @@
                 flex-direction: column;
                 justify-content: space-between;
                 transition: all 0.3s;
+                background-color: $fondito;
                 h6{
                     @include letraRegular;
                     text-align: center;
@@ -825,6 +828,7 @@
                     font-weight: 800;
                     font-size: 22px;
                     transition: all 0.3s;
+                    padding-top: 10px;
                     text-shadow: 1.5px 1.5px $verde;
                 }
                 p{

@@ -716,14 +716,15 @@
         align-items: center;
         padding: 0;
         .cards{
-            width: 33.33%;
-            height: 580px;   
+            width: 28%;
+            height: 600px;   
             border: {
                 top: 1px solid $fondo;
                 left: 0.21px solid $fondo;
                 bottom: 1px solid $fondo;
                 right: 0.15px solid $fondo;
             }
+            margin: 10px;
             border-radius: 0px;  
             display: flex;
             flex-direction: column;
@@ -733,7 +734,7 @@
             position: relative;
             z-index: 0;   
             .infoCard{
-                height: 55%;
+                height: 50%;
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
@@ -758,14 +759,16 @@
                 } 
             }
             .mensajeCard{
-                height: 45%;
+                height: 50%;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 transition: all 0.3s; 
+                background-color: $fondito;
                 h6{
                     @include letraRegular;
                     text-align: center;
+                    padding-top: 10px;
                     text-transform: uppercase;
                     color: $fondo;
                     font-weight: 800;
@@ -950,14 +953,15 @@
         align-items: center;
         padding: 0;
         .cards{
-            width: 33.33%;
-            height: 580px;   
+            width: 28%;
+            height: 600px;   
             border: {
                 top: 1px solid $fondo;
                 left: 0.21px solid $fondo;
                 bottom: 1px solid $fondo;
                 right: 0.15px solid $fondo;
             }
+            margin: 10px;
             border-radius: 0px; 
             display: flex;
             flex-direction: column;
@@ -985,6 +989,7 @@
                 flex-direction: column;
                 justify-content: space-between;
                 transition: all 0.3s;
+                background-color: $fondito;
                 h6{
                     @include letraRegular;
                     text-align: center;
@@ -993,6 +998,7 @@
                     font-weight: 800;
                     font-size: 22px;
                     transition: all 0.3s;
+                    padding-top: 10px;
                     text-shadow: 1.5px 1.5px $verde;
                 }
                 p{
