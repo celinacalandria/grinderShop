@@ -319,10 +319,10 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .sectionIndex__colores {
+  .sectionIndex__coloresMobile {
     margin: 4rem 0 4rem 0;
   }
-  .sectionIndex__colores div {
+  .sectionIndex__coloresMobile div {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -340,7 +340,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .sectionIndex__colores div a {
+  .sectionIndex__coloresMobile div a {
     text-decoration: none;
     width: 33.33%;
     height: 300px;
@@ -354,132 +354,39 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .sectionIndex__colores div a img {
+  .sectionIndex__coloresMobile div a img {
     width: 70%;
     height: auto;
     display: block;
     margin: auto;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    -webkit-animation: shake 1s;
-            animation: shake 1s;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
   }
-  @-webkit-keyframes shake {
-    0% {
-      -webkit-transform: translate(1px, 1px) rotate(0deg);
-              transform: translate(1px, 1px) rotate(0deg);
-    }
-    10% {
-      -webkit-transform: translate(-1px, -2px) rotate(-1deg);
-              transform: translate(-1px, -2px) rotate(-1deg);
-    }
-    20% {
-      -webkit-transform: translate(-3px, 0px) rotate(1deg);
-              transform: translate(-3px, 0px) rotate(1deg);
-    }
-    30% {
-      -webkit-transform: translate(3px, 2px) rotate(0deg);
-              transform: translate(3px, 2px) rotate(0deg);
-    }
-    40% {
-      -webkit-transform: translate(1px, -1px) rotate(1deg);
-              transform: translate(1px, -1px) rotate(1deg);
-    }
-    50% {
-      -webkit-transform: translate(-1px, 2px) rotate(-1deg);
-              transform: translate(-1px, 2px) rotate(-1deg);
-    }
-    60% {
-      -webkit-transform: translate(-3px, 1px) rotate(0deg);
-              transform: translate(-3px, 1px) rotate(0deg);
-    }
-    70% {
-      -webkit-transform: translate(3px, 1px) rotate(-1deg);
-              transform: translate(3px, 1px) rotate(-1deg);
-    }
-    80% {
-      -webkit-transform: translate(-1px, -1px) rotate(1deg);
-              transform: translate(-1px, -1px) rotate(1deg);
-    }
-    90% {
-      -webkit-transform: translate(1px, 2px) rotate(0deg);
-              transform: translate(1px, 2px) rotate(0deg);
-    }
-    100% {
-      -webkit-transform: translate(1px, -2px) rotate(-1deg);
-              transform: translate(1px, -2px) rotate(-1deg);
-    }
-  }
-  @keyframes shake {
-    0% {
-      -webkit-transform: translate(1px, 1px) rotate(0deg);
-              transform: translate(1px, 1px) rotate(0deg);
-    }
-    10% {
-      -webkit-transform: translate(-1px, -2px) rotate(-1deg);
-              transform: translate(-1px, -2px) rotate(-1deg);
-    }
-    20% {
-      -webkit-transform: translate(-3px, 0px) rotate(1deg);
-              transform: translate(-3px, 0px) rotate(1deg);
-    }
-    30% {
-      -webkit-transform: translate(3px, 2px) rotate(0deg);
-              transform: translate(3px, 2px) rotate(0deg);
-    }
-    40% {
-      -webkit-transform: translate(1px, -1px) rotate(1deg);
-              transform: translate(1px, -1px) rotate(1deg);
-    }
-    50% {
-      -webkit-transform: translate(-1px, 2px) rotate(-1deg);
-              transform: translate(-1px, 2px) rotate(-1deg);
-    }
-    60% {
-      -webkit-transform: translate(-3px, 1px) rotate(0deg);
-              transform: translate(-3px, 1px) rotate(0deg);
-    }
-    70% {
-      -webkit-transform: translate(3px, 1px) rotate(-1deg);
-              transform: translate(3px, 1px) rotate(-1deg);
-    }
-    80% {
-      -webkit-transform: translate(-1px, -1px) rotate(1deg);
-              transform: translate(-1px, -1px) rotate(1deg);
-    }
-    90% {
-      -webkit-transform: translate(1px, 2px) rotate(0deg);
-              transform: translate(1px, 2px) rotate(0deg);
-    }
-    100% {
-      -webkit-transform: translate(1px, -2px) rotate(-1deg);
-              transform: translate(1px, -2px) rotate(-1deg);
-    }
-  }
-  .sectionIndex__colores div .imgD {
+  .sectionIndex__coloresMobile div .imgD {
     width: 50%;
     height: auto;
   }
-  .sectionIndex__colores div .imgM {
+  .sectionIndex__coloresMobile div .imgM {
     width: 75%;
     height: auto;
   }
-  .sectionIndex__colores div .color1 {
+  .sectionIndex__coloresMobile div .color1 {
     background-color: #91CB3E;
   }
-  .sectionIndex__colores div .color2 {
+  .sectionIndex__coloresMobile div .color2 {
     background-color: #53A548;
   }
-  .sectionIndex__colores div .color3 {
+  .sectionIndex__coloresMobile div .color3 {
     background-color: #436436;
   }
-  .sectionIndex__colores div .color4 {
+  .sectionIndex__coloresMobile div .color4 {
     background-color: #60993E;
   }
-  .sectionIndex__colores div .color5 {
+  .sectionIndex__coloresMobile div .color5 {
     background-color: #2A8052;
+  }
+  .sectionIndex__coloresDesktop {
+    display: none;
   }
   /* .sectionMobile__amigues{
     width: 100%;
@@ -923,7 +830,7 @@
             justify-content: space-between;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    background-color: #CDCBCB;
+    background-color: #D6EBD8;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard h6 {
     font-family: 'Montserrat';
@@ -937,7 +844,7 @@
     font-size: 20px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    padding-top: 10px;
+    padding-top: 15px;
     text-shadow: 1.5px 1.5px #2A8052;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard p {
@@ -1208,7 +1115,7 @@
             justify-content: space-between;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    background-color: #CDCBCB;
+    background-color: #D6EBD8;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard h6 {
     font-family: 'Montserrat';
@@ -1222,7 +1129,7 @@
     font-size: 22px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    padding-top: 10px;
+    padding-top: 15px;
     text-shadow: 1.5px 1.5px #2A8052;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard p {
@@ -2029,10 +1936,10 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .sectionIndex__colores {
+  .sectionIndex__coloresMobile {
     margin: 4rem 0 4rem 0;
   }
-  .sectionIndex__colores div {
+  .sectionIndex__coloresMobile div {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2050,7 +1957,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .sectionIndex__colores div a {
+  .sectionIndex__coloresMobile div a {
     text-decoration: none;
     width: 25%;
     height: 300px;
@@ -2064,7 +1971,7 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .sectionIndex__colores div a img {
+  .sectionIndex__coloresMobile div a img {
     width: 70%;
     height: auto;
     display: block;
@@ -2072,36 +1979,31 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .sectionIndex__colores div a img:hover {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    -webkit-filter: blur(1);
-            filter: blur(1);
-  }
-  .sectionIndex__colores div .imgD {
+  .sectionIndex__coloresMobile div .imgD {
     width: 50%;
     height: auto;
   }
-  .sectionIndex__colores div .imgM {
+  .sectionIndex__coloresMobile div .imgM {
     width: 75%;
     height: auto;
   }
-  .sectionIndex__colores div .color1 {
+  .sectionIndex__coloresMobile div .color1 {
     background-color: #91CB3E;
   }
-  .sectionIndex__colores div .color2 {
+  .sectionIndex__coloresMobile div .color2 {
     background-color: #53A548;
   }
-  .sectionIndex__colores div .color3 {
+  .sectionIndex__coloresMobile div .color3 {
     background-color: #436436;
   }
-  .sectionIndex__colores div .color4 {
+  .sectionIndex__coloresMobile div .color4 {
     background-color: #60993E;
   }
-  .sectionIndex__colores div .color5 {
+  .sectionIndex__coloresMobile div .color5 {
     background-color: #2A8052;
+  }
+  .sectionIndex__coloresDesktop {
+    display: none;
   }
   .sectionMobile__amigues {
     display: none;
@@ -2535,7 +2437,7 @@
             justify-content: space-between;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    background-color: #CDCBCB;
+    background-color: #D6EBD8;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard h6 {
     font-family: 'Montserrat';
@@ -2549,7 +2451,7 @@
     font-size: 22px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    padding-top: 10px;
+    padding-top: 15px;
     text-shadow: 1.5px 1.5px #2A8052;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard p {
@@ -2816,7 +2718,7 @@
             justify-content: space-between;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    background-color: #CDCBCB;
+    background-color: #D6EBD8;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard h6 {
     font-family: 'Montserrat';
@@ -2830,7 +2732,7 @@
     font-size: 22px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    padding-top: 10px;
+    padding-top: 15px;
     text-shadow: 1.5px 1.5px #2A8052;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard p {
@@ -3850,10 +3752,10 @@
   .sectionMobile__amigues {
     display: none;
   }
-  .sectionIndex__colores {
+  .sectionIndex__coloresDesktop {
     margin: 6rem 0 4rem 0;
   }
-  .sectionIndex__colores div {
+  .sectionIndex__coloresDesktop div {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3871,7 +3773,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .sectionIndex__colores div a {
+  .sectionIndex__coloresDesktop div a {
     text-decoration: none;
     width: 16.66%;
     height: 300px;
@@ -3885,7 +3787,7 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .sectionIndex__colores div a img {
+  .sectionIndex__coloresDesktop div a img {
     width: 70%;
     height: auto;
     display: block;
@@ -3893,7 +3795,7 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .sectionIndex__colores div a img:hover {
+  .sectionIndex__coloresDesktop div a img:hover {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
     -webkit-transition: all 0.3s;
@@ -3901,28 +3803,31 @@
     -webkit-filter: blur(1);
             filter: blur(1);
   }
-  .sectionIndex__colores div .imgD {
+  .sectionIndex__coloresDesktop div .imgD {
     width: 50%;
     height: auto;
   }
-  .sectionIndex__colores div .imgM {
+  .sectionIndex__coloresDesktop div .imgM {
     width: 75%;
     height: auto;
   }
-  .sectionIndex__colores div .color1 {
+  .sectionIndex__coloresDesktop div .color1 {
     background-color: #91CB3E;
   }
-  .sectionIndex__colores div .color2 {
+  .sectionIndex__coloresDesktop div .color2 {
     background-color: #53A548;
   }
-  .sectionIndex__colores div .color3 {
+  .sectionIndex__coloresDesktop div .color3 {
     background-color: #436436;
   }
-  .sectionIndex__colores div .color4 {
+  .sectionIndex__coloresDesktop div .color4 {
     background-color: #60993E;
   }
-  .sectionIndex__colores div .color5 {
+  .sectionIndex__coloresDesktop div .color5 {
     background-color: #2A8052;
+  }
+  .sectionIndex__coloresMobile {
+    display: none;
   }
   .sectionIndex__giratorio {
     margin: 0 0 4px 4px;
@@ -4408,7 +4313,7 @@
             justify-content: space-between;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    background-color: #CDCBCB;
+    background-color: #D6EBD8;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard h6 {
     font-family: 'Montserrat';
@@ -4416,7 +4321,7 @@
     font-weight: 400;
     color: #FFFFFF;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
     text-transform: uppercase;
     color: #080808;
     font-weight: 800;
@@ -4714,7 +4619,7 @@
             justify-content: space-between;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    background-color: #CDCBCB;
+    background-color: #D6EBD8;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard h6 {
     font-family: 'Montserrat';
@@ -4728,7 +4633,7 @@
     font-size: 22px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    padding-top: 10px;
+    padding-top: 15px;
     text-shadow: 1.5px 1.5px #2A8052;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard p {

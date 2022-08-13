@@ -245,7 +245,7 @@
     }
 }
 
-.sectionIndex__colores{
+.sectionIndex__coloresMobile{
     margin: 4rem 0 4rem 0;
     div{
         width: 100%;
@@ -266,11 +266,6 @@
                 height: auto;
                 @include centrado;
                 transition: all 0.3s;
-                &:hover{
-                    transform: scale(1.2);
-                    transition: all 0.3s;
-                    filter: blur(1);
-                }
             }
         }
         .imgD{
@@ -297,6 +292,10 @@
             background-color: $verde;   
         }
     }
+}
+
+.sectionIndex__coloresDesktop{
+    display: none;
 }
 
 .sectionMobile__amigues{
@@ -601,7 +600,7 @@
                     font-weight: 800;
                     font-size: 22px;
                     transition: all 0.3s;
-                    padding-top: 10px;
+                    padding-top: 15px;
                     text-shadow: 1.5px 1.5px $verde;
                 }
                 p{
@@ -803,7 +802,7 @@
                     font-weight: 800;
                     font-size: 22px;
                     transition: all 0.3s;
-                    padding-top: 10px;
+                    padding-top: 15px;
                     text-shadow: 1.5px 1.5px $verde;
                 }
                 p{

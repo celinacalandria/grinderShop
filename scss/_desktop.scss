@@ -385,7 +385,7 @@
     display: none;
 }
 
-.sectionIndex__colores{
+.sectionIndex__coloresDesktop{
     margin: 6rem 0 4rem 0;
     div{
         width: 100%;
@@ -437,6 +437,10 @@
             background-color: $verde;   
         }
     }
+}
+
+.sectionIndex__coloresMobile{
+    display: none;
 }
 
 .sectionIndex__giratorio{
@@ -768,7 +772,7 @@
                 h6{
                     @include letraRegular;
                     text-align: center;
-                    padding-top: 10px;
+                    padding-top: 15px;
                     text-transform: uppercase;
                     color: $fondo;
                     font-weight: 800;
@@ -998,7 +1002,7 @@
                     font-weight: 800;
                     font-size: 22px;
                     transition: all 0.3s;
-                    padding-top: 10px;
+                    padding-top: 15px;
                     text-shadow: 1.5px 1.5px $verde;
                 }
                 p{
