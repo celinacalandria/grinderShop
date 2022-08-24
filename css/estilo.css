@@ -759,7 +759,7 @@
   }
   .mainProductos .contenedor-productos__cards .cards {
     width: 100%;
-    height: 600px;
+    height: 620px;
     border-top: 1px solid #080808;
     border-left: none;
     border-bottom: 1px solid #080808;
@@ -813,7 +813,7 @@
     height: auto;
   }
   .mainProductos .contenedor-productos__cards .cards .infoCard .imgD3 {
-    width: 35%;
+    width: 30%;
     height: auto;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard {
@@ -853,7 +853,7 @@
     font-weight: 400;
     color: #FFFFFF;
     color: #080808;
-    font-size: 16px;
+    font-size: 15px;
     margin: 15px 10px 15px 10%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -1037,6 +1037,7 @@
     font-weight: 400;
     color: #FFFFFF;
     font-weight: 800;
+    text-align: center;
     color: #000000;
     font-size: 32px;
     margin: 15px 0 15px 0;
@@ -1056,7 +1057,7 @@
   }
   .mainCombos .contenedor-combos__cards .cards {
     width: 100%;
-    height: 600px;
+    height: 620px;
     border-top: 1px solid #080808;
     border-left: none;
     border-bottom: 1px solid #080808;
@@ -1138,7 +1139,7 @@
     font-weight: 400;
     color: #FFFFFF;
     color: #080808;
-    font-size: 16px;
+    font-size: 14px;
     margin: 15px 10px 15px 10%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -2348,6 +2349,7 @@
     color: #FFFFFF;
     font-weight: 800;
     color: #000000;
+    text-align: center;
     font-size: 32px;
     margin: 15px 0 15px 0;
   }
@@ -2460,7 +2462,7 @@
     font-weight: 400;
     color: #FFFFFF;
     color: #080808;
-    font-size: 16px;
+    font-size: 15px;
     margin: 15px 10px 15px 10%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -2646,6 +2648,7 @@
     font-weight: 800;
     color: #000000;
     font-size: 32px;
+    text-align: center;
     margin: 15px 0 15px 0;
   }
   .mainCombos .contenedor-combos__cards {
@@ -2741,7 +2744,7 @@
     font-weight: 400;
     color: #FFFFFF;
     color: #080808;
-    font-size: 15px;
+    font-size: 14px;
     margin: 15px 10px 15px 10%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -4221,6 +4224,7 @@
     font-weight: 400;
     color: #FFFFFF;
     font-weight: 600;
+    text-align: center;
     color: #000000;
     font-size: 52px;
     margin: 30px 0 30px 0;
@@ -4240,13 +4244,13 @@
     padding: 0;
   }
   .mainProductos .contenedor-productos__cards .cards {
-    width: 28%;
-    height: 600px;
+    width: 345px;
+    height: 620px;
     border-top: 1px solid #080808;
     border-left: 0.21px solid #080808;
     border-bottom: 1px solid #080808;
     border-right: 0.15px solid #080808;
-    margin: 10px;
+    margin: 5px;
     border-radius: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4337,14 +4341,14 @@
     font-weight: 400;
     color: #FFFFFF;
     color: #080808;
-    font-size: 16px;
+    font-size: 14px;
     margin: 15px 10px 15px 10%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     text-align: left;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR {
-    font-size: 15px;
+    font-size: 14px;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .mensajeWAPP {
     margin: 0;
@@ -4558,13 +4562,13 @@
     padding: 0;
   }
   .mainCombos .contenedor-combos__cards .cards {
-    width: 28%;
-    height: 600px;
+    width: 345px;
+    height: 620px;
     border-top: 1px solid #080808;
     border-left: 0.21px solid #080808;
     border-bottom: 1px solid #080808;
     border-right: 0.15px solid #080808;
-    margin: 10px;
+    margin: 5px;
     border-radius: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4642,7 +4646,7 @@
     font-weight: 400;
     color: #FFFFFF;
     color: #080808;
-    font-size: 16px;
+    font-size: 14px;
     margin: 15px 10px 15px 10%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;

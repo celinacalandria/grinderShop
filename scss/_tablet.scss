@@ -533,6 +533,7 @@
                 @include letraRegular;
                 font-weight: 800;
                 color: $negro;
+                text-align: center;
                 font-size: 32px;
                 margin: 15px 0 15px 0;
             }
@@ -606,7 +607,7 @@
                 p{
                     @include letraRegular;
                     color: $fondo;
-                    font-size: 16px;
+                    font-size: 15px;
                     margin: 15px 10px 15px 10%;
                     transition: all 0.3s;
                     text-align: left;
@@ -749,6 +750,7 @@
                 font-weight: 800;
                 color: $negro;
                 font-size: 32px;
+                text-align: center;
                 margin: 15px 0 15px 0;
             }
         }
@@ -808,7 +810,7 @@
                 p{
                     @include letraRegular;
                     color: $fondo;
-                    font-size: 15px;
+                    font-size: 14px;
                     margin: 15px 10px 15px 10%;
                     transition: all 0.3s;
                     text-align: left;

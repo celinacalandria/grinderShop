@@ -560,7 +560,7 @@
         align-items: center;
         .cards{
             width: 100%;
-            height: 600px;   
+            height: 620px;   
             border: {
                 top: 1px solid $fondo;
                 left: none;
@@ -596,7 +596,7 @@
                     height: auto;
                 } 
                 .imgD3{
-                    width: 35%;
+                    width: 30%;
                     height: auto;
                 } 
             }
@@ -621,7 +621,7 @@
                 p{
                     @include letraRegular;
                     color: $fondo;
-                    font-size: 16px;
+                    font-size: 15px;
                     margin: 15px 10px 15px 10%;
                     transition: all 0.3s;
                     text-align: left;
@@ -762,6 +762,7 @@
             h2{
                 @include letraRegular;
                 font-weight: 800;
+                text-align: center;
                 color: $negro;
                 font-size: 32px;
                 margin: 15px 0 15px 0;
@@ -775,7 +776,7 @@
         align-items: center;
         .cards{
             width: 100%;
-            height: 600px;   
+            height: 620px;   
             border: {
                 top: 1px solid $fondo;
                 left: none;
@@ -824,7 +825,7 @@
                 p{
                     @include letraRegular;
                     color: $fondo;
-                    font-size: 16px;
+                    font-size: 14px;
                     margin: 15px 10px 15px 10%;
                     transition: all 0.3s;
                     text-align: left;
