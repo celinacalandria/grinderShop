@@ -19,12 +19,13 @@
     @include letraRegular;
     font-size: 20px;
     line-height: 24px;
-    li{
+    .nav-item{
         padding: 17px 42px 17px 42px;
-        a{
-            &:hover{
-                color: $hover;
-            }
+        .nav-link{
+            color: $blanco;
+        &:hover{
+            color: $hover;
+        }
         }
     }
 }

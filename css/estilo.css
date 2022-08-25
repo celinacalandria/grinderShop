@@ -3280,10 +3280,13 @@
     font-size: 20px;
     line-height: 24px;
   }
-  .collapse li {
+  .collapse .nav-item {
     padding: 17px 42px 17px 42px;
   }
-  .collapse li a:hover {
+  .collapse .nav-item .nav-link {
+    color: #FFFFFF;
+  }
+  .collapse .nav-item .nav-link:hover {
     color: #59CD90;
   }
   #navbar-brandDesktop1 {
