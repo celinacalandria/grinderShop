@@ -637,7 +637,7 @@
 }
 .mainProductos{
     display: grid;
-    grid-template-columns: 2fr 5fr;
+    grid-template-columns: 1.5fr 5fr;
     grid-template-rows: auto;
     grid-template-areas: "barra principal";
     .sectionProductos__barra{
@@ -647,10 +647,10 @@
             color: $blanco;
             @include letraTexto;
             font-size: 26px;
-            margin: 4rem 2rem 3rem 5rem;
+            margin: 4rem 2rem 3rem 4rem;
         }
         .productosBotones{
-            margin: 2rem 2rem 3rem 4.25rem;
+            margin: 2rem 2rem 3rem 3.25rem;
             display: flex;
             flex-wrap: wrap;
             a{
@@ -673,7 +673,7 @@
             }
         }
         .productosMensaje{
-            margin: 4rem 2rem 3rem 5rem;
+            margin: 4rem 2rem 3rem 4rem;
             h5{
               margin: 0 0 1rem 0;  
             }
@@ -898,7 +898,7 @@
 }
 .mainCombos{
     display: grid;
-    grid-template-columns: 2fr 5fr;
+    grid-template-columns: 1.5fr 5fr;
     grid-template-rows: auto;
     grid-template-areas: "barra principal";
     .sectionCombos__barra{
@@ -908,10 +908,10 @@
             color: $blanco;
             @include letraTexto;
             font-size: 26px;
-            margin: 4rem 2rem 3rem 5rem;
+            margin: 4rem 2rem 3rem 4rem;
         }
         .combosMensaje{
-            margin: 4rem 2rem 3rem 5rem;
+            margin: 4rem 2rem 3rem 4rem;
             h5{
               margin: 0 0 1rem 0;  
             }
@@ -1263,7 +1263,7 @@
 /* FOOTER */
 .footer{
     background-color: $negro;
-    height: 481px;
+    height: 460px;
 }
 .footerGrinder{
     padding: 40px 0px 20px 0px; 
@@ -1325,7 +1325,7 @@
         font-size: 24px;
         line-height: 29px;
         letter-spacing: 0.03rem; 
-        margin: 1rem;
+        margin: 5px 1rem;
     }
     .footerInfo__email{
         display: flex;
@@ -1353,7 +1353,6 @@
         font-size: 24px;
         line-height: 29px;
         letter-spacing: 0.03rem;
-        margin: 10px;
         text-align: center;
     }
     .footerContacto__redes{
@@ -1361,12 +1360,12 @@
         flex-direction: row;
         align-items: center;
         i{
-            margin: 10px;
-            font-size: 22px;
+            margin: 5px;
+            font-size: 20px;
         }
         a{
             text-align: center;
-            margin: 10px;
+            margin: 5px;
             font-size: 20px;
             line-height: 29px;
             letter-spacing: 0.03rem;
