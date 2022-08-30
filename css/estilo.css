@@ -3303,8 +3303,32 @@
   /* main */
   .mainIndex {
     background-size: cover;
-    height: 700px;
+    height: 610px;
     width: 100%;
+    /* button{
+        @include centrado;
+        background-color: $verde;
+        border-radius: 10px;
+        margin-top: 6rem;
+        border: none;
+        padding: 8px 8px 4px 8px;
+        cursor: pointer;
+        img{
+            width: 23px;
+            height: 23px;
+            margin: 6px 6px 14px 6px;
+        }
+        a{
+            @include letraTexto2;
+            font-size: 20px;
+            color: $negro;
+            text-decoration: none;
+        }
+        &:hover{
+            background-color: $hover;
+            letter-spacing: 0.03rem;
+        }
+    } */
   }
   .mainIndex h1 {
     padding: 8rem 0rem 1rem 0rem;
@@ -3326,36 +3350,10 @@
     text-align: center;
     line-height: 38px;
     letter-spacing: 0.1rem;
-  }
-  .mainIndex button {
-    display: block;
-    margin: auto;
-    background-color: #2A8052;
-    border-radius: 10px;
-    margin-top: 6rem;
-    border: none;
-    padding: 8px 8px 4px 8px;
-    cursor: pointer;
-  }
-  .mainIndex button img {
-    width: 23px;
-    height: 23px;
-    margin: 6px 6px 14px 6px;
-  }
-  .mainIndex button a {
-    font-family: 'Lato', sans-serif;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 20px;
-    color: #000000;
-    text-decoration: none;
-  }
-  .mainIndex button:hover {
-    background-color: #59CD90;
-    letter-spacing: 0.03rem;
+    margin-top: 5rem;
   }
   .mainIndex div {
-    padding: 3rem 18rem 0rem 0rem;
+    padding: 5rem 18rem 0rem 0rem;
   }
   .mainIndex div div {
     padding: 5px;
@@ -3379,9 +3377,34 @@
   .mainCarousel1 {
     margin: 5rem 0rem 5rem 0rem;
   }
-  .mainCarousel1 img {
+  .mainCarousel1 .carousel .carousel-item div {
     width: 100%;
-    height: 100%;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mainCarousel1 .carousel .carousel-item div a {
+    position: absolute;
+    left: 42.5%;
+    top: 72.5%;
+    width: 15%;
+    height: 3rem;
+    background-color: #2A8052;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 8px 4px 8px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .mainCarousel1 .carousel .carousel-item div a:hover {
+    background-color: #59CD90;
+    letter-spacing: 0.03rem;
   }
   .sectionIndex__picadores {
     display: -webkit-box;
@@ -3759,7 +3782,7 @@
     display: none;
   }
   .sectionIndex__coloresDesktop {
-    margin: 6rem 0 4rem 0;
+    margin: 6rem 0 0rem 0;
   }
   .sectionIndex__coloresDesktop div {
     width: 100%;
@@ -3914,7 +3937,7 @@
     height: auto;
   }
   .indexCombos__promo {
-    margin: 2rem 0rem 2rem 0rem;
+    margin: 2rem 0rem 4rem 0rem;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1.5fr;
@@ -4959,7 +4982,6 @@
   /* FOOTER */
   .footer {
     background-color: #000000;
-    height: 460px;
   }
   .footerGrinder {
     padding: 40px 0px 20px 0px;
@@ -5048,39 +5070,19 @@
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
   }
   .footerInfo h6 {
+    text-align: center;
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0.03rem;
-    margin: 5px 1rem;
-  }
-  .footerInfo .footerInfo__email {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .footerInfo .footerInfo__email i {
-    margin: 10px;
-    font-size: 18px;
-  }
-  .footerInfo .footerInfo__email p {
-    margin: 10px;
-    font-size: 18px;
+    margin: 1.5rem 0;
+    font-weight: 600;
   }
   .footerInfo p {
-    margin: 10px;
+    margin: 15px;
     font-size: 18px;
     line-height: 20px;
   }
@@ -5089,6 +5091,8 @@
     line-height: 29px;
     letter-spacing: 0.03rem;
     text-align: center;
+    font-weight: 600;
+    margin: 1rem 0;
   }
   .footerContacto .footerContacto__redes {
     display: -webkit-box;
@@ -5117,6 +5121,30 @@
   }
   .footerContacto .footerContacto__redes a:hover i {
     color: #59CD90;
+  }
+  .footerContacto .footerInfo__email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footerContacto .footerInfo__email i {
+    margin: 5px;
+    font-size: 20px;
+  }
+  .footerContacto .footerInfo__email p {
+    ext-align: center;
+    margin: 5px;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.03rem;
+    color: #FFFFFF;
   }
 }
 
