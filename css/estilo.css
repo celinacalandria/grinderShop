@@ -3382,6 +3382,7 @@
     height: 420px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
   .mainCarousel1 .carousel .carousel-item div a {
     position: absolute;
@@ -3405,6 +3406,10 @@
   .mainCarousel1 .carousel .carousel-item div a:hover {
     background-color: #59CD90;
     letter-spacing: 0.03rem;
+  }
+  .mainCarousel1 .carousel-control-prev-icon, .mainCarousel1 .carousel-control-next-icon {
+    -webkit-filter: invert(42%) sepia(14%) saturate(1815%) hue-rotate(95deg) brightness(93%) contrast(87%);
+            filter: invert(42%) sepia(14%) saturate(1815%) hue-rotate(95deg) brightness(93%) contrast(87%);
   }
   .sectionIndex__picadores {
     display: -webkit-box;
@@ -4198,6 +4203,11 @@
     border: 2px solid #000000;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+  }
+  .mainProductos .sectionProductos__barra .productosBotones .botonOfertas {
+    border: 2px solid #59CD90;
+    background-color: #2A8052;
+    color: #080808;
   }
   .mainProductos .sectionProductos__barra .productosMensaje {
     margin: 4rem 2rem 3rem 4rem;
@@ -5081,10 +5091,22 @@
     margin: 1.5rem 0;
     font-weight: 600;
   }
-  .footerInfo p {
+  .footerInfo a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 15px;
     font-size: 18px;
     line-height: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .footerInfo a:hover {
+    color: #59CD90;
   }
   .footerContacto h6 {
     font-size: 24px;
@@ -5139,7 +5161,7 @@
     font-size: 20px;
   }
   .footerContacto .footerInfo__email p {
-    ext-align: center;
+    text-align: center;
     margin: 5px;
     font-size: 20px;
     line-height: 29px;

@@ -112,6 +112,7 @@
                 height: 420px;
                 background-repeat: no-repeat;
                 background-size: cover;
+                background-position: center;
                 a{
                     position: absolute;
                     left: 42.5%;
@@ -136,6 +137,9 @@
                 
             }
         }
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        filter: invert(42%) sepia(14%) saturate(1815%) hue-rotate(95deg) brightness(93%) contrast(87%);
     }
 }
 
@@ -699,6 +703,11 @@
                     border: 2px solid $negro;
                     transition: all 0.3s;
                 }
+            }
+            .botonOfertas{
+                border: 2px solid $hover;
+                background-color: $verde;
+                color: $fondo;
             }
         }
         .productosMensaje{
@@ -1358,10 +1367,17 @@
         margin: 1.5rem 0;
         font-weight: 600;
     }
-    p{
+    a{
+        display: flex;
+        flex-direction: column;
         margin: 15px;
         font-size: 18px;
         line-height: 20px;
+        text-decoration: none;
+        color: $blanco;
+        &:hover{
+            color: $hover;
+        }
     }
 }
 .footerContacto{
@@ -1403,7 +1419,7 @@
             font-size: 20px;
         }
         p{
-            ext-align: center;
+            text-align: center;
             margin: 5px;
             font-size: 20px;
             line-height: 29px;
