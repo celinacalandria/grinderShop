@@ -3353,10 +3353,6 @@
     margin-top: 5rem;
   }
   .mainIndex div {
-    padding: 5rem 18rem 0rem 0rem;
-  }
-  .mainIndex div div {
-    padding: 5px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3364,9 +3360,13 @@
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
+  .mainIndex div div {
+    margin: 0px;
+    padding: 0px;
+  }
   .mainIndex div div i {
     color: #FFFFFF;
-    margin: 0.5rem;
+    margin: 5rem 10rem;
     font-size: 52px;
   }
   .mainIndex div div i:hover {
@@ -3410,6 +3410,160 @@
   .mainCarousel1 .carousel-control-prev-icon, .mainCarousel1 .carousel-control-next-icon {
     -webkit-filter: invert(42%) sepia(14%) saturate(1815%) hue-rotate(95deg) brightness(93%) contrast(87%);
             filter: invert(42%) sepia(14%) saturate(1815%) hue-rotate(95deg) brightness(93%) contrast(87%);
+  }
+  .sectionPromo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .sectionPromo .indexPromo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sectionPromo .indexPromo img {
+    height: 56px;
+    width: 56px;
+    margin: 10px;
+  }
+  .sectionPromo .indexPromo h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 10px 0px 50px 0px;
+    letter-spacing: 0.3rem;
+  }
+  .sectionPromo .indexPromo__card {
+    margin: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 70%;
+    height: auto;
+    z-index: 0;
+    /* &:hover {
+            border: 3px solid $hover;
+        } */
+  }
+  .sectionPromo .indexPromo__card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .sectionPromo .indexPromo__card:hover img {
+    -webkit-filter: blur(1.1px) brightness(20%);
+            filter: blur(1.1px) brightness(20%);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .sectionPromo .indexPromo__card .cardEfecto {
+    z-index: 10;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+    border: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .sectionPromo .indexPromo__card .cardEfecto .efecto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: none;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    bottom: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    /* h6{
+                    font-size: 35px;
+                    font-weight: 800;
+                    margin: 2rem;
+                } */
+    /* p{
+                    font-size: 25px;
+                    color: $blanco;
+                    border: none;
+                    margin: 2rem;
+                } */
+  }
+  .sectionPromo .indexPromo__card .cardEfecto .efecto a {
+    padding: 0.5rem;
+    margin: 2rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: #080808;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 40%;
+    height: 3rem;
+    text-decoration: none;
+  }
+  .sectionPromo .indexPromo__card .cardEfecto .efecto a:hover {
+    background-color: #59CD90;
+    color: #000000;
+    border: 1px solid #000000;
+  }
+  .sectionPromo .indexPromo__card:hover .efecto {
+    bottom: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .sectionPromo .indexPromo__card:hover .efectoP {
+    display: block;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
   }
   .sectionIndex__picadores {
     display: -webkit-box;
