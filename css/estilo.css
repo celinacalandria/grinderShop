@@ -4649,6 +4649,9 @@
     width: auto;
     height: 400px;
   }
+  .indexCombos__promo .comboPromo .promo__botonMobile {
+    display: none;
+  }
   .indexCombos__promo .promo__texto {
     font-family: 'Montserrat';
     font-style: normal;
