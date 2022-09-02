@@ -1295,16 +1295,22 @@
 .footerInfo{
     width: 100%;
     a{
+        background-color: $celeste;
+        border: 1px solid $celeste;
+        height: 3rem;
+        width: 15rem;
+        border-radius: 8px;
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
         margin: 5px 5px 5px 15px;
         font-size: 18px;
         line-height: 20px;
         text-decoration: none;
         color: $blanco;
         &:hover{
-            color: $hover;
+            color: $fondo;
         }
         h6{
             text-align: center;
@@ -1315,13 +1321,13 @@
             font-weight: 600;
         }
         i{
-            margin: 5px 10px;
+            margin: 5px 10px 5px 0;
             font-size: 20px;
         }
     }
     p{
         font-size: 16px;
-        margin: 5px 5px 5px 15px;
+        margin: 10px 10px 10px 20px;
     }
 }
 .footerContacto{
