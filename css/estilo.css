@@ -3303,32 +3303,8 @@
   /* main */
   .mainIndex {
     background-size: cover;
-    height: 610px;
+    height: 650px;
     width: 100%;
-    /* button{
-        @include centrado;
-        background-color: $verde;
-        border-radius: 10px;
-        margin-top: 6rem;
-        border: none;
-        padding: 8px 8px 4px 8px;
-        cursor: pointer;
-        img{
-            width: 23px;
-            height: 23px;
-            margin: 6px 6px 14px 6px;
-        }
-        a{
-            @include letraTexto2;
-            font-size: 20px;
-            color: $negro;
-            text-decoration: none;
-        }
-        &:hover{
-            background-color: $hover;
-            letter-spacing: 0.03rem;
-        }
-    } */
   }
   .mainIndex h1 {
     padding: 8rem 0rem 1rem 0rem;
@@ -3350,9 +3326,48 @@
     text-align: center;
     line-height: 38px;
     letter-spacing: 0.1rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
-  .mainIndex div {
+  .mainIndex .mainBotones a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: block;
+    margin: auto;
+    background-color: #2A8052;
+    border-radius: 10px;
+    margin-top: 3rem;
+    border: none;
+    padding: 8px 8px 4px 8px;
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    width: 22rem;
+    text-decoration: none;
+  }
+  .mainIndex .mainBotones a:hover {
+    background-color: #59CD90;
+    letter-spacing: 0.03rem;
+  }
+  .mainIndex .mainBotones a img {
+    width: 23px;
+    height: 23px;
+    margin: 6px 6px 14px 6px;
+  }
+  .mainIndex .mainRedes {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3360,34 +3375,34 @@
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  .mainIndex div div {
+  .mainIndex .mainRedes div {
     margin: 0px;
     padding: 0px;
   }
-  .mainIndex div div i {
+  .mainIndex .mainRedes div i {
     color: #FFFFFF;
-    margin: 5rem 10rem;
+    margin: 2rem 10rem;
     font-size: 52px;
   }
-  .mainIndex div div i:hover {
+  .mainIndex .mainRedes div i:hover {
     color: #59CD90;
   }
   /* section */
   /* section carousel */
   .mainCarousel1 {
-    margin: 5rem 0rem 5rem 0rem;
+    margin: 3rem 0rem 3rem 0rem;
   }
   .mainCarousel1 .carousel .carousel-item div {
     width: 100%;
     height: 420px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
   .mainCarousel1 .carousel .carousel-item div a {
     position: absolute;
     left: 42.5%;
-    top: 72.5%;
+    top: 65.5%;
     width: 15%;
     height: 3rem;
     background-color: #2A8052;
@@ -3630,16 +3645,15 @@
             justify-content: space-between;
     overflow: hidden;
     position: relative;
-    height: 550px;
+    width: 30%;
+    height: 600px;
     z-index: 0;
   }
   .sectionIndex__picadores .indexPicadores__cards div img {
-    width: 300px;
+    width: 15rem;
     height: auto;
-    padding: 50px 15px 0 15px;
     display: block;
     margin: auto;
-    margin: 5rem 1rem 1rem 1rem;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
@@ -3815,17 +3829,21 @@
             justify-content: space-between;
     overflow: hidden;
     position: relative;
+    width: 30%;
     height: 600px;
     z-index: 0;
   }
   .sectionIndex__accesorios .indexAccesorios__cards div img {
-    width: 300px;
-    height: auto;
+    height: 15rem;
+    width: auto;
     display: block;
     margin: auto;
-    margin: 5rem 1rem 1rem 1rem;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+  }
+  .sectionIndex__accesorios .indexAccesorios__cards div #cenicero {
+    height: 12rem;
+    width: auto;
   }
   .sectionIndex__accesorios .indexAccesorios__cards div p {
     border: 1px solid #2A8052;
@@ -3904,7 +3922,7 @@
   .sectionIndex__accesorios .indexAccesorios__cards div .cardEfecto .efecto button {
     display: block;
     margin: auto;
-    margin: 6rem 0 0 0;
+    margin: 2rem 0 0 0;
     border: 1px solid #FFFFFF;
     border-radius: 10px;
     background-color: #080808;
@@ -4137,7 +4155,20 @@
     text-align: end;
     padding: 0rem 4rem 0rem 4rem;
   }
-  .indexCombos__promo .promo__texto button {
+  .indexCombos__promo .promo__texto div a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     display: block;
     margin: auto;
     background-color: #2A8052;
@@ -4145,29 +4176,27 @@
     margin-top: 3rem;
     border: none;
     padding: 8px 8px 4px 8px;
-    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    width: 22rem;
+    text-decoration: none;
   }
-  .indexCombos__promo .promo__texto button img {
+  .indexCombos__promo .promo__texto div a:hover {
+    background-color: #59CD90;
+    letter-spacing: 0.03rem;
+  }
+  .indexCombos__promo .promo__texto div a img {
     width: 23px;
     height: 23px;
     margin: 6px 6px 14px 6px;
   }
-  .indexCombos__promo .promo__texto button a {
-    font-family: 'Lato', sans-serif;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 20px;
-    color: #000000;
-    text-decoration: none;
-  }
-  .indexCombos__promo .promo__texto button:hover {
-    background-color: #59CD90;
-    letter-spacing: 0.03rem;
-  }
   .asideFondo {
-    display: block;
     margin: auto;
-    width: 90%;
+    width: 95%;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -4203,14 +4232,19 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
   .sectionIndex__marcas .indexMarcas img {
-    height: 56px;
-    width: 56px;
-    margin: 10px;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
   }
   .sectionIndex__marcas .indexMarcas h4 {
     font-family: 'Yeseva One';
@@ -4235,7 +4269,7 @@
             justify-content: center;
   }
   .sectionIndex__marcas .indexMarcas__cards div {
-    margin: 50px;
+    margin: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4264,9 +4298,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .sectionIndex__compra div {
     display: -webkit-box;
@@ -4286,6 +4320,7 @@
   .sectionIndex__compra div i {
     display: block;
     margin: auto;
+    padding-left: 10px;
     margin: 0;
     color: #1BD743;
     font-size: 30px;
@@ -5227,9 +5262,9 @@
             flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -5237,23 +5272,18 @@
     margin-top: 1rem;
     padding-bottom: 1.5rem;
   }
-  .footerInfo h6 {
-    text-align: center;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.03rem;
-    margin: 1.5rem 0;
-    font-weight: 600;
-  }
   .footerInfo a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin: 15px;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0px;
     font-size: 18px;
     line-height: 20px;
     text-decoration: none;
@@ -5261,6 +5291,22 @@
   }
   .footerInfo a:hover {
     color: #59CD90;
+  }
+  .footerInfo a h6 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+  }
+  .footerInfo a i {
+    margin: 15px;
+    font-size: 30px;
+  }
+  .footerInfo p {
+    font-size: 18px;
+    margin: 5px;
   }
   .footerContacto h6 {
     font-size: 24px;
