@@ -49,31 +49,31 @@
     }
     .mainBotones{
         a{
-            display: flex;
+            /* display: flex;
             flex-direction: row;
             justify-content: center;
-            align-items: center;
+            align-items: center; */
             @include centrado;
             background-color: $verde;
             border-radius: 10px;
             margin-top: 2rem;
             border: none;
-            padding: 5px 5px 2px 5px;
+            padding: 5px;
             @include letraTexto2;
             text-align: center;
             font-size: 15px;
             color: $negro;
-            width: 18rem;
+            width: 16rem;
             text-decoration: none;
             &:hover{
                 background-color: $hover;
                 letter-spacing: 0.03rem;
             }
-            img{
+            /* img{
                 width: 23px;
                 height: 23px;
                 margin: 6px 6px 14px 6px;
-            }
+            } */
         }
     }
     .mainRedes{
@@ -259,7 +259,7 @@
     display: none;
 }
 
-.sectionIndex__mobile{
+/* .sectionIndex__mobile{
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
@@ -392,11 +392,32 @@
             }
         }
     }
-}
+} */
 
 .sectionIndex__coloresMobile{
     margin: 4rem 0 4rem 0;
-    div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    .coloresMobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        img{
+            @include centrado;
+            margin: 10px;
+            height: 40px;
+            width: 40px;
+        }
+        h4{
+            @include letraRegular;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 400;
+            margin: 10px 10px 20px 10px;
+        }
+    }
+    .indexColores{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -499,24 +520,26 @@
     align-items: center;
     .comboPromo{
         .carousel{
-            img{
-                @include centrado;
-                height: 350px;
-                width: auto;
-                margin: 1rem 0 3rem 0;
+            .carousel-inner{
+                img{
+                    @include centrado;
+                    height: 350px;
+                    width: auto;
+                    margin: 1rem 0 3rem 0;
+                }
             }
         }
         .promo__botonMobile{
-            display: flex;
+            /* display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
+            align-items: center; */
             @include centrado;
-            padding: 5px 5px 2px 5px;
+            padding: 5px;
             background-color: $verde;
             border-radius: 10px;
             border: none;
-            width: 18rem;
+            width: 16rem;
             text-align: center;
             a{  
                 text-decoration: none;
@@ -528,11 +551,11 @@
                 background-color: $hover;
                 letter-spacing: 0.03rem;
             }
-            img{
+            /* img{
                 width: 23px;
                 height: 23px;
                 margin: 6px 6px 14px 6px;
-            }
+            } */
         }
     }
     .promo__texto{
@@ -566,15 +589,15 @@
     flex-direction: column;
     margin: 2rem;
     .indexMarcas{
-        display: flex;
+        /* display: flex;
         flex-direction: row;
-        justify-content: center;
-        img{
+        justify-content: center; */
+        /* img{
             @include centrado;
             margin: 10px;
             height: 40px;
             width: 40px;
-        }
+        } */
         h4{
             @include letraGrinder;
             text-align: center;

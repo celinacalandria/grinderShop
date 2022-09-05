@@ -66,43 +66,34 @@
     letter-spacing: 0.1rem;
   }
   .mainIndex .mainBotones a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
+    /* display: flex;
             flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+            align-items: center; */
     display: block;
     margin: auto;
     background-color: #2A8052;
     border-radius: 10px;
     margin-top: 2rem;
     border: none;
-    padding: 5px 5px 2px 5px;
+    padding: 5px;
     font-family: 'Lato', sans-serif;
     color: #FFFFFF;
     font-weight: 400;
     text-align: center;
     font-size: 15px;
     color: #000000;
-    width: 18rem;
+    width: 16rem;
     text-decoration: none;
+    /* img{
+                width: 23px;
+                height: 23px;
+                margin: 6px 6px 14px 6px;
+            } */
   }
   .mainIndex .mainBotones a:hover {
     background-color: #59CD90;
     letter-spacing: 0.03rem;
-  }
-  .mainIndex .mainBotones a img {
-    width: 23px;
-    height: 23px;
-    margin: 6px 6px 14px 6px;
   }
   .mainIndex .mainRedes {
     padding: 2rem 4rem 2rem 2rem;
@@ -330,7 +321,142 @@
   .sectionIndex__picadores {
     display: none;
   }
-  .sectionIndex__mobile {
+  /* .sectionIndex__mobile{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    .indexMobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        img{
+            @include centrado;
+            margin: 10px;
+            height: 40px;
+            width: 40px;
+        }
+        h4{
+            @include letraRegular;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 400;
+            margin: 10px;
+        }
+    }
+    .indexMobile__cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        div{
+            border: 3px solid $verde;
+            border-radius: 20px;
+            margin: 1rem;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+            height: 400px;
+            width: 300px;
+            z-index: 0;
+            img{
+                width: 150px;
+                height: auto;
+                @include centrado;
+                transition: all 0.3s;
+            }
+            p{
+                border: 1px solid $verde;
+                border-radius: 20px;
+                text-align: center;
+                @include letraRegular;
+                font-size: 18px;
+                padding: 1rem 0rem 1rem 0rem;
+                margin: 2rem 0.5rem 0.5rem 0.5rem;
+                transition: all 0.3s;
+            }
+            &:hover img{
+                filter: blur(1.1px) brightness(20%);
+                transform: scale(1.3);
+                transition: all 0.3s;
+            }
+            &:hover p{
+                display: none;
+                transition: all 0.3s;
+            }
+            &:hover {
+                border: 3px solid $hover;
+            }
+            .cardEfecto{
+                z-index: 10;
+                text-align: center;
+                color: $blanco;
+                @include letraRegular;
+                margin: 0;
+                border: none;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                .efecto{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    margin: 0;
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    bottom: 100%;
+                    transition: all 0.3s;
+                    h6{
+                        font-size: 24px;
+                        font-weight: 700;
+                        margin: 2rem;
+                    }
+                    p{
+                        font-size: 15px;
+                        color: $blanco;
+                        border: none;
+                        margin: 1rem;
+                    }
+                    button{
+                        @include centrado;
+                        margin: 2rem;
+                        border: 0.2px solid $blanco;
+                        border-radius: 10px;
+                        background-color: $fondo;
+                        color: $blanco;
+                        width: 50%;
+                        height: 2rem;
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
+                        &:hover{
+                            background-color: $hover;
+                            color: $negro;   
+                            border: 1px solid $negro;
+                        }
+                        &:hover a{
+                            color: $negro;
+                        }
+                    }
+                }
+            }
+            &:hover .efecto{
+                bottom: 0;
+                transition: all 0.3s;
+            }
+            &:hover .efectoP{
+                display: block;
+                transition: all 0.3s;
+            }
+        }
+    }
+} */
+  .sectionIndex__coloresMobile {
+    margin: 4rem 0 4rem 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -340,7 +466,7 @@
             flex-direction: column;
     margin-bottom: 3rem;
   }
-  .sectionIndex__mobile .indexMobile {
+  .sectionIndex__coloresMobile .coloresMobile {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -352,14 +478,14 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .sectionIndex__mobile .indexMobile img {
+  .sectionIndex__coloresMobile .coloresMobile img {
     display: block;
     margin: auto;
     margin: 10px;
     height: 40px;
     width: 40px;
   }
-  .sectionIndex__mobile .indexMobile h4 {
+  .sectionIndex__coloresMobile .coloresMobile h4 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -367,160 +493,9 @@
     text-align: center;
     font-size: 30px;
     font-weight: 400;
-    margin: 10px;
+    margin: 10px 10px 20px 10px;
   }
-  .sectionIndex__mobile .indexMobile__cards {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 2rem;
-  }
-  .sectionIndex__mobile .indexMobile__cards div {
-    border: 3px solid #2A8052;
-    border-radius: 20px;
-    margin: 1rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    overflow: hidden;
-    position: relative;
-    height: 400px;
-    width: 300px;
-    z-index: 0;
-  }
-  .sectionIndex__mobile .indexMobile__cards div img {
-    width: 150px;
-    height: auto;
-    display: block;
-    margin: auto;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .sectionIndex__mobile .indexMobile__cards div p {
-    border: 1px solid #2A8052;
-    border-radius: 20px;
-    text-align: center;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    color: #FFFFFF;
-    font-size: 18px;
-    padding: 1rem 0rem 1rem 0rem;
-    margin: 2rem 0.5rem 0.5rem 0.5rem;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .sectionIndex__mobile .indexMobile__cards div:hover img {
-    -webkit-filter: blur(1.1px) brightness(20%);
-            filter: blur(1.1px) brightness(20%);
-    -webkit-transform: scale(1.3);
-            transform: scale(1.3);
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .sectionIndex__mobile .indexMobile__cards div:hover p {
-    display: none;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .sectionIndex__mobile .indexMobile__cards div:hover {
-    border: 3px solid #59CD90;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto {
-    z-index: 10;
-    text-align: center;
-    color: #FFFFFF;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    color: #FFFFFF;
-    margin: 0;
-    border: none;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto .efecto {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border: none;
-    margin: 0;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    bottom: 100%;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto .efecto h6 {
-    font-size: 24px;
-    font-weight: 700;
-    margin: 2rem;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto .efecto p {
-    font-size: 15px;
-    color: #FFFFFF;
-    border: none;
-    margin: 1rem;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto .efecto button {
-    display: block;
-    margin: auto;
-    margin: 2rem;
-    border: 0.2px solid #FFFFFF;
-    border-radius: 10px;
-    background-color: #080808;
-    color: #FFFFFF;
-    width: 50%;
-    height: 2rem;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto .efecto button a {
-    text-decoration: none;
-    color: #FFFFFF;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto .efecto button:hover {
-    background-color: #59CD90;
-    color: #000000;
-    border: 1px solid #000000;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto .efecto button:hover a {
-    color: #000000;
-  }
-  .sectionIndex__mobile .indexMobile__cards div:hover .efecto {
-    bottom: 0;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .sectionIndex__mobile .indexMobile__cards div:hover .efectoP {
-    display: block;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .sectionIndex__coloresMobile {
-    margin: 4rem 0 4rem 0;
-  }
-  .sectionIndex__coloresMobile div {
+  .sectionIndex__coloresMobile .indexColores {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -538,7 +513,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .sectionIndex__coloresMobile div a {
+  .sectionIndex__coloresMobile .indexColores a {
     text-decoration: none;
     width: 33.33%;
     height: 300px;
@@ -552,7 +527,7 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .sectionIndex__coloresMobile div a img {
+  .sectionIndex__coloresMobile .indexColores a img {
     width: 70%;
     height: auto;
     display: block;
@@ -560,27 +535,27 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .sectionIndex__coloresMobile div .imgD {
+  .sectionIndex__coloresMobile .indexColores .imgD {
     width: 50%;
     height: auto;
   }
-  .sectionIndex__coloresMobile div .imgM {
+  .sectionIndex__coloresMobile .indexColores .imgM {
     width: 75%;
     height: auto;
   }
-  .sectionIndex__coloresMobile div .color1 {
+  .sectionIndex__coloresMobile .indexColores .color1 {
     background-color: #91CB3E;
   }
-  .sectionIndex__coloresMobile div .color2 {
+  .sectionIndex__coloresMobile .indexColores .color2 {
     background-color: #53A548;
   }
-  .sectionIndex__coloresMobile div .color3 {
+  .sectionIndex__coloresMobile .indexColores .color3 {
     background-color: #436436;
   }
-  .sectionIndex__coloresMobile div .color4 {
+  .sectionIndex__coloresMobile .indexColores .color4 {
     background-color: #60993E;
   }
-  .sectionIndex__coloresMobile div .color5 {
+  .sectionIndex__coloresMobile .indexColores .color5 {
     background-color: #2A8052;
   }
   .sectionIndex__coloresDesktop {
@@ -678,27 +653,23 @@
     margin: 1rem 0 2rem 0;
   }
   .indexCombos__promo .promo__botonMobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
     display: block;
     margin: auto;
-    padding: 5px 5px 2px 5px;
+    padding: 5px;
     background-color: #2A8052;
     border-radius: 10px;
     border: none;
-    width: 18rem;
+    width: 16rem;
     text-align: center;
+    /* img{
+            width: 23px;
+            height: 23px;
+            margin: 6px 6px 14px 6px;
+        } */
   }
   .indexCombos__promo .promo__botonMobile a {
     text-decoration: none;
@@ -711,11 +682,6 @@
   .indexCombos__promo .promo__botonMobile:hover {
     background-color: #59CD90;
     letter-spacing: 0.03rem;
-  }
-  .indexCombos__promo .promo__botonMobile img {
-    width: 23px;
-    height: 23px;
-    margin: 6px 6px 14px 6px;
   }
   .indexCombos__promo .promo__texto p {
     font-family: 'Montserrat';
@@ -762,23 +728,15 @@
     margin: 1rem;
   }
   .sectionIndex__marcas .indexMarcas {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .sectionIndex__marcas .indexMarcas img {
-    display: block;
-    margin: auto;
-    margin: 10px;
-    height: 30px;
-    width: 30px;
+    /* display: flex;
+        flex-direction: row;
+        justify-content: center; */
+    /* img{
+            @include centrado;
+            margin: 10px;
+            height: 30px;
+            width: 30px;
+        } */
   }
   .sectionIndex__marcas .indexMarcas h4 {
     font-family: 'Yeseva One';
@@ -1946,43 +1904,34 @@
     letter-spacing: 0.1rem;
   }
   .mainIndex .mainBotones a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
+    /* display: flex;
             flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+            align-items: center; */
     display: block;
     margin: auto;
     background-color: #2A8052;
     border-radius: 10px;
     margin-top: 2rem;
     border: none;
-    padding: 5px 5px 2px 5px;
+    padding: 5px;
     font-family: 'Lato', sans-serif;
     color: #FFFFFF;
     font-weight: 400;
     text-align: center;
     font-size: 15px;
     color: #000000;
-    width: 18rem;
+    width: 16rem;
     text-decoration: none;
+    /* img{
+                width: 23px;
+                height: 23px;
+                margin: 6px 6px 14px 6px;
+            } */
   }
   .mainIndex .mainBotones a:hover {
     background-color: #59CD90;
     letter-spacing: 0.03rem;
-  }
-  .mainIndex .mainBotones a img {
-    width: 23px;
-    height: 23px;
-    margin: 6px 6px 14px 6px;
   }
   .mainIndex .mainRedes {
     padding: 2rem 4rem 2rem 2rem;
@@ -2213,7 +2162,142 @@
   .sectionIndex__accesorios {
     display: none;
   }
-  .sectionIndex__mobile {
+  /* .sectionIndex__mobile{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    .indexMobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        img{
+            @include centrado;
+            margin: 10px;
+            height: 40px;
+            width: 40px;
+        }
+        h4{
+            @include letraRegular;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 400;
+            margin: 10px;
+        }
+    }
+    .indexMobile__cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        div{
+            border: 3px solid $verde;
+            border-radius: 20px;
+            margin: 1rem;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+            height: 400px;
+            width: 300px;
+            z-index: 0;
+            img{
+                width: 150px;
+                height: auto;
+                @include centrado;
+                transition: all 0.3s;
+            }
+            p{
+                border: 1px solid $verde;
+                border-radius: 20px;
+                text-align: center;
+                @include letraRegular;
+                font-size: 18px;
+                padding: 1rem 0rem 1rem 0rem;
+                margin: 2rem 0.5rem 0.5rem 0.5rem;
+                transition: all 0.3s;
+            }
+            &:hover img{
+                filter: blur(1.1px) brightness(20%);
+                transform: scale(1.3);
+                transition: all 0.3s;
+            }
+            &:hover p{
+                display: none;
+                transition: all 0.3s;
+            }
+            &:hover {
+                border: 3px solid $hover;
+            }
+            .cardEfecto{
+                z-index: 10;
+                text-align: center;
+                color: $blanco;
+                @include letraRegular;
+                margin: 0;
+                border: none;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                .efecto{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    margin: 0;
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    bottom: 100%;
+                    transition: all 0.3s;
+                    h6{
+                        font-size: 24px;
+                        font-weight: 700;
+                        margin: 2rem;
+                    }
+                    p{
+                        font-size: 15px;
+                        color: $blanco;
+                        border: none;
+                        margin: 1rem;
+                    }
+                    button{
+                        @include centrado;
+                        margin: 2rem;
+                        border: 0.2px solid $blanco;
+                        border-radius: 10px;
+                        background-color: $fondo;
+                        color: $blanco;
+                        width: 50%;
+                        height: 2rem;
+                        a{
+                            text-decoration: none;
+                            color: $blanco;
+                        }
+                        &:hover{
+                            background-color: $hover;
+                            color: $negro;   
+                            border: 1px solid $negro;
+                        }
+                        &:hover a{
+                            color: $negro;
+                        }
+                    }
+                }
+            }
+            &:hover .efecto{
+                bottom: 0;
+                transition: all 0.3s;
+            }
+            &:hover .efectoP{
+                display: block;
+                transition: all 0.3s;
+            }
+        }
+    }
+} */
+  .sectionIndex__coloresMobile {
+    margin: 4rem 0 4rem 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2223,7 +2307,7 @@
             flex-direction: column;
     margin-bottom: 3rem;
   }
-  .sectionIndex__mobile .indexMobile {
+  .sectionIndex__coloresMobile .coloresMobile {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2235,14 +2319,14 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .sectionIndex__mobile .indexMobile img {
+  .sectionIndex__coloresMobile .coloresMobile img {
     display: block;
     margin: auto;
     margin: 10px;
     height: 40px;
     width: 40px;
   }
-  .sectionIndex__mobile .indexMobile h4 {
+  .sectionIndex__coloresMobile .coloresMobile h4 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -2250,160 +2334,9 @@
     text-align: center;
     font-size: 30px;
     font-weight: 400;
-    margin: 10px;
+    margin: 10px 10px 20px 10px;
   }
-  .sectionIndex__mobile .indexMobile__cards {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 1rem;
-  }
-  .sectionIndex__mobile .indexMobile__cards div {
-    border: 3px solid #2A8052;
-    border-radius: 20px;
-    margin: 1rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    overflow: hidden;
-    position: relative;
-    height: 400px;
-    width: 300px;
-    z-index: 0;
-  }
-  .sectionIndex__mobile .indexMobile__cards div img {
-    width: 150px;
-    height: auto;
-    display: block;
-    margin: auto;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .sectionIndex__mobile .indexMobile__cards div p {
-    border: 1px solid #2A8052;
-    border-radius: 20px;
-    text-align: center;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    color: #FFFFFF;
-    font-size: 18px;
-    padding: 1rem 0rem 1rem 0rem;
-    margin: 2rem 0.5rem 0.5rem 0.5rem;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .sectionIndex__mobile .indexMobile__cards div:hover img {
-    -webkit-filter: blur(1.1px) brightness(20%);
-            filter: blur(1.1px) brightness(20%);
-    -webkit-transform: scale(1.3);
-            transform: scale(1.3);
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .sectionIndex__mobile .indexMobile__cards div:hover p {
-    display: none;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .sectionIndex__mobile .indexMobile__cards div:hover {
-    border: 3px solid #59CD90;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto {
-    z-index: 10;
-    text-align: center;
-    color: #FFFFFF;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    color: #FFFFFF;
-    margin: 0;
-    border: none;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto .efecto {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border: none;
-    margin: 0;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    bottom: 100%;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto .efecto h6 {
-    font-size: 24px;
-    font-weight: 700;
-    margin: 2rem;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto .efecto p {
-    font-size: 15px;
-    color: #FFFFFF;
-    border: none;
-    margin: 1rem;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto .efecto button {
-    display: block;
-    margin: auto;
-    margin: 2rem;
-    border: 0.2px solid #FFFFFF;
-    border-radius: 10px;
-    background-color: #080808;
-    color: #FFFFFF;
-    width: 50%;
-    height: 2rem;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto .efecto button a {
-    text-decoration: none;
-    color: #FFFFFF;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto .efecto button:hover {
-    background-color: #59CD90;
-    color: #000000;
-    border: 1px solid #000000;
-  }
-  .sectionIndex__mobile .indexMobile__cards div .cardEfecto .efecto button:hover a {
-    color: #000000;
-  }
-  .sectionIndex__mobile .indexMobile__cards div:hover .efecto {
-    bottom: 0;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .sectionIndex__mobile .indexMobile__cards div:hover .efectoP {
-    display: block;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .sectionIndex__coloresMobile {
-    margin: 4rem 0 4rem 0;
-  }
-  .sectionIndex__coloresMobile div {
+  .sectionIndex__coloresMobile .indexColores {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2421,7 +2354,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .sectionIndex__coloresMobile div a {
+  .sectionIndex__coloresMobile .indexColores a {
     text-decoration: none;
     width: 25%;
     height: 300px;
@@ -2435,7 +2368,7 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .sectionIndex__coloresMobile div a img {
+  .sectionIndex__coloresMobile .indexColores a img {
     width: 70%;
     height: auto;
     display: block;
@@ -2443,27 +2376,27 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .sectionIndex__coloresMobile div .imgD {
+  .sectionIndex__coloresMobile .indexColores .imgD {
     width: 50%;
     height: auto;
   }
-  .sectionIndex__coloresMobile div .imgM {
+  .sectionIndex__coloresMobile .indexColores .imgM {
     width: 75%;
     height: auto;
   }
-  .sectionIndex__coloresMobile div .color1 {
+  .sectionIndex__coloresMobile .indexColores .color1 {
     background-color: #91CB3E;
   }
-  .sectionIndex__coloresMobile div .color2 {
+  .sectionIndex__coloresMobile .indexColores .color2 {
     background-color: #53A548;
   }
-  .sectionIndex__coloresMobile div .color3 {
+  .sectionIndex__coloresMobile .indexColores .color3 {
     background-color: #436436;
   }
-  .sectionIndex__coloresMobile div .color4 {
+  .sectionIndex__coloresMobile .indexColores .color4 {
     background-color: #60993E;
   }
-  .sectionIndex__coloresMobile div .color5 {
+  .sectionIndex__coloresMobile .indexColores .color5 {
     background-color: #2A8052;
   }
   .sectionIndex__coloresDesktop {
@@ -2540,7 +2473,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .indexCombos__promo .comboPromo .carousel img {
+  .indexCombos__promo .comboPromo .carousel .carousel-inner img {
     display: block;
     margin: auto;
     height: 350px;
@@ -2548,27 +2481,23 @@
     margin: 1rem 0 3rem 0;
   }
   .indexCombos__promo .comboPromo .promo__botonMobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
+    /* display: flex;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+            align-items: center; */
     display: block;
     margin: auto;
-    padding: 5px 5px 2px 5px;
+    padding: 5px;
     background-color: #2A8052;
     border-radius: 10px;
     border: none;
-    width: 18rem;
+    width: 16rem;
     text-align: center;
+    /* img{
+                width: 23px;
+                height: 23px;
+                margin: 6px 6px 14px 6px;
+            } */
   }
   .indexCombos__promo .comboPromo .promo__botonMobile a {
     text-decoration: none;
@@ -2581,11 +2510,6 @@
   .indexCombos__promo .comboPromo .promo__botonMobile:hover {
     background-color: #59CD90;
     letter-spacing: 0.03rem;
-  }
-  .indexCombos__promo .comboPromo .promo__botonMobile img {
-    width: 23px;
-    height: 23px;
-    margin: 6px 6px 14px 6px;
   }
   .indexCombos__promo .promo__texto p {
     font-family: 'Montserrat';
@@ -2632,23 +2556,15 @@
     margin: 2rem;
   }
   .sectionIndex__marcas .indexMarcas {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .sectionIndex__marcas .indexMarcas img {
-    display: block;
-    margin: auto;
-    margin: 10px;
-    height: 40px;
-    width: 40px;
+    /* display: flex;
+        flex-direction: row;
+        justify-content: center; */
+    /* img{
+            @include centrado;
+            margin: 10px;
+            height: 40px;
+            width: 40px;
+        } */
   }
   .sectionIndex__marcas .indexMarcas h4 {
     font-family: 'Yeseva One';
@@ -3855,43 +3771,34 @@
     margin-top: 3rem;
   }
   .mainIndex .mainBotones a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
+    /* display: flex;
             flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+            align-items: center; */
     display: block;
     margin: auto;
     background-color: #2A8052;
     border-radius: 10px;
     margin-top: 3rem;
     border: none;
-    padding: 8px 8px 4px 8px;
+    padding: 8px;
     font-family: 'Lato', sans-serif;
     color: #FFFFFF;
     font-weight: 400;
     text-align: center;
     font-size: 20px;
     color: #000000;
-    width: 22rem;
+    width: 20rem;
     text-decoration: none;
+    /* img{
+                width: 23px;
+                height: 23px;
+                margin: 6px 6px 14px 6px;
+            } */
   }
   .mainIndex .mainBotones a:hover {
     background-color: #59CD90;
     letter-spacing: 0.03rem;
-  }
-  .mainIndex .mainBotones a img {
-    width: 23px;
-    height: 23px;
-    margin: 6px 6px 14px 6px;
   }
   .mainIndex .mainRedes {
     display: -webkit-box;
@@ -4685,43 +4592,34 @@
     padding: 0rem 4rem 0rem 4rem;
   }
   .indexCombos__promo .promo__texto div a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    /* display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center; */
     display: block;
     margin: auto;
     background-color: #2A8052;
     border-radius: 10px;
     margin-top: 3rem;
     border: none;
-    padding: 8px 8px 4px 8px;
+    padding: 8px;
     font-family: 'Lato', sans-serif;
     color: #FFFFFF;
     font-weight: 400;
     text-align: center;
     font-size: 20px;
     color: #000000;
-    width: 22rem;
+    width: 20rem;
     text-decoration: none;
+    /* img{
+                    width: 23px;
+                    height: 23px;
+                    margin: 6px 6px 14px 6px;
+                } */
   }
   .indexCombos__promo .promo__texto div a:hover {
     background-color: #59CD90;
     letter-spacing: 0.03rem;
-  }
-  .indexCombos__promo .promo__texto div a img {
-    width: 23px;
-    height: 23px;
-    margin: 6px 6px 14px 6px;
   }
   .asideFondo {
     margin: auto;
@@ -4769,11 +4667,11 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-  .sectionIndex__marcas .indexMarcas img {
-    height: 30px;
-    width: 30px;
-    margin: 5px;
+    /* img{
+            height: 30px;
+            width: 30px;
+            margin: 5px;
+        } */
   }
   .sectionIndex__marcas .indexMarcas h4 {
     font-family: 'Yeseva One';
