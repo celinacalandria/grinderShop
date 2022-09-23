@@ -9,6 +9,13 @@
 
 /* letra grinder */
 @mixin letraGrinder {
+    font-family: 'Ms Madi', cursive;
+    font-style: normal;
+    font-weight: 400;
+    color: $blanco;
+}
+
+@mixin letraGrinder2 {
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: 400;
