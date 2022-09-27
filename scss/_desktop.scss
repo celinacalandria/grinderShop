@@ -301,6 +301,10 @@
                 margin: auto;
                 transition: all 0.3s;
             }
+            .imgD{
+                width: 10rem;
+                height: auto;
+            }
             p{
                 border: 1px solid $verde;
                 border-radius: 20px;
@@ -429,15 +433,15 @@
             height: 600px;
             z-index: 0;
             img{
-                height: 15rem;
+                height: 14rem;
                 width: auto;
                 display: block;
                 margin: auto;
                 transition: all 0.3s;
             }
-            #cenicero{
-                height: 12rem;
-                width: auto;;
+            .imgD{
+                height: 6rem;
+                width: auto;
             }
             p{
                 border: 1px solid $verde;

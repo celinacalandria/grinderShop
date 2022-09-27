@@ -4112,6 +4112,10 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
+  .sectionIndex__picadores .indexPicadores__cards div .imgD {
+    width: 10rem;
+    height: auto;
+  }
   .sectionIndex__picadores .indexPicadores__cards div p {
     border: 1px solid #2A8052;
     border-radius: 20px;
@@ -4289,15 +4293,15 @@
     z-index: 0;
   }
   .sectionIndex__accesorios .indexAccesorios__cards div img {
-    height: 15rem;
+    height: 14rem;
     width: auto;
     display: block;
     margin: auto;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .sectionIndex__accesorios .indexAccesorios__cards div #cenicero {
-    height: 12rem;
+  .sectionIndex__accesorios .indexAccesorios__cards div .imgD {
+    height: 6rem;
     width: auto;
   }
   .sectionIndex__accesorios .indexAccesorios__cards div p {
