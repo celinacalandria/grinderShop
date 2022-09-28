@@ -1009,6 +1009,10 @@
     width: 30%;
     height: auto;
   }
+  .mainProductos .contenedor-productos__cards .cards .infoCard .imgD4 {
+    width: 75%;
+    height: auto;
+  }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard {
     height: 50%;
     display: -webkit-box;
@@ -2846,6 +2850,10 @@
     width: 30%;
     height: auto;
   }
+  .mainProductos .contenedor-productos__cards .cards .infoCard .imgD4 {
+    width: 75%;
+    height: auto;
+  }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard {
     height: 50%;
     display: -webkit-box;
@@ -4562,17 +4570,7 @@
     margin: 10px 0px 50px 0px;
     letter-spacing: 0.3rem;
   }
-  .sectionIndex__publicidad div {
-    width: 100%;
-    margin: 4rem 0 4rem 0;
-  }
-  .sectionIndex__publicidad div img {
-    display: block;
-    margin: auto;
-    width: 70%;
-    height: auto;
-  }
-  .indexCombos__promo {
+  .sectionIndex__combos .indexCombos__promo {
     margin: 2rem 0rem 4rem 0rem;
     display: -ms-grid;
     display: grid;
@@ -4582,27 +4580,27 @@
         grid-template-rows: auto;
         grid-template-areas: "foto texto";
   }
-  .indexCombos__promo .comboPromo {
+  .sectionIndex__combos .indexCombos__promo .comboPromo {
     -ms-grid-row: 1;
     -ms-grid-column: 2;
     grid-area: foto;
     /* border:{
-            top: solid 2px $hover;
-            left: none;
-            bottom: solid 2px $hover;
-            right: none;
-        } */
+                top: solid 2px $hover;
+                left: none;
+                bottom: solid 2px $hover;
+                right: none;
+            } */
   }
-  .indexCombos__promo .comboPromo img {
+  .sectionIndex__combos .indexCombos__promo .comboPromo img {
     display: block;
     margin: auto;
     width: auto;
     height: 400px;
   }
-  .indexCombos__promo .comboPromo .promo__botonMobile {
+  .sectionIndex__combos .indexCombos__promo .comboPromo .promo__botonMobile {
     display: none;
   }
-  .indexCombos__promo .promo__texto {
+  .sectionIndex__combos .indexCombos__promo .promo__texto {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -4617,11 +4615,11 @@
     text-align: end;
     padding: 0rem 4rem 0rem 4rem;
   }
-  .indexCombos__promo .promo__texto div a {
+  .sectionIndex__combos .indexCombos__promo .promo__texto div a {
     /* display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center; */
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center; */
     display: block;
     margin: auto;
     background-color: #2A8052;
@@ -4638,12 +4636,12 @@
     width: 20rem;
     text-decoration: none;
     /* img{
-                    width: 23px;
-                    height: 23px;
-                    margin: 6px 6px 14px 6px;
-                } */
+                        width: 23px;
+                        height: 23px;
+                        margin: 6px 6px 14px 6px;
+                    } */
   }
-  .indexCombos__promo .promo__texto div a:hover {
+  .sectionIndex__combos .indexCombos__promo .promo__texto div a:hover {
     background-color: #59CD90;
     letter-spacing: 0.03rem;
   }
@@ -4983,6 +4981,10 @@
   }
   .mainProductos .contenedor-productos__cards .cards .infoCard .imgD3 {
     width: 40%;
+    height: auto;
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard .imgD4 {
+    width: 75%;
     height: auto;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard {
