@@ -359,26 +359,20 @@
                         border: none;
                         margin: 2rem;
                     }
-                    button{
-                        @include centrado;
-                        margin: 2rem;
+                    a{
+                        padding: 0.75rem;
                         border: 1px solid $blanco;
                         border-radius: 10px;
                         background-color: $fondo;
                         color: $blanco;
                         width: 50%;
                         height: 3rem;
+                        text-decoration: none;
+                        text-align: center;
                         &:hover{
                             background-color: $hover;
                             color: $negro;   
                             border: 1px solid $negro;
-                        }
-                        a{
-                            text-decoration: none;
-                            color: $blanco;
-                        }
-                        &:hover a{
-                            color: $negro;
                         }
                     }
                 }
@@ -497,26 +491,20 @@
                         border: none;
                         margin: 2rem;
                     }
-                    button{
-                        @include centrado;
-                        margin: 2rem 0 0 0;
+                    a{
+                        padding: 0.75rem;
                         border: 1px solid $blanco;
                         border-radius: 10px;
                         background-color: $fondo;
                         color: $blanco;
                         width: 50%;
                         height: 3rem;
+                        text-decoration: none;
+                        text-align: center;
                         &:hover{
                             background-color: $hover;
                             color: $negro;   
                             border: 1px solid $negro;
-                        }
-                        a{
-                            text-decoration: none;
-                            color: $blanco;
-                        }
-                        &:hover a{
-                            color: $negro;
                         }
                     }
                 }
