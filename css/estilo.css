@@ -41,6 +41,9 @@
     font-weight: 400;
     background-color: #000000;
   }
+  #navbarSupportedContent ul li a {
+    color: #FFFFFF;
+  }
   /* main */
   .mainIndex {
     background-repeat: no-repeat;
@@ -822,6 +825,37 @@
     font-weight: 300;
     font-size: 17px;
   }
+  .sectionIndex__mp div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 1rem;
+  }
+  .sectionIndex__mp div #logoMP {
+    width: 3rem;
+    height: 3rem;
+    -webkit-filter: invert(85%) sepia(34%) saturate(7234%) hue-rotate(81deg) brightness(98%) contrast(88%);
+            filter: invert(85%) sepia(34%) saturate(7234%) hue-rotate(81deg) brightness(98%) contrast(88%);
+  }
+  .sectionIndex__mp div h4 {
+    margin: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 17px;
+  }
   /* PRODUCTOS */
   .mainProductos {
     display: -webkit-box;
@@ -1044,6 +1078,48 @@
     padding-top: 15px;
     text-shadow: 1.5px 1.5px #2A8052;
   }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard h6 .pPromo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    font-weight: 600;
+    font-size: 18px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 5px;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard h6 .pExclusivo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    color: #28A1CC;
+    font-weight: 600;
+    font-size: 15px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 5px;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard h6 .pAmsterdam {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2A8052;
+    font-weight: 600;
+    font-size: 15px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 5px;
+  }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard p {
     font-family: 'Montserrat';
     font-style: normal;
@@ -1058,6 +1134,50 @@
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 13px;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #2A8052;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard div .pTachado {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #2A8052;
+    height: 3rem;
+    color: #080808;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-text-decoration-line: line-through;
+            text-decoration-line: line-through;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard div .pLimpio {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #2A8052;
+    height: 3rem;
+    color: #080808;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .mensajeWAPP {
     margin: 0;
@@ -1345,6 +1465,50 @@
   .mainCombos .contenedor-combos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 14px;
   }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #2A8052;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard div .pTachado {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #2A8052;
+    height: 3rem;
+    color: #080808;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-text-decoration-line: line-through;
+            text-decoration-line: line-through;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard div .pLimpio {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #2A8052;
+    height: 3rem;
+    color: #080808;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard .mensajeWAPP {
     margin: 0;
     padding: 0.5rem;
@@ -1488,7 +1652,7 @@
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
-    font-size: 35px;
+    font-size: 55px;
     letter-spacing: 0.03rem;
     padding: 10px;
     margin: 0px;
@@ -2663,6 +2827,37 @@
     font-weight: 300;
     font-size: 18px;
   }
+  .sectionIndex__mp div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 1rem;
+  }
+  .sectionIndex__mp div #logoMP {
+    width: 4rem;
+    height: 4rem;
+    -webkit-filter: invert(85%) sepia(34%) saturate(7234%) hue-rotate(81deg) brightness(98%) contrast(88%);
+            filter: invert(85%) sepia(34%) saturate(7234%) hue-rotate(81deg) brightness(98%) contrast(88%);
+  }
+  .sectionIndex__mp div h4 {
+    margin: 2rem 1rem 2rem 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 20px;
+  }
   /* PRODUCTOS */
   .mainProductos {
     display: -webkit-box;
@@ -2885,6 +3080,48 @@
     padding-top: 15px;
     text-shadow: 1.5px 1.5px #2A8052;
   }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard .pPromo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    font-weight: 600;
+    font-size: 18px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 5px;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard .pExclusivo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    color: #28A1CC;
+    font-weight: 600;
+    font-size: 15px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 5px;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard .pAmsterdam {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2A8052;
+    font-weight: 600;
+    font-size: 15px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 5px;
+  }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard p {
     font-family: 'Montserrat';
     font-style: normal;
@@ -2899,6 +3136,50 @@
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 13px;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #2A8052;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard div .pTachado {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 22px;
+    border: 2px solid #2A8052;
+    height: 3rem;
+    color: #080808;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-text-decoration-line: line-through;
+            text-decoration-line: line-through;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard div .pLimpio {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 22px;
+    border: 2px solid #2A8052;
+    height: 3rem;
+    color: #080808;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .mensajeWAPP {
     margin: 0;
@@ -3182,6 +3463,50 @@
   .mainCombos .contenedor-combos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 14px;
   }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #2A8052;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard div .pTachado {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #2A8052;
+    height: 3rem;
+    color: #080808;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-text-decoration-line: line-through;
+            text-decoration-line: line-through;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard div .pLimpio {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #2A8052;
+    height: 3rem;
+    color: #080808;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard .mensajeWAPP {
     margin: 0;
     padding: 0.5rem;
@@ -3328,7 +3653,7 @@
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
-    font-size: 40px;
+    font-size: 60px;
     letter-spacing: 0.03rem;
     padding: 10px;
     margin: 0px;
@@ -4771,6 +5096,37 @@
     font-weight: 300;
     font-size: 20px;
   }
+  .sectionIndex__mp div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 1rem;
+  }
+  .sectionIndex__mp div #logoMP {
+    width: 4rem;
+    height: 4rem;
+    -webkit-filter: invert(85%) sepia(34%) saturate(7234%) hue-rotate(81deg) brightness(98%) contrast(88%);
+            filter: invert(85%) sepia(34%) saturate(7234%) hue-rotate(81deg) brightness(98%) contrast(88%);
+  }
+  .sectionIndex__mp div h4 {
+    margin: 2rem 1rem 2rem 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 20px;
+  }
   /* PRODUCTOS */
   #productos {
     color: #59CD90;
@@ -4950,6 +5306,7 @@
             align-items: center;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    background-size: 100%;
   }
   .mainProductos .contenedor-productos__cards .cards .infoCard img {
     width: 65%;
@@ -5005,6 +5362,48 @@
     text-shadow: 1.5px 1.5px #2A8052;
     margin: 5px;
   }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard .pPromo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    font-weight: 600;
+    font-size: 18px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 5px;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard .pExclusivo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    color: #28A1CC;
+    font-weight: 600;
+    font-size: 15px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 5px;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard .pAmsterdam {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2A8052;
+    font-weight: 600;
+    font-size: 15px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 5px;
+  }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard p {
     font-family: 'Montserrat';
     font-style: normal;
@@ -5019,6 +5418,50 @@
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 13px;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #2A8052;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard div .pTachado {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #2A8052;
+    height: 3rem;
+    color: #080808;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-text-decoration-line: line-through;
+            text-decoration-line: line-through;
+  }
+  .mainProductos .contenedor-productos__cards .cards .mensajeCard div .pLimpio {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #2A8052;
+    height: 3rem;
+    color: #080808;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .mensajeWAPP {
     margin: 0;
@@ -5325,6 +5768,50 @@
   .mainCombos .contenedor-combos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 14px;
   }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #2A8052;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard div .pTachado {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #2A8052;
+    height: 3rem;
+    color: #080808;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-text-decoration-line: line-through;
+            text-decoration-line: line-through;
+  }
+  .mainCombos .contenedor-combos__cards .cards .mensajeCard div .pLimpio {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #2A8052;
+    height: 3rem;
+    color: #080808;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard .mensajeWAPP {
     margin: 0;
     padding: 0.5rem;
@@ -5470,7 +5957,7 @@
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
-    font-size: 50px;
+    font-size: 80px;
     line-height: 55px;
     letter-spacing: 0.03rem;
     padding: 10px;
