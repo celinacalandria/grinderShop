@@ -624,15 +624,18 @@
 }
 
 .sectionIndex__compra{
-    margin: 2rem 0rem 1rem 0rem;
+    margin: 2rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     div{
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
+        width: 50%;
         i{
             padding: 0;
             margin: 0.5rem;
@@ -646,25 +649,10 @@
             font-weight: 300;
             font-size: 18px;
         }
-    }
-}
-.sectionIndex__mp{
-    div{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 1rem;
         #logoMP{
-            width: 4rem;
-            height: 4rem;
+            width: 3rem;
+            height: 3rem;
             filter: invert(85%) sepia(34%) saturate(7234%) hue-rotate(81deg) brightness(98%) contrast(88%);
-        }
-        h4{
-            margin: 2rem 1rem 2rem 1rem;
-            @include letraTexto;
-            font-weight: 300;
-            font-size: 20px;
         }
     }
 }
