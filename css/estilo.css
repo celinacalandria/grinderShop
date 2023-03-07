@@ -1006,6 +1006,29 @@
     height: auto;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    position: absolute;
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard .lineaAmsterdam {
+    position: absolute;
+    rotate: 30deg;
+    width: 70%;
+    height: auto;
+    right: -11%;
+    top: 5%;
+    border-top: 1px solid #931017;
+    border-bottom: 1px solid #931017;
+    z-index: 1;
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard .lineaExclusivo {
+    position: absolute;
+    rotate: 30deg;
+    width: 70%;
+    height: auto;
+    right: -11%;
+    top: 5%;
+    border-top: 1px solid #07BE2E;
+    border-bottom: 1px solid #07BE2E;
+    z-index: 1;
   }
   .mainProductos .contenedor-productos__cards .cards .infoCard .imgD {
     width: 45%;
@@ -1191,6 +1214,12 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     margin-top: 10rem;
+  }
+  .mainProductos .contenedor-productos__cards .cards:hover .lineaAmsterdam {
+    display: none;
+  }
+  .mainProductos .contenedor-productos__cards .cards:hover .lineaExclusivo {
+    display: none;
   }
   .mainProductos .contenedor-productos__cards .cards:hover .mensajeCard {
     display: none;
@@ -2989,6 +3018,29 @@
     height: auto;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    position: absolute;
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard .lineaAmsterdam {
+    position: absolute;
+    rotate: 30deg;
+    width: 70%;
+    height: auto;
+    right: -3.2rem;
+    top: 2rem;
+    border-top: 1px solid #931017;
+    border-bottom: 1px solid #931017;
+    z-index: 1;
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard .lineaExclusivo {
+    position: absolute;
+    rotate: 30deg;
+    width: 70%;
+    height: auto;
+    right: -3.2rem;
+    top: 2rem;
+    border-top: 1px solid #07BE2E;
+    border-bottom: 1px solid #07BE2E;
+    z-index: 1;
   }
   .mainProductos .contenedor-productos__cards .cards .infoCard .imgD {
     width: 45%;
@@ -3174,6 +3226,12 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     margin-top: 10rem;
+  }
+  .mainProductos .contenedor-productos__cards .cards:hover .lineaAmsterdam {
+    display: none;
+  }
+  .mainProductos .contenedor-productos__cards .cards:hover .lineaExclusivo {
+    display: none;
   }
   .mainProductos .contenedor-productos__cards .cards:hover .mensajeCard {
     display: none;
@@ -5248,6 +5306,29 @@
     height: auto;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    position: absolute;
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard .lineaAmsterdam {
+    position: absolute;
+    rotate: 30deg;
+    width: 70%;
+    height: auto;
+    right: -2.9rem;
+    top: 1.9rem;
+    border-top: 1px solid #931017;
+    border-bottom: 1px solid #931017;
+    z-index: 1;
+  }
+  .mainProductos .contenedor-productos__cards .cards .infoCard .lineaExclusivo {
+    position: absolute;
+    rotate: 30deg;
+    width: 70%;
+    height: auto;
+    right: -2.9rem;
+    top: 1.9rem;
+    border-top: 1px solid #07BE2E;
+    border-bottom: 1px solid #07BE2E;
+    z-index: 1;
   }
   .mainProductos .contenedor-productos__cards .cards .infoCard .imgD {
     width: 55%;
@@ -5435,6 +5516,12 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     margin-top: 10rem;
+  }
+  .mainProductos .contenedor-productos__cards .cards:hover .lineaAmsterdam {
+    display: none;
+  }
+  .mainProductos .contenedor-productos__cards .cards:hover .lineaExclusivo {
+    display: none;
   }
   .mainProductos .contenedor-productos__cards .cards:hover .mensajeCard {
     display: none;

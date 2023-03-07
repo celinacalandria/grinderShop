@@ -790,6 +790,29 @@
                     width: 60%;
                     height: auto;
                     transition: all 0.3s;
+                    position: absolute;
+                }
+                .lineaAmsterdam{
+                    position: absolute;
+                    rotate: 30deg;
+                    width: 70%;
+                    height: auto;
+                    right: -11%;
+                    top: 5%;
+                    border-top: 1px solid #931017;
+                    border-bottom:  1px solid #931017;
+                    z-index: 1;
+                }
+                .lineaExclusivo{
+                    position: absolute;
+                    rotate: 30deg;
+                    width: 70%;
+                    height: auto;
+                    right: -11%;
+                    top: 5%;
+                    border-top: 1px solid #07BE2E;
+                    border-bottom:  1px solid #07BE2E;
+                    z-index: 1;
                 }
                 .imgD{
                     width: 45%;
@@ -931,6 +954,12 @@
                 transform: scale(1.35);
                 transition: all 0.3s;
                 margin-top: 10rem;
+            }
+            &:hover .lineaAmsterdam{
+                display: none;
+            }
+            &:hover .lineaExclusivo{
+                display: none;
             }
             &:hover .mensajeCard{
                 display: none;
