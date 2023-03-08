@@ -1130,6 +1130,7 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     text-align: left;
+    font-weight: bold;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 13px;
@@ -3142,6 +3143,7 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     text-align: left;
+    font-weight: bold;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 13px;
@@ -5431,6 +5433,7 @@
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     text-align: left;
+    font-weight: bold;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 13px;
