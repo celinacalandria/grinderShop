@@ -1060,6 +1060,11 @@
     display: block;
     transition: all 0.3s;
   }
+  .mainProductos .contenedor-productos__cards #detallePromo {
+    font-size: 1rem;
+    font-style: italic;
+    padding: 1rem 1rem 0 1rem;
+  }
   /* COMBOS */
   .mainCombos {
     display: flex;
@@ -1314,6 +1319,115 @@
     display: block;
     transition: all 0.3s;
   }
+  /* VITRINAS */
+  .mainVitrinas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-bottom: 2rem;
+  }
+  .mainVitrinas .sectionVitrinas__barra .divLocales h5 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    color: #080808;
+    font-size: 22px;
+    text-align: center;
+    margin: 1rem;
+  }
+  .mainVitrinas .sectionVitrinas__barra .divLocales a {
+    display: none;
+  }
+  .mainVitrinas .sectionVitrinas__barra .divLocales p {
+    display: none;
+  }
+  .mainVitrinas .sectionVitrinas__barra .localesMensaje {
+    display: none;
+  }
+  .mainVitrinas .sectionVitrinas__principal {
+    background-color: #FFFFFF;
+    display: block;
+    margin: auto;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasPrincipal {
+    margin: 5px 0 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasPrincipal img {
+    height: 40px;
+    width: auto;
+    margin: 15px;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasPrincipal h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-weight: 800;
+    text-align: center;
+    color: #000000;
+    font-size: 32px;
+    margin: 15px 0 15px 0;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas {
+    border-top: 1px solid #080808;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner {
+    width: 100%;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div img {
+    padding: 0.5rem 0;
+    width: 100%;
+    height: auto;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div p {
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    height: 3rem;
+    color: #080808;
+    background-color: #D6EBD8;
+    text-align: center;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div {
+    background-color: #2A8052;
+    height: 3rem;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div a {
+    margin: 0;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div a:hover {
+    color: #000000;
+  }
   /* NOSOTROS */
   .nosotros {
     display: flex;
@@ -1381,6 +1495,16 @@
     font-weight: 500;
     color: #FFFFFF;
     font-size: 24px;
+    font-weight: 300;
+    margin: 20px;
+    text-align: center;
+  }
+  .sectionFormulario div p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 14px;
     font-weight: 300;
     margin: 20px;
     text-align: center;
@@ -1610,17 +1734,22 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-bottom: 1rem;
   }
   .footerContacto .footerInfo__email i {
-    margin: 5px;
-    font-size: 18px;
+    margin: 7px 5px 0px 5px;
+    font-size: 15px;
   }
-  .footerContacto .footerInfo__email p {
+  .footerContacto .footerInfo__email a {
     margin: 5px;
     font-size: 14px;
     line-height: 29px;
     letter-spacing: 0.03rem;
+    text-decoration: none;
     color: #FFFFFF;
+  }
+  .footerContacto .footerInfo__email a:hover i {
+    color: #59CD90;
   }
 }
 @media (min-width: 576px) and (max-width: 990px) {
@@ -2384,6 +2513,11 @@
     justify-content: center;
     align-items: center;
   }
+  .mainProductos .contenedor-productos__cards #detallePromo {
+    font-size: 1rem;
+    font-style: italic;
+    padding: 1rem 1rem 0 1rem;
+  }
   .mainProductos .contenedor-productos__cards .cards {
     width: 50%;
     height: 600px;
@@ -2916,6 +3050,120 @@
   #bola8 {
     margin-top: 1rem;
   }
+  /* VITRINAS */
+  .mainVitrinas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-bottom: 2rem;
+  }
+  .mainVitrinas .sectionVitrinas__barra .divLocales h5 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    color: #080808;
+    font-size: 22px;
+    text-align: center;
+    margin: 1rem;
+  }
+  .mainVitrinas .sectionVitrinas__barra .divLocales a {
+    display: none;
+  }
+  .mainVitrinas .sectionVitrinas__barra .divLocales p {
+    display: none;
+  }
+  .mainVitrinas .sectionVitrinas__barra .localesMensaje {
+    display: none;
+  }
+  .mainVitrinas .sectionVitrinas__principal {
+    background-color: #FFFFFF;
+    display: block;
+    margin: auto;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasPrincipal {
+    margin: 5px 0 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasPrincipal img {
+    height: 40px;
+    width: auto;
+    margin: 15px;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasPrincipal h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-weight: 800;
+    text-align: center;
+    color: #000000;
+    font-size: 32px;
+    margin: 15px 0 15px 0;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas {
+    border-top: 1px solid #080808;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner {
+    width: 100%;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div img {
+    padding: 0.5rem 0;
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: auto;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div p {
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    height: 2rem;
+    color: #080808;
+    background-color: #D6EBD8;
+    text-align: center;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div {
+    background-color: #2A8052;
+    height: 3rem;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div a {
+    margin: 0;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div a:hover {
+    color: #000000;
+  }
+  .mainVitrinas .sectionVitrinas__principal .carousel-control-prev-icon, .mainVitrinas .sectionVitrinas__principal .carousel-control-next-icon {
+    filter: invert(42%) sepia(14%) saturate(1815%) hue-rotate(95deg) brightness(93%) contrast(87%);
+  }
   /* NOSOTROS */
   .nosotros {
     display: flex;
@@ -2983,6 +3231,16 @@
     font-weight: 500;
     color: #FFFFFF;
     font-size: 24px;
+    font-weight: 300;
+    margin: 20px;
+    text-align: center;
+  }
+  .sectionFormulario div p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 16px;
     font-weight: 300;
     margin: 20px;
     text-align: center;
@@ -3217,18 +3475,23 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    padding-bottom: 1rem;
   }
   .footerContacto .footerInfo__email i {
-    margin: 5px;
-    font-size: 18px;
+    margin: 7px 5px 0px 5px;
+    font-size: 16px;
   }
-  .footerContacto .footerInfo__email p {
+  .footerContacto .footerInfo__email a {
     margin: 5px;
     font-size: 16px;
     line-height: 29px;
     letter-spacing: 0.03rem;
+    text-decoration: none;
     color: #FFFFFF;
+  }
+  .footerContacto .footerInfo__email a:hover i {
+    color: #59CD90;
   }
 }
 /* DESKTOP */
@@ -4159,6 +4422,11 @@
     align-items: center;
     padding: 0;
   }
+  .mainProductos .contenedor-productos__cards #detallePromo {
+    font-size: 1.3rem;
+    font-style: italic;
+    padding: 1rem 1rem 0 1rem;
+  }
   .mainProductos .contenedor-productos__cards .cards {
     width: 345px;
     height: 620px;
@@ -4296,12 +4564,12 @@
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
-    color: #080808;
-    font-size: 14px;
+    color: #000000;
+    font-size: 15px;
     margin: 15px 10px 15px 10%;
     transition: all 0.3s;
     text-align: left;
-    font-weight: bold;
+    font-weight: bolder;
   }
   .mainProductos .contenedor-productos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 13px;
@@ -4573,8 +4841,9 @@
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
-    color: #080808;
-    font-size: 14px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bolder;
     margin: 15px 10px 15px 10%;
     transition: all 0.3s;
     text-align: left;
@@ -4716,6 +4985,188 @@
     display: block;
     transition: all 0.3s;
   }
+  /* VITRINAS */
+  #vitrinas {
+    color: #59CD90;
+    text-decoration: overline;
+  }
+  .mainVitrinas {
+    display: grid;
+    grid-template-columns: 1.5fr 5fr;
+    grid-template-rows: auto;
+    grid-template-areas: "barra principal";
+    background-color: #FFFFFF;
+  }
+  .mainVitrinas .sectionVitrinas__barra {
+    grid-area: barra;
+    background-color: #080808;
+  }
+  .mainVitrinas .sectionVitrinas__barra .divLocales h5 {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 26px;
+    margin: 4rem 2rem 2rem 4rem;
+  }
+  .mainVitrinas .sectionVitrinas__barra .divLocales a {
+    display: block;
+    margin: auto;
+    background-color: #28A1CC;
+    border: 1px solid #28A1CC;
+    height: 2.2rem;
+    width: 14rem;
+    border-radius: 8px;
+    display: flex;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .mainVitrinas .sectionVitrinas__barra .divLocales a:hover {
+    color: #080808;
+  }
+  .mainVitrinas .sectionVitrinas__barra .divLocales a h6 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.03rem;
+    margin: 1rem 0;
+    font-weight: 500;
+  }
+  .mainVitrinas .sectionVitrinas__barra .divLocales a i {
+    margin: 5px 10px 5px 0;
+    font-size: 20px;
+  }
+  .mainVitrinas .sectionVitrinas__barra .divLocales p {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 2rem 2rem 3rem 4rem;
+  }
+  .mainVitrinas .sectionVitrinas__barra .localesMensaje {
+    margin: 4rem 2rem 3rem 4rem;
+  }
+  .mainVitrinas .sectionVitrinas__barra .localesMensaje h5 {
+    margin: 0 0 1rem 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 26px;
+  }
+  .mainVitrinas .sectionVitrinas__barra .localesMensaje p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+  .mainVitrinas .sectionVitrinas__barra .localesMensaje a img {
+    display: block;
+    margin: auto;
+    width: 280px;
+    height: auto;
+  }
+  .mainVitrinas .sectionVitrinas__principal {
+    background-color: #FFFFFF;
+    display: block;
+    margin: auto;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasPrincipal {
+    margin: 5px 0 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasPrincipal img {
+    height: 40px;
+    width: auto;
+    margin: 15px;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasPrincipal h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    font-size: 52px;
+    margin: 30px 0 30px 0;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas {
+    border-top: 1px solid #080808;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner {
+    width: 100%;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 2rem;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div img {
+    padding: 0.5rem 0;
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: auto;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div p {
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding: 0.5rem 0;
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    height: 4rem;
+    color: #080808;
+    background-color: #D6EBD8;
+    text-align: center;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div {
+    background-color: #2A8052;
+    height: 3rem;
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div a {
+    margin: 0;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div a:hover {
+    color: #000000;
+  }
+  .mainVitrinas .sectionVitrinas__principal .carousel-control-prev-icon, .mainVitrinas .sectionVitrinas__principal .carousel-control-next-icon {
+    filter: invert(42%) sepia(14%) saturate(1815%) hue-rotate(95deg) brightness(93%) contrast(87%);
+  }
   /* NOSOTROS */
   #nosotros {
     color: #59CD90;
@@ -4792,6 +5243,15 @@
     color: #FFFFFF;
     font-size: 24px;
     font-weight: 300;
+    margin: 20px;
+  }
+  .sectionFormulario div p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 200;
     margin: 20px;
   }
   .sectionFormulario div form ::-moz-placeholder {
@@ -5009,18 +5469,22 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
   }
   .footerContacto .footerInfo__email i {
-    margin: 5px;
-    font-size: 20px;
+    margin: 7px 5px 0px 5px;
+    font-size: 18px;
   }
-  .footerContacto .footerInfo__email p {
-    text-align: center;
+  .footerContacto .footerInfo__email a {
     margin: 5px;
     font-size: 20px;
     line-height: 29px;
     letter-spacing: 0.03rem;
+    text-decoration: none;
     color: #FFFFFF;
+  }
+  .footerContacto .footerInfo__email a:hover i {
+    color: #59CD90;
   }
 }
 /* generales */
