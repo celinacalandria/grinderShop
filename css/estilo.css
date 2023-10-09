@@ -669,6 +669,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    margin: 20px;
   }
   .sectionIndex__compra div i {
     padding: 0;
@@ -1570,20 +1571,20 @@
     width: 200px;
     height: auto;
   }
-  .sectionIconos .icons__inputs {
+  .sectionIconos .iconos__contacto {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     margin: 20px;
   }
-  .sectionIconos .icons__inputs i {
+  .sectionIconos .iconos__contacto i {
     padding: 0;
     margin: 1rem;
     color: #1BD743;
     font-size: 22px;
   }
-  .sectionIconos .icons__inputs h4 {
+  .sectionIconos .iconos__contacto h4 {
     padding: 0;
     margin: 1rem;
     font-family: "Roboto", sans-serif;
