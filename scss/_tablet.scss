@@ -1104,10 +1104,11 @@
                 p{
                     @include letraRegular;
                     color: $fondo;
-                    font-size: 14px;
+                    font-size: 15px;
                     margin: 15px 10px 15px 10%;
                     transition: all 0.3s;
                     text-align: left;
+                    font-weight: bold;
                 }
                 .descripcionCardsR{
                     font-size: 14px;
@@ -1322,35 +1323,66 @@
                             width: 70%;
                             height: auto;
                         }
-                        p{
-                            margin: 0;
-                            padding: 0.5rem 0;
-                            font-size: 20px;
-                            @include letraRegular;
-                            height: 2rem;
-                            color: $fondo;
-                            background-color: $fondito;
-                            text-align: center;
-                        }
-                        div{
-                            background-color: $verde;             
-                            height: 3rem;
-                            a{
-                                margin: 0;
-                                padding: 0.5rem 0;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                font-size: 20px;
-                                @include letraRegular;
-                                text-decoration: none;
-                                &:hover{
-                                    color: $negro;
-                                }
-                            }
-                        }
                     }
                } 
+            }
+        }
+        .vitrinasInfo{
+            background-color: $fondito;
+            h4{
+                margin: 0;
+                padding: 0.5rem 0;
+                font-size: 20px;
+                @include letraRegular;
+                font-weight: bold;
+                color: $fondo;
+                background-color: $verde;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            div{
+                padding: 0.5rem 0;
+                h5{
+                    margin: 0;
+                    padding: 0.5rem 0;
+                    font-size: 22px;
+                    @include letraRegular;
+                    font-weight: bold;
+                    color: $verde;
+                    text-align: center;
+                }
+                div{
+                    h6{
+                        margin: 0;
+                        padding: 0.5rem 0;
+                        font-size: 20px;
+                        @include letraRegular;
+                        font-weight: bold;
+                        color: $fondo;
+                        text-align: center;
+                    }
+                    a{
+                        margin: 0;
+                        padding: 0.25rem 0 ;
+                        font-size: 18px;
+                        @include letraRegular;
+                        color: $fondo;
+                        text-align: center;
+                        text-decoration: none;
+                        @include centrado;
+                        &:hover{
+                            color: $hover;
+                        }
+                    }
+                    p{
+                        margin: 0;
+                        padding: 0.5rem 0;
+                        font-size: 17px;
+                        @include letraRegular;
+                        color: $fondo;
+                        text-align: center;
+                    }
+                }
             }
         }
         .carousel-control-prev-icon, .carousel-control-next-icon {

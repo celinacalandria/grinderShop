@@ -1179,10 +1179,11 @@
     font-weight: 400;
     color: #FFFFFF;
     color: #080808;
-    font-size: 14px;
+    font-size: 15px;
     margin: 15px 10px 15px 10%;
     transition: all 0.3s;
     text-align: left;
+    font-weight: bold;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 14px;
@@ -1396,7 +1397,10 @@
     width: 100%;
     height: auto;
   }
-  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div p {
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo {
+    background-color: #D6EBD8;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo h4 {
     margin: 0;
     padding: 0.5rem 0;
     font-size: 20px;
@@ -1404,30 +1408,66 @@
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
-    height: 3rem;
+    font-weight: bold;
     color: #080808;
-    background-color: #D6EBD8;
+    background-color: #2A8052;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div {
+    padding: 0.5rem 0;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div h5 {
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-weight: bold;
+    color: #2A8052;
     text-align: center;
   }
-  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div {
-    background-color: #2A8052;
-    height: 3rem;
-  }
-  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div a {
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div div h6 {
     margin: 0;
     padding: 0.5rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
+    font-size: 17px;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
-    text-decoration: none;
+    font-weight: bold;
+    color: #080808;
+    text-align: center;
   }
-  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div a:hover {
-    color: #000000;
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div div a {
+    margin: 0;
+    padding: 0.25rem 0;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    color: #080808;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div div a:hover {
+    color: #59CD90;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div div p {
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    color: #080808;
+    text-align: center;
   }
   /* NOSOTROS */
   .nosotros {
@@ -2907,10 +2947,11 @@
     font-weight: 400;
     color: #FFFFFF;
     color: #080808;
-    font-size: 14px;
+    font-size: 15px;
     margin: 15px 10px 15px 10%;
     transition: all 0.3s;
     text-align: left;
+    font-weight: bold;
   }
   .mainCombos .contenedor-combos__cards .cards .mensajeCard .descripcionCardsR {
     font-size: 14px;
@@ -3129,7 +3170,10 @@
     width: 70%;
     height: auto;
   }
-  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div p {
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo {
+    background-color: #D6EBD8;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo h4 {
     margin: 0;
     padding: 0.5rem 0;
     font-size: 20px;
@@ -3137,30 +3181,66 @@
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
-    height: 2rem;
+    font-weight: bold;
     color: #080808;
-    background-color: #D6EBD8;
+    background-color: #2A8052;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div {
+    padding: 0.5rem 0;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div h5 {
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 22px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-weight: bold;
+    color: #2A8052;
     text-align: center;
   }
-  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div {
-    background-color: #2A8052;
-    height: 3rem;
-  }
-  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div a {
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div div h6 {
     margin: 0;
     padding: 0.5rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 20px;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
-    text-decoration: none;
+    font-weight: bold;
+    color: #080808;
+    text-align: center;
   }
-  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div a:hover {
-    color: #000000;
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div div a {
+    margin: 0;
+    padding: 0.25rem 0;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    color: #080808;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div div a:hover {
+    color: #59CD90;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div div p {
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 17px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    color: #080808;
+    text-align: center;
   }
   .mainVitrinas .sectionVitrinas__principal .carousel-control-prev-icon, .mainVitrinas .sectionVitrinas__principal .carousel-control-next-icon {
     filter: invert(42%) sepia(14%) saturate(1815%) hue-rotate(95deg) brightness(93%) contrast(87%);
@@ -5127,43 +5207,77 @@
     width: 70%;
     height: auto;
   }
-  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div p {
-    width: 70%;
-    display: block;
-    margin: auto;
-    padding: 0.5rem 0;
-    font-size: 20px;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 400;
-    color: #FFFFFF;
-    height: 4rem;
-    color: #080808;
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo {
     background-color: #D6EBD8;
-    text-align: center;
   }
-  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div {
-    background-color: #2A8052;
-    height: 3rem;
-    width: 70%;
-    display: block;
-    margin: auto;
-  }
-  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div a {
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo h4 {
     margin: 0;
     padding: 0.5rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 20px;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
-    text-decoration: none;
+    font-weight: bold;
+    color: #080808;
+    background-color: #2A8052;
+    text-align: center;
+    text-transform: uppercase;
   }
-  .mainVitrinas .sectionVitrinas__principal #carouselVitrinas .carousel-inner .carousel-item div div a:hover {
-    color: #000000;
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div {
+    padding: 0.5rem 0;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div h5 {
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 22px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-weight: bold;
+    color: #2A8052;
+    text-align: center;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div div h6 {
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-weight: bold;
+    color: #080808;
+    text-align: center;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div div a {
+    margin: 0;
+    padding: 0.25rem 0;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    color: #080808;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div div a:hover {
+    color: #59CD90;
+  }
+  .mainVitrinas .sectionVitrinas__principal .vitrinasInfo div div p {
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 17px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    color: #080808;
+    text-align: center;
   }
   .mainVitrinas .sectionVitrinas__principal .carousel-control-prev-icon, .mainVitrinas .sectionVitrinas__principal .carousel-control-next-icon {
     filter: invert(42%) sepia(14%) saturate(1815%) hue-rotate(95deg) brightness(93%) contrast(87%);
